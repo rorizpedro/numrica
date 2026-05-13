@@ -32,20 +32,9 @@ function gtagConversion(label: string) {
   }
 }
 
-function AdUnit({ slot }: { slot: string }) {
-  useEffect(() => {
-    try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch { /* ad blocked or not loaded */ }
-  }, [])
-  return (
-    <ins
-      className="adsbygoogle"
-      style={{ display: 'block', textAlign: 'center' }}
-      data-ad-client={ADSENSE_CLIENT}
-      data-ad-slot={slot}
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    />
-  )
+function AdUnit({ slot: _slot }: { slot: string }) {
+  // Placeholder until AdSense ad units are created and real slot IDs are available
+  return null
 }
 
 // ─── i18n ─────────────────────────────────────────────────────────────────────
@@ -1169,7 +1158,7 @@ export default function LoanSimulator() {
 
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <main className="min-w-0 space-y-6">
-              {/* AdSense — reativar aqui quando aprovação chegar: <AdUnit slot={AD_SLOT_TOP} /> */}
+              <AdUnit slot={AD_SLOT_TOP} />
 
               {!schedule ? (
                 <div className="flex items-center justify-center h-64 text-[var(--color-text-muted)] text-sm">
@@ -1332,7 +1321,7 @@ export default function LoanSimulator() {
                     </div>
                   </div>
 
-                  {/* AdSense — reativar aqui quando aprovação chegar: <AdUnit slot={AD_SLOT_BTM} /> */}
+                  <AdUnit slot={AD_SLOT_BTM} />
 
                   {/* Footer CTA */}
                   <div className="bg-[var(--color-navy-surface)] border border-[var(--color-border)] rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">

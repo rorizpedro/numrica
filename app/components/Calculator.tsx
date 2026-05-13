@@ -676,7 +676,10 @@ export default function Calculator() {
             <img src="/logo.svg" alt="Numrica" width={17} height={20} />
             <span style={{ fontSize: 13, fontWeight: 600, color: '#1a1a2e' }}>numrica.com</span>
           </div>
-          <span style={{ fontSize: 12, color: '#9ca3af' }}>© {new Date().getFullYear()} Numrica</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+            <a href="/privacy-policy" style={{ fontSize: 12, color: '#9ca3af', textDecoration: 'none' }}>Privacy Policy</a>
+            <span style={{ fontSize: 12, color: '#9ca3af' }}>© {new Date().getFullYear()} Numrica</span>
+          </div>
         </div>
       </footer>
 
