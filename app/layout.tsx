@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import ToolNav from '@/app/components/ToolNav'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://numrica.com'),
@@ -69,6 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <ToolNav />
         {children}
+        <Analytics />
       </body>
     </html>
   )
