@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import ToolNav from '@/app/components/ToolNav'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://numrica.com'),
@@ -53,6 +54,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body style={{ margin: 0 }}>
+        <header style={{ background: '#fff' }}>
+          <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.svg" alt="Numrica logo" width={26} height={30} />
+              <span style={{ fontSize: 18, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.5px' }}>numrica</span>
+            </div>
+            <span style={{ fontSize: 14, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.2px' }}>
+              Free tools. No signup.{' '}
+              <span style={{ color: '#22c55e' }}>Just math.</span>
+            </span>
+          </div>
+        </header>
+        <ToolNav />
         {children}
       </body>
     </html>

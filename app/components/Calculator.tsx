@@ -186,12 +186,12 @@ function fmtInput(v: string) {
   return new Intl.NumberFormat('en-US').format(n)
 }
 
-// ─── Coming soon tools ────────────────────────────────────────────────────────
+// ─── Tools catalog ────────────────────────────────────────────────────────────
 
 const TOOLS = [
-  { slug: 'mortgage-calculator', title: 'Mortgage Calculator', desc: 'Monthly mortgage payments including taxes, insurance, and PMI.', Icon: HomeIcon },
-  { slug: 'compound-interest', title: 'Compound Interest', desc: 'How money grows over time with compound interest and contributions.', Icon: TrendingUp },
-  { slug: 'debt-payoff', title: 'Debt Payoff Planner', desc: 'Avalanche vs. snowball — find the fastest path to debt-free.', Icon: CreditCard },
+  { slug: 'mortgage-calculator', title: 'Mortgage Calculator', desc: 'Home price, down payment, and full PITI — principal, interest, taxes, and insurance.', Icon: HomeIcon },
+  { slug: 'debt-payoff', title: 'Debt Payoff Planner', desc: 'Avalanche vs. snowball — find the fastest and cheapest path to debt-free.', Icon: CreditCard },
+  { slug: 'compound-interest', title: 'Compound Interest', desc: 'How money grows over time with compound interest and regular contributions.', Icon: TrendingUp },
   { slug: 'roi-calculator', title: 'ROI Calculator', desc: 'Return on any investment — simple, annualized, or inflation-adjusted.', Icon: BarChart3 },
 ]
 
@@ -338,21 +338,6 @@ export default function Calculator() {
       <Script id="faq-schema" type="application/ld+json">{faqSchema}</Script>
       <Script id="howto-schema" type="application/ld+json">{howToSchema}</Script>
     <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
-
-      {/* ── Header ─────────────────────────────────────────────────────── */}
-      <header style={{ background: '#fff', borderBottom: '1px solid #e5e7eb' }}>
-        <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.svg" alt="Numrica logo" width={26} height={30} />
-            <span style={{ fontSize: 18, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.5px' }}>numrica</span>
-          </div>
-          <span style={{ fontSize: 14, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.2px' }}>
-            Free tools. No signup.{' '}
-            <span style={{ color: '#22c55e' }}>Just math.</span>
-          </span>
-        </div>
-      </header>
 
       {/* ── Hero + SEO copy ─────────────────────────────────────────────── */}
       <section style={{ maxWidth: 760, margin: '0 auto', padding: '52px 24px 32px' }}>
@@ -563,6 +548,29 @@ export default function Calculator() {
         </div>
       </section>
 
+      {/* ── Try these next ───────────────────────────────────────────────── */}
+      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 24px' }}>
+        <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', margin: '0 0 12px' }}>
+          Try these next
+        </h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
+          {TOOLS.slice(0, 2).map(({ slug, title, desc, Icon }) => (
+            <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ width: 34, height: 34, borderRadius: 8, background: '#dcfce7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <Icon size={15} color="#22c55e" />
+              </div>
+              <div style={{ flex: 1 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+                  <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
+                  <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>
+                </div>
+                <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ── Ad slot 2 — mid page ─────────────────────────────────────────── */}
       <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 24px' }}>
         <AdUnit slot={AD_SLOT_MID} label="mid page" />
@@ -581,19 +589,22 @@ export default function Calculator() {
         </p>
       </section>
 
-      {/* ── Coming soon tools ────────────────────────────────────────────── */}
+      {/* ── All tools ────────────────────────────────────────────────────── */}
       <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 64px' }}>
         <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 14 }}>
-          More tools — coming soon
+          All tools
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
           {TOOLS.map(({ slug, title, desc, Icon }) => (
-            <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', opacity: 0.6, display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+            <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
               <div style={{ width: 34, height: 34, borderRadius: 8, background: '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                 <Icon size={15} color="#9ca3af" />
               </div>
-              <div>
-                <div style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e', marginBottom: 3 }}>{title}</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+                  <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
+                  <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>
+                </div>
                 <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
               </div>
             </div>
