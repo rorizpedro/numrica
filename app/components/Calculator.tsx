@@ -340,8 +340,13 @@ export default function Calculator() {
       <Script id="howto-schema" type="application/ld+json">{howToSchema}</Script>
     <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
 
+      {/* ── Ad slot top ─────────────────────────────────────────────────── */}
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '20px 24px 0' }}>
+        <AdUnit slot={AD_SLOT_RESULTS} label="leaderboard" />
+      </section>
+
       {/* ── Hero + SEO copy ─────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 840, margin: '0 auto', padding: '52px 24px 32px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '28px 24px 32px' }}>
         <h1 style={{ fontSize: 34, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.7px', lineHeight: 1.15, margin: '0 0 10px' }}>
           Free Loan Calculator
         </h1>
