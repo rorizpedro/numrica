@@ -7,5 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://numrica.com/mortgage-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/compound-interest', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/roi-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: 'https://numrica.com/debt-payoff', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
   ]
 }

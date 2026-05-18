@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const TOOLS = [
-  { label: 'Loan Calculator', href: '/' },
+  { label: 'Loan Calculator',   href: '/' },
   { label: 'Mortgage Calculator', href: '/mortgage-calculator' },
   { label: 'Compound Interest', href: '/compound-interest' },
-  { label: 'Debt Payoff', href: '/debt-payoff', coming: true },
-  { label: 'ROI Calculator', href: '/roi-calculator' },
+  { label: 'Debt Payoff',       href: '/debt-payoff' },
+  { label: 'ROI Calculator',    href: '/roi-calculator' },
 ]
 
 export default function ToolNav() {
@@ -15,19 +15,9 @@ export default function ToolNav() {
   return (
     <nav style={{ background: '#fff', borderBottom: '1px solid #e5e7eb' }}>
       <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 16px', display: 'flex', overflowX: 'auto', scrollbarWidth: 'none' }}>
-        {TOOLS.map(({ label, href, coming }) => {
+        {TOOLS.map(({ label, href }) => {
           const isActive = pathname === href
-          return coming ? (
-            <span
-              key={href}
-              style={{ padding: '9px 10px', fontSize: 13, color: '#d1d5db', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: 5, flexShrink: 0 }}
-            >
-              {label}
-              <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>
-                soon
-              </span>
-            </span>
-          ) : (
+          return (
             <Link
               key={href}
               href={href}
