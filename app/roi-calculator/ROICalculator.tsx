@@ -415,7 +415,7 @@ export default function ROICalculator() {
                 <div style={{ fontSize: 11, fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Investment growth over time</div>
                 <div style={{ display: 'flex', gap: 14, marginBottom: 10 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: '#6b7280' }}><div style={{ width: 24, height: 2, background: '#22c55e', borderRadius: 1 }} /> Yours</div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: '#6b7280' }}><div style={{ width: 24, height: 2, background: '#94a3b8', borderRadius: 1, borderTop: '2px dashed #94a3b8', background: 'none' as unknown as string }} /> S&amp;P 500</div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: '#6b7280' }}><div style={{ width: 24, height: 2, borderTop: '2px dashed #94a3b8' }} /> S&amp;P 500</div>
                   {showInflation && <div style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: '#6b7280' }}><div style={{ width: 24, height: 2, background: '#86efac', borderRadius: 1 }} /> Real</div>}
                 </div>
                 <ResponsiveContainer width="100%" height={150}>
@@ -460,7 +460,7 @@ export default function ROICalculator() {
                       <LabelList
                         dataKey="value"
                         position="insideRight"
-                        formatter={(v: number) => fmt(v)}
+                        formatter={(v: unknown) => fmt(Number(v ?? 0))}
                         style={{ fill: '#fff', fontWeight: 700, fontSize: 12 }}
                       />
                     </Bar>
