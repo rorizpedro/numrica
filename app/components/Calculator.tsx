@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Script from 'next/script'
+import Link from 'next/link'
 import { HomeIcon, TrendingUp, CreditCard, BarChart3, ChevronDown, Download } from 'lucide-react'
 import { calculate, annualToMonthly } from '@/app/lib/calculator'
 import { AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
@@ -189,7 +190,7 @@ function fmtInput(v: string) {
 // ─── Tools catalog ────────────────────────────────────────────────────────────
 
 const TOOLS = [
-  { slug: 'mortgage-calculator', title: 'Mortgage Calculator', desc: 'Home price, down payment, and full PITI — principal, interest, taxes, and insurance.', Icon: HomeIcon },
+  { slug: 'mortgage-calculator', title: 'Mortgage Calculator', desc: 'Home price, down payment, and full PITI — principal, interest, taxes, and insurance.', Icon: HomeIcon, live: true },
   { slug: 'debt-payoff', title: 'Debt Payoff Planner', desc: 'Avalanche vs. snowball — find the fastest and cheapest path to debt-free.', Icon: CreditCard },
   { slug: 'compound-interest', title: 'Compound Interest', desc: 'How money grows over time with compound interest and regular contributions.', Icon: TrendingUp },
   { slug: 'roi-calculator', title: 'ROI Calculator', desc: 'Return on any investment — simple, annualized, or inflation-adjusted.', Icon: BarChart3 },
@@ -511,7 +512,7 @@ export default function Calculator() {
                     </linearGradient>
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f3f4f6" vertical={false} />
-                  <XAxis dataKey="period" tick={{ fontSize: 9, fill: '#d1d5db' }} tickLine={false} axisLine={false} interval="preserveStartEnd" />
+                  <XAxis dataKey="period" tick={{ fontSize: 9, fill: '#9ca3af' }} tickLine={false} axisLine={false} interval="preserveStartEnd" />
                   <YAxis hide />
                   <Tooltip formatter={(v) => [fmtCurrency(Number(v ?? 0), currency), 'Balance']} contentStyle={{ fontSize: 11, borderRadius: 6, border: '1px solid #e5e7eb' }} />
                   <Area type="monotone" dataKey="balance" stroke="#22c55e" strokeWidth={2} fill="url(#balGrad)" dot={false} />
@@ -523,7 +524,7 @@ export default function Calculator() {
               <ResponsiveContainer width="100%" height={150}>
                 <BarChart data={chartData} margin={{ top: 4, right: 4, bottom: 0, left: 4 }} barSize={chartData.length > 36 ? 3 : chartData.length > 18 ? 6 : 10}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f3f4f6" vertical={false} />
-                  <XAxis dataKey="period" tick={{ fontSize: 9, fill: '#d1d5db' }} tickLine={false} axisLine={false} interval="preserveStartEnd" />
+                  <XAxis dataKey="period" tick={{ fontSize: 9, fill: '#9ca3af' }} tickLine={false} axisLine={false} interval="preserveStartEnd" />
                   <YAxis hide />
                   <Tooltip formatter={(v, name) => [fmtCurrency(Number(v ?? 0), currency), name === 'principal' ? 'Principal' : 'Interest']} contentStyle={{ fontSize: 11, borderRadius: 6, border: '1px solid #e5e7eb' }} />
                   <Bar dataKey="principal" stackId="a" fill="#1a1a2e" name="principal" />
@@ -554,20 +555,31 @@ export default function Calculator() {
           Try these next
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
-          {TOOLS.slice(0, 2).map(({ slug, title, desc, Icon }) => (
-            <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-              <div style={{ width: 34, height: 34, borderRadius: 8, background: '#dcfce7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                <Icon size={15} color="#22c55e" />
-              </div>
-              <div style={{ flex: 1 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
-                  <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
-                  <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>
+          {TOOLS.slice(0, 2).map(({ slug, title, desc, Icon, live }) => {
+            const inner = (
+              <>
+                <div style={{ width: 34, height: 34, borderRadius: 8, background: '#dcfce7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <Icon size={15} color="#22c55e" />
                 </div>
-                <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
+                <div style={{ flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+                    <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
+                    {!live && <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>}
+                  </div>
+                  <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
+                </div>
+              </>
+            )
+            return live ? (
+              <Link key={slug} href={`/${slug}`} style={{ background: '#fff', border: '1px solid #22c55e', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start', textDecoration: 'none' }}>
+                {inner}
+              </Link>
+            ) : (
+              <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                {inner}
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </section>
 
@@ -595,20 +607,31 @@ export default function Calculator() {
           All tools
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
-          {TOOLS.map(({ slug, title, desc, Icon }) => (
-            <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-              <div style={{ width: 34, height: 34, borderRadius: 8, background: '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                <Icon size={15} color="#9ca3af" />
-              </div>
-              <div style={{ flex: 1 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
-                  <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
-                  <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>
+          {TOOLS.map(({ slug, title, desc, Icon, live }) => {
+            const inner = (
+              <>
+                <div style={{ width: 34, height: 34, borderRadius: 8, background: live ? '#dcfce7' : '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <Icon size={15} color={live ? '#22c55e' : '#9ca3af'} />
                 </div>
-                <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
+                <div style={{ flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+                    <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
+                    {!live && <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>}
+                  </div>
+                  <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
+                </div>
+              </>
+            )
+            return live ? (
+              <Link key={slug} href={`/${slug}`} style={{ background: '#fff', border: '1px solid #22c55e', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start', textDecoration: 'none' }}>
+                {inner}
+              </Link>
+            ) : (
+              <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                {inner}
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </section>
 

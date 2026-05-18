@@ -4,10 +4,10 @@ import { usePathname } from 'next/navigation'
 
 const TOOLS = [
   { label: 'Loan Calculator', href: '/' },
-  { label: 'Mortgage Calculator', href: '/mortgage-calculator', coming: true },
-  { label: 'Compound Interest', href: '/compound-interest', coming: true },
+  { label: 'Mortgage Calculator', href: '/mortgage-calculator' },
+  { label: 'Compound Interest', href: '/compound-interest' },
   { label: 'Debt Payoff', href: '/debt-payoff', coming: true },
-  { label: 'ROI Calculator', href: '/roi-calculator', coming: true },
+  { label: 'ROI Calculator', href: '/roi-calculator' },
 ]
 
 export default function ToolNav() {
