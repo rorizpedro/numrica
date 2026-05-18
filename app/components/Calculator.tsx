@@ -341,7 +341,7 @@ export default function Calculator() {
     <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
 
       {/* ── Hero + SEO copy ─────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '52px 24px 32px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '52px 24px 32px' }}>
         <h1 style={{ fontSize: 34, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.7px', lineHeight: 1.15, margin: '0 0 10px' }}>
           Free Loan Calculator
         </h1>
@@ -353,7 +353,7 @@ export default function Calculator() {
         <div style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 12, padding: '24px 24px 20px' }}>
 
           {/* Fields */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(155px, 1fr))', gap: 14, marginBottom: 20 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: 14, marginBottom: 20 }}>
 
             <div>
               <label className={labelCls}>Currency</label>
@@ -550,7 +550,7 @@ export default function Calculator() {
       </section>
 
       {/* ── Try these next ───────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 24px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
         <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', margin: '0 0 12px' }}>
           Try these next
         </h2>
@@ -584,12 +584,12 @@ export default function Calculator() {
       </section>
 
       {/* ── Ad slot 2 — mid page ─────────────────────────────────────────── */}
-      <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 24px' }}>
+      <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
         <AdUnit slot={AD_SLOT_MID} label="mid page" />
       </div>
 
       {/* ── SEO content block ────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 40px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
         <h2 style={{ fontSize: 18, fontWeight: 600, color: '#1a1a2e', marginBottom: 10 }}>
           How to use this loan calculator
         </h2>
@@ -602,7 +602,7 @@ export default function Calculator() {
       </section>
 
       {/* ── All tools ────────────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 64px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 64px' }}>
         <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 14 }}>
           All tools
         </h2>
@@ -636,7 +636,7 @@ export default function Calculator() {
       </section>
 
       {/* ── GEO: Glossary ────────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 40px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
         <h2 style={{ fontSize: 18, fontWeight: 600, color: '#1a1a2e', marginBottom: 16 }}>
           Key loan terms explained
         </h2>
@@ -651,7 +651,7 @@ export default function Calculator() {
       </section>
 
       {/* ── GEO: FAQ ─────────────────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 40px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
         <h2 style={{ fontSize: 18, fontWeight: 600, color: '#1a1a2e', marginBottom: 4 }}>
           Frequently asked questions
         </h2>
@@ -664,7 +664,7 @@ export default function Calculator() {
       </section>
 
       {/* ── GEO: Formula block ───────────────────────────────────────────── */}
-      <section style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 48px' }}>
+      <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 48px' }}>
         <h2 style={{ fontSize: 18, fontWeight: 600, color: '#1a1a2e', marginBottom: 12 }}>
           The loan payment formula
         </h2>
@@ -689,13 +689,13 @@ export default function Calculator() {
       </section>
 
       {/* ── Ad slot 3 — above footer ──────────────────────────────────────── */}
-      <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px 32px' }}>
+      <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 32px' }}>
         <AdUnit slot={AD_SLOT_BOTTOM} label="above footer" />
       </div>
 
       {/* ── Superfooter — disclaimer ──────────────────────────────────────── */}
       <div style={{ background: '#f3f4f6', borderTop: '1px solid #e5e7eb', borderBottom: '1px solid #e5e7eb' }}>
-        <div style={{ maxWidth: 760, margin: '0 auto', padding: '10px 24px', textAlign: 'center' }}>
+        <div style={{ maxWidth: 840, margin: '0 auto', padding: '10px 24px', textAlign: 'center' }}>
           <span style={{ fontSize: 12, color: '#9ca3af' }}>
             Results are illustrative only and do not constitute financial advice. Always consult a qualified financial professional before making borrowing decisions.
           </span>
@@ -704,7 +704,7 @@ export default function Calculator() {
 
       {/* ── Footer ────────────────────────────────────────────────────────── */}
       <footer style={{ background: '#fff' }}>
-        <div style={{ maxWidth: 760, margin: '0 auto', padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10 }}>
+        <div style={{ maxWidth: 840, margin: '0 auto', padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/logo.svg" alt="Numrica" width={17} height={20} />
