@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import Script from 'next/script'
+
 import Link from 'next/link'
 import { HomeIcon, TrendingUp, CreditCard, BarChart3, ChevronDown, Download } from 'lucide-react'
 import { calculate, annualToMonthly } from '@/app/lib/calculator'
@@ -310,34 +310,8 @@ export default function Calculator() {
   const selectCls = inputCls + " cursor-pointer"
   const labelCls  = "block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wide"
 
-  const faqSchema = JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: FAQ_ITEMS.map(f => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
-  })
-
-  const howToSchema = JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: 'How to Calculate a Loan Payment',
-    description: 'Calculate your monthly loan payment and total interest using this free online loan calculator.',
-    step: [
-      { '@type': 'HowToStep', name: 'Enter loan amount', text: 'Type the total amount you want to borrow in the Loan Amount field.' },
-      { '@type': 'HowToStep', name: 'Set interest rate', text: 'Enter the interest rate as a percentage. Toggle between monthly and annual rate.' },
-      { '@type': 'HowToStep', name: 'Set loan term', text: 'Enter the number of months for your loan repayment period.' },
-      { '@type': 'HowToStep', name: 'Add grace period if applicable', text: 'If your loan has a deferred payment period, enter the number of grace months.' },
-      { '@type': 'HowToStep', name: 'Read results instantly', text: 'Monthly payment, total paid, and total interest appear immediately. Click "Full amortization schedule" for a period-by-period breakdown.' },
-    ],
-  })
-
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json">{faqSchema}</Script>
-      <Script id="howto-schema" type="application/ld+json">{howToSchema}</Script>
     <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
 
       {/* ── Ad slot top ─────────────────────────────────────────────────── */}

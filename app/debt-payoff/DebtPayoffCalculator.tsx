@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo, useEffect, useRef } from 'react'
-import Script from 'next/script'
+
 import { TrendingUp, Home, BarChart3, ChevronDown, Plus, Trash2, Share2 } from 'lucide-react'
 import {
   AreaChart, Area, BarChart, Bar, Cell, LabelList,
@@ -258,17 +258,11 @@ export default function DebtPayoffCalculator() {
     outline: 'none', boxSizing: 'border-box',
   }
 
-  const faqSchema = JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: FAQ_ITEMS.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-  })
-
   const interestSaved = rAvalanche && rSnowball ? rSnowball.totalInterest - rAvalanche.totalInterest : 0
   const monthsSaved   = rAvalanche && rSnowball ? rSnowball.months - rAvalanche.months : 0
 
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json">{faqSchema}</Script>
       <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
 
         {/* Ad top */}

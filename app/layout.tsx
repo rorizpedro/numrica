@@ -55,6 +55,30 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body style={{ margin: 0 }}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@graph': [
+                {
+                  '@type': 'WebSite',
+                  '@id': 'https://numrica.com/#website',
+                  url: 'https://numrica.com',
+                  name: 'Numrica',
+                  description: 'Free financial calculators — loan, mortgage, compound interest, ROI, and debt payoff. No signup, no tracking. Just math.',
+                },
+                {
+                  '@type': 'Organization',
+                  '@id': 'https://numrica.com/#organization',
+                  name: 'Numrica',
+                  url: 'https://numrica.com',
+                  logo: { '@type': 'ImageObject', url: 'https://numrica.com/logo.svg' },
+                },
+              ],
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
         <header style={{ background: '#fff' }}>
           <div style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>

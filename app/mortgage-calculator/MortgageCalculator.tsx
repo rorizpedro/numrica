@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo, useEffect } from 'react'
-import Script from 'next/script'
+
 import { TrendingUp, CreditCard, BarChart3, ChevronDown, Download, Share2 } from 'lucide-react'
 import {
   AreaChart, Area, BarChart, Bar,
@@ -375,24 +375,6 @@ export default function MortgageCalculator() {
     XLSX.writeFile(wb, 'mortgage-schedule.xlsx')
   }
 
-  // JSON-LD schemas
-  const faqSchema = JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: FAQ_ITEMS.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-  })
-  const howToSchema = JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'HowTo',
-    name: 'How to Calculate a Mortgage Payment',
-    description: 'Calculate your complete PITI mortgage payment including principal, interest, property taxes, insurance, and PMI.',
-    step: [
-      { '@type': 'HowToStep', name: 'Enter home price and down payment', text: 'Type the home purchase price and your down payment (in dollars or percent). The calculator shows LTV instantly.' },
-      { '@type': 'HowToStep', name: 'Set interest rate and loan term', text: 'Enter the annual interest rate as a percentage. Select 15, 20, or 30 years, or type a custom term.' },
-      { '@type': 'HowToStep', name: 'Choose your loan type', text: 'Select Conventional, FHA, VA, or USDA. The calculator applies the correct insurance and fee rules for each type.' },
-      { '@type': 'HowToStep', name: 'Review your PITI breakdown', text: 'Results show your full monthly payment broken down into principal, interest, taxes, insurance, and PMI.' },
-      { '@type': 'HowToStep', name: 'Explore savings options', text: 'Toggle biweekly payments or use the extra payment slider to see how much you can save in interest and time.' },
-    ],
-  })
-
   // Shared styles
   const inputStyle: React.CSSProperties = { width: '100%', height: 40, border: '1px solid #e5e7eb', borderRadius: 8, padding: '0 10px', fontSize: 13, color: '#1a1a2e', background: '#fff', outline: 'none', boxSizing: 'border-box' }
   const labelStyle: React.CSSProperties = { display: 'block', fontSize: 11, fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }
@@ -409,9 +391,6 @@ export default function MortgageCalculator() {
 
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json">{faqSchema}</Script>
-      <Script id="howto-schema" type="application/ld+json">{howToSchema}</Script>
-
       <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
 

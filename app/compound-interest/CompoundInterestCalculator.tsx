@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo, useEffect } from 'react'
-import Script from 'next/script'
+
 import { TrendingUp, CreditCard, BarChart3, ChevronDown, Download, Share2, Target } from 'lucide-react'
 import {
   AreaChart, Area, BarChart, Bar,
@@ -318,32 +318,12 @@ export default function CompoundInterestCalculator() {
     XLSX.writeFile(wb, 'compound-interest-schedule.xlsx')
   }
 
-  const faqSchema = JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: FAQ_ITEMS.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-  })
-  const howToSchema = JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'HowTo',
-    name: 'How to Calculate Compound Interest',
-    description: 'Calculate the future value of an investment with compound interest and monthly contributions.',
-    step: [
-      { '@type': 'HowToStep', name: 'Enter your starting amount', text: 'Type your initial investment or lump sum. This is the principal that starts earning compound interest immediately.' },
-      { '@type': 'HowToStep', name: 'Set your monthly contribution', text: 'Enter how much you plan to add each month. Even small amounts add dramatically over long periods due to compounding.' },
-      { '@type': 'HowToStep', name: 'Enter interest rate and period', text: 'Set the annual interest rate and number of years. Use the presets for common scenarios or enter custom values.' },
-      { '@type': 'HowToStep', name: 'Choose compounding frequency', text: 'Select how often interest compounds — daily, monthly, quarterly, or annually. Monthly is most common for savings accounts.' },
-      { '@type': 'HowToStep', name: 'Review your future value', text: 'See your projected balance, total invested vs interest earned, APY, and how long it takes to double your money.' },
-    ],
-  })
-
   const inputStyle: React.CSSProperties = { width: '100%', height: 40, border: '1px solid #e5e7eb', borderRadius: 8, padding: '0 10px', fontSize: 13, color: '#1a1a2e', background: '#fff', outline: 'none', boxSizing: 'border-box' }
   const labelStyle: React.CSSProperties = { display: 'block', fontSize: 11, fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }
   const cardStyle: React.CSSProperties = { background: '#fff', border: '1px solid #e5e7eb', borderRadius: 12, padding: '20px 22px' }
 
   return (
     <>
-      <Script id="faq-schema" type="application/ld+json">{faqSchema}</Script>
-      <Script id="howto-schema" type="application/ld+json">{howToSchema}</Script>
-
       <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
 
