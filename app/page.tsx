@@ -67,6 +67,10 @@ const jsonLd = {
   ],
 }
 
+const textStyle: React.CSSProperties = { fontSize: 15, color: '#374151', lineHeight: 1.75, margin: '0 0 14px' }
+const h2Style: React.CSSProperties = { fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }
+const sectionStyle: React.CSSProperties = { maxWidth: 720, margin: '0 auto', padding: '0 24px 60px' }
+
 export default function Page() {
   return (
     <>
@@ -75,6 +79,49 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <Calculator />
+      <div style={sectionStyle}>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>How loan payment is calculated</h2>
+          <p style={textStyle}>
+            A loan payment is computed using the PMT (payment) formula: <strong>P × [r(1+r)^n] / [(1+r)^n − 1]</strong>, where P is the
+            principal borrowed, r is the monthly interest rate (annual rate ÷ 12), and n is the total number of monthly payments.
+            This formula assumes a fixed-rate, fully amortizing loan — meaning every payment is equal and the balance reaches exactly
+            zero on the final payment date.
+          </p>
+          <p style={textStyle}>
+            The key insight from the amortization schedule is that early payments are mostly interest. On a $20,000 loan at 7% over
+            48 months, the first payment of $479 includes $117 in interest and only $362 in principal. By the final payment,
+            that same $479 is almost entirely principal. This shift is automatic — it is how amortization works, and it is why paying
+            extra in the early months saves disproportionately more interest than paying extra later.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>SAC vs Price (constant installment) — which to choose</h2>
+          <p style={textStyle}>
+            The SAC system (Constant Amortization) keeps the principal reduction constant each month, so payments start high and
+            decrease over time as the balance falls. The Price system (also called PMT or constant installment) keeps payments equal
+            throughout — the principal portion grows and the interest portion shrinks with each payment, but the total stays the same.
+          </p>
+          <p style={textStyle}>
+            SAC results in less total interest paid because the balance decreases faster in the early months — but the higher initial
+            payments require more budget flexibility. Price offers payment predictability and lower initial payments at the cost of more
+            total interest. Which is better depends on your cash flow situation and how long you plan to hold the loan.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>How to use this calculator</h2>
+          <p style={textStyle}>
+            Enter the loan amount, annual interest rate, and term in months. The calculator outputs your monthly payment, total
+            interest paid over the life of the loan, and a full amortization schedule showing the balance after each payment.
+            You can toggle between SAC and Price systems, add a grace period, and export the schedule as CSV or Excel.
+          </p>
+          <p style={textStyle}>
+            Results are for educational and planning purposes. Actual loan terms — including any origination fees, prepayment
+            penalties, or rate adjustments — affect the true cost of borrowing. Always compare APR (which includes fees) across
+            lenders, not just the nominal interest rate.
+          </p>
+        </section>
+      </div>
     </>
   )
 }

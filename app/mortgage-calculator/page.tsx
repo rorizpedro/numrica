@@ -69,6 +69,10 @@ const jsonLd = {
   ],
 }
 
+const textStyle: React.CSSProperties = { fontSize: 15, color: '#374151', lineHeight: 1.75, margin: '0 0 14px' }
+const h2Style: React.CSSProperties = { fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }
+const sectionStyle: React.CSSProperties = { maxWidth: 720, margin: '0 auto', padding: '0 24px 60px' }
+
 export default function Page() {
   return (
     <>
@@ -77,6 +81,46 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <MortgageCalculator />
+      <div style={sectionStyle}>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>What PITI means and why it matters</h2>
+          <p style={textStyle}>
+            PITI stands for <strong>Principal, Interest, Taxes, and Insurance</strong> — the four components of a complete monthly
+            mortgage payment. Most calculators show only principal and interest. Numrica includes all four because lenders qualify
+            borrowers on the full PITI payment, not just the loan portion. A $400,000 home at 7% for 30 years has a principal and
+            interest payment of $2,661 — but with property taxes, homeowners insurance, and PMI, the real monthly cost is often
+            $3,200–$3,600.
+          </p>
+          <p style={textStyle}>
+            The standard lender qualification rule is the 28% front-end ratio: your total monthly PITI should not exceed 28% of gross
+            monthly income. If your PITI is $3,000, lenders expect at least $10,700/month ($128,000/year) in gross income. This
+            calculator shows the income you need to qualify alongside the payment breakdown.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>PMI: what it is and when it cancels</h2>
+          <p style={textStyle}>
+            Private Mortgage Insurance (PMI) is required on conventional loans when the down payment is below 20% — meaning the
+            loan-to-value (LTV) ratio exceeds 80%. PMI protects the lender, not the borrower, and typically costs 0.5%–1.5% of the
+            loan balance annually, added to your monthly payment. On a $350,000 loan, that is $1,750–$5,250 per year.
+          </p>
+          <p style={textStyle}>
+            PMI cancels automatically once your loan balance reaches 80% of the original appraised home value — either through
+            regular amortization or extra principal payments. This calculator shows the exact month when PMI cancels, which is one
+            of the most useful outputs for planning extra payments. An extra $200/month on a typical 30-year mortgage can eliminate
+            PMI 3–5 years earlier.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>Biweekly payments: how they work</h2>
+          <p style={textStyle}>
+            Switching from monthly to biweekly payments results in 26 half-payments per year — equivalent to 13 full monthly
+            payments instead of 12. That extra annual payment goes entirely to principal reduction. On a $400,000 30-year loan at
+            7%, biweekly payments eliminate about 4.5 years of payments and save over $50,000 in interest. The calculator shows
+            this comparison side by side so you can see the exact savings for your loan parameters.
+          </p>
+        </section>
+      </div>
     </>
   )
 }

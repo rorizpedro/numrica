@@ -75,6 +75,10 @@ const jsonLd = {
   ],
 }
 
+const textStyle: React.CSSProperties = { fontSize: 15, color: '#374151', lineHeight: 1.75, margin: '0 0 14px' }
+const h2Style: React.CSSProperties = { fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }
+const sectionStyle: React.CSSProperties = { maxWidth: 720, margin: '0 auto', padding: '0 24px 60px' }
+
 export default function Page() {
   return (
     <>
@@ -83,6 +87,50 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <CompoundInterestCalculator />
+      <div style={sectionStyle}>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>Why compound interest is called the eighth wonder of the world</h2>
+          <p style={textStyle}>
+            Compound interest earns returns on both your original principal and the interest already accumulated. This seemingly
+            small difference from simple interest produces dramatically different outcomes over time. $10,000 at 7% simple interest
+            for 30 years grows to $31,000. The same $10,000 at 7% compound interest grows to $76,123 — more than twice as much,
+            from the same initial investment and the same rate, simply because the interest compounds rather than staying flat.
+          </p>
+          <p style={textStyle}>
+            The formula is <strong>FV = P(1 + r/n)^(nt)</strong>, where P is principal, r is the annual rate, n is compounding
+            frequency per year, and t is time in years. Daily compounding versus annual compounding on the same nominal rate
+            produces a slightly higher effective annual yield (APY). At 6% nominal, monthly compounding gives an APY of 6.168%,
+            while annual compounding gives exactly 6%.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>The Rule of 72</h2>
+          <p style={textStyle}>
+            The Rule of 72 is a mental math shortcut: divide 72 by your annual interest rate to estimate how many years it takes
+            to double your money. At 6%, money doubles in about 12 years. At 9%, about 8 years. At 4%, about 18 years. The rule
+            is accurate within 1% for rates between 2% and 15%, making it a reliable first-order estimate without a calculator.
+          </p>
+          <p style={textStyle}>
+            The rule also works in reverse: if you need your money to double in 10 years, you need approximately a 7.2% annual
+            return. It is one of the most useful tools in personal finance for quickly evaluating whether an investment goal is
+            realistic given a realistic rate assumption.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>How monthly contributions change the outcome</h2>
+          <p style={textStyle}>
+            The most underestimated variable in long-term investing is not the interest rate — it is the ongoing contribution.
+            $10,000 invested at 7% for 30 years with no further contributions grows to $76,123. Add $300 per month and the
+            ending balance is $378,000 — nearly 5× more — from $108,000 in total contributions that earned $194,000 in
+            compound interest on top.
+          </p>
+          <p style={textStyle}>
+            Time matters more than the contribution amount in the early years. A person who invests $5,000 at age 25 and adds
+            nothing will have more at age 65 than someone who invests $5,000 at age 35 and adds $100/month for the following
+            30 years — the 10-year head start compounds faster than the ongoing contributions can catch up.
+          </p>
+        </section>
+      </div>
     </>
   )
 }

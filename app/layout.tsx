@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import ToolNav from '@/app/components/ToolNav'
+import EmbedController from '@/app/components/EmbedController'
 import { Analytics } from '@vercel/analytics/next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://numrica.com'),
@@ -74,6 +76,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   name: 'Numrica',
                   url: 'https://numrica.com',
                   logo: { '@type': 'ImageObject', url: 'https://numrica.com/logo.svg' },
+                  contactPoint: { '@type': 'ContactPoint', email: 'hello@numrica.com', contactType: 'customer support' },
+                  founder: {
+                    '@type': 'Person',
+                    name: 'Pedro Roriz',
+                    url: 'https://pedrororiz.com',
+                    jobTitle: 'Professor of Corporate Finance',
+                    worksFor: [
+                      { '@type': 'Organization', name: 'IPOG' },
+                      { '@type': 'Organization', name: 'TAG Business Solutions' },
+                    ],
+                  },
                 },
               ],
             }).replace(/</g, '\\u003c'),
@@ -92,8 +105,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </span>
           </div>
         </header>
+        <EmbedController />
         <ToolNav />
         {children}
+        <footer style={{ background: '#fff', borderTop: '1px solid #e5e7eb', marginTop: 40 }}>
+          <div style={{ maxWidth: 760, margin: '0 auto', padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+            <nav style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }}>
+              <Link href="/about" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>About</Link>
+              <Link href="/blog" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Blog</Link>
+              <Link href="/contact" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Contact</Link>
+              <Link href="/privacy-policy" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Privacy Policy</Link>
+            </nav>
+            <span style={{ fontSize: 12, color: '#9ca3af' }}>© {new Date().getFullYear()} Numrica</span>
+          </div>
+        </footer>
         <Analytics />
       </body>
     </html>

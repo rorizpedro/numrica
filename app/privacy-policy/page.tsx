@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 }
 
 export default function PrivacyPolicy() {
-  const updated = 'May 13, 2025'
+  const updated = 'May 21, 2026'
 
   return (
     <div style={{ background: '#f8f9fb', minHeight: '100vh' }}>

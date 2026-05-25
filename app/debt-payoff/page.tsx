@@ -70,6 +70,10 @@ const jsonLd = {
   ],
 }
 
+const textStyle: React.CSSProperties = { fontSize: 15, color: '#374151', lineHeight: 1.75, margin: '0 0 14px' }
+const h2Style: React.CSSProperties = { fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }
+const sectionStyle: React.CSSProperties = { maxWidth: 720, margin: '0 auto', padding: '0 24px 60px' }
+
 export default function DebtPayoffPage() {
   return (
     <>
@@ -83,6 +87,48 @@ export default function DebtPayoffPage() {
         </h1>
         <DebtPayoffCalculator />
       </main>
+      <div style={sectionStyle}>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>Debt avalanche vs debt snowball: what the math says</h2>
+          <p style={textStyle}>
+            The <strong>debt avalanche</strong> targets your highest interest rate first while paying minimums on everything else.
+            When the highest-rate debt is eliminated, its freed payment is redirected to the next highest rate. This is mathematically
+            optimal — it minimizes the total interest paid across all debts. The <strong>debt snowball</strong> targets the smallest
+            balance first, regardless of rate. It costs more in total interest but produces earlier wins that some people find
+            motivating enough to stay committed over a multi-year payoff plan.
+          </p>
+          <p style={textStyle}>
+            On $18,000 across three debts (credit card at 24.99%, personal loan at 18.5%, auto loan at 8.9%) with $400 extra per
+            month, the avalanche method pays approximately $1,100 less in total interest than the snowball and finishes about five
+            months sooner. The difference compounds in favor of avalanche whenever high-rate debts carry large balances.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>The cascade: why concentrated payments win</h2>
+          <p style={textStyle}>
+            The most important principle in debt repayment is concentration. Splitting extra payments across multiple accounts
+            slows the payoff for all of them — no debt reaches zero faster, so no minimum payment is freed up to redirect to the
+            next target. The cascade mechanism — where each cleared debt&#39;s minimum payment transfers to the next target —
+            only activates through sequential payoffs, not simultaneous reductions.
+          </p>
+          <p style={textStyle}>
+            Once the cascade is running, the final debt receives the combined force of every freed minimum plus the original extra
+            payment. A problem that appeared to require seven years of payments often resolves in two or three once the full
+            cascade is in motion. The debt payoff planner shows exactly when each account clears and the total interest saved
+            compared to minimum-only payments.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>The minimum payment trap</h2>
+          <p style={textStyle}>
+            Credit card minimum payments are typically set at 1–2% of the balance plus the current month&#39;s interest — which
+            means that in the early months, the minimum barely covers the interest charge. A $5,000 balance at 24.99% APR on
+            minimum payments only takes over 17 years to pay off and costs more than $4,300 in interest — nearly as much as
+            the original balance borrowed. The minimum payment is not a repayment plan. It is a floor designed to keep you
+            current while maximizing the lender&#39;s interest income.
+          </p>
+        </section>
+      </div>
     </>
   )
 }
