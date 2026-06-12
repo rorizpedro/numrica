@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://numrica.com/about', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://numrica.com/contact', lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.5 },
     { url: 'https://numrica.com/privacy-policy', lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.3 },
+    { url: 'https://numrica.com/terms', lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.3 },
     { url: 'https://numrica.com/loan-simulator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/mortgage-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/compound-interest', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },

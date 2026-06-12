@@ -119,6 +119,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/blog" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Blog</Link>
               <Link href="/contact" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Contact</Link>
               <Link href="/privacy-policy" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Privacy Policy</Link>
+              <Link href="/terms" style={{ fontSize: 13, color: '#6b7280', textDecoration: 'none' }}>Terms of Use</Link>
             </nav>
             <span style={{ fontSize: 12, color: '#9ca3af' }}>© {new Date().getFullYear()} Numrica</span>
           </div>

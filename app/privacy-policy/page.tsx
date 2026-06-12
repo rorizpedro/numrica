@@ -143,10 +143,20 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 style={{ fontSize: 16, fontWeight: 600, color: '#1a1a2e', marginBottom: 10 }}>11. Contact</h2>
+            <h2 style={{ fontSize: 16, fontWeight: 600, color: '#1a1a2e', marginBottom: 10 }}>11. Legal entity and jurisdiction</h2>
+            <p style={{ fontSize: 14, color: '#6b7280', lineHeight: 1.75, margin: 0 }}>
+              Numrica is a brand operated by <strong>Petra4 Infinite Solutions Ltda</strong> (CNPJ 63.118.008/0001-77),
+              registered in Goiânia, Goiás, Brazil. This policy is governed by the laws of Brazil, including the
+              Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018). EU residents may also have rights under
+              the General Data Protection Regulation (GDPR — Regulation 2016/679).
+            </p>
+          </section>
+
+          <section>
+            <h2 style={{ fontSize: 16, fontWeight: 600, color: '#1a1a2e', marginBottom: 10 }}>12. Contact</h2>
             <p style={{ fontSize: 14, color: '#6b7280', lineHeight: 1.75, margin: 0 }}>
               For questions about this policy, contact us at{' '}
-              <a href="mailto:privacy@numrica.com" style={{ color: '#22c55e' }}>privacy@numrica.com</a>.
+              <a href="mailto:hello@numrica.com" style={{ color: '#22c55e' }}>hello@numrica.com</a>.
             </p>
           </section>
 

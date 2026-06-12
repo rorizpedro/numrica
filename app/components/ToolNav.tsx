@@ -4,10 +4,12 @@ import { usePathname } from 'next/navigation'
 
 const TOOLS = [
   { label: 'Loan Calculator',   href: '/' },
+  { label: 'Loan Simulator',    href: '/loan-simulator' },
   { label: 'Mortgage Calculator', href: '/mortgage-calculator' },
   { label: 'Compound Interest', href: '/compound-interest' },
   { label: 'Debt Payoff',       href: '/debt-payoff' },
   { label: 'ROI Calculator',    href: '/roi-calculator' },
+  { label: 'Blog',              href: '/blog' },
 ]
 
 export default function ToolNav() {
