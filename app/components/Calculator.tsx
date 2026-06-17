@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 
 import Link from 'next/link'
+import EmbedButton from '@/app/components/EmbedButton'
 import { HomeIcon, TrendingUp, CreditCard, BarChart3, ChevronDown, Download } from 'lucide-react'
 import { calculate, annualToMonthly } from '@/app/lib/calculator'
 import { AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
@@ -191,9 +192,9 @@ function fmtInput(v: string) {
 
 const TOOLS = [
   { slug: 'mortgage-calculator', title: 'Mortgage Calculator', desc: 'Home price, down payment, and full PITI — principal, interest, taxes, and insurance.', Icon: HomeIcon, live: true },
-  { slug: 'debt-payoff', title: 'Debt Payoff Planner', desc: 'Avalanche vs. snowball — find the fastest and cheapest path to debt-free.', Icon: CreditCard },
-  { slug: 'compound-interest', title: 'Compound Interest', desc: 'How money grows over time with compound interest and regular contributions.', Icon: TrendingUp },
-  { slug: 'roi-calculator', title: 'ROI Calculator', desc: 'Return on any investment — simple, annualized, or inflation-adjusted.', Icon: BarChart3 },
+  { slug: 'debt-payoff', title: 'Debt Payoff Planner', desc: 'Avalanche vs. snowball — find the fastest and cheapest path to debt-free.', Icon: CreditCard, live: true },
+  { slug: 'compound-interest', title: 'Compound Interest', desc: 'How money grows over time with compound interest and regular contributions.', Icon: TrendingUp, live: true },
+  { slug: 'roi-calculator', title: 'ROI Calculator', desc: 'Return on any investment — simple, annualized, or inflation-adjusted.', Icon: BarChart3, live: true },
 ]
 
 // ─── Main component ───────────────────────────────────────────────────────────
@@ -528,6 +529,17 @@ export default function Calculator() {
         </div>
       </section>
 
+      <div className="embed-hide" style={{ maxWidth: 840, margin: '0 auto', padding: '4px 24px', display: 'flex', justifyContent: 'flex-end' }}>
+        <EmbedButton tool="" title="Loan Calculator" />
+      </div>
+      <div className="embed-only" style={{ maxWidth: 840, margin: '0 auto', padding: '12px 24px', justifyContent: 'center', alignItems: 'center', gap: 8, borderTop: '1px solid #e5e7eb' }}>
+        <span style={{ fontSize: 12, color: '#9ca3af' }}>Powered by</span>
+        <a href="https://numrica.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, fontWeight: 700, color: '#22c55e', textDecoration: 'none' }}>numrica.com</a>
+        <span style={{ fontSize: 12, color: '#d1d5db' }}>·</span>
+        <span style={{ fontSize: 12, color: '#9ca3af' }}>Free financial calculators</span>
+      </div>
+
+      <div className="embed-hide">
       {/* ── Try these next ───────────────────────────────────────────────── */}
       <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
         <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', margin: '0 0 12px' }}>
@@ -695,6 +707,7 @@ export default function Calculator() {
           </div>
         </div>
       </footer>
+      </div>{/* end embed-hide */}
 
     </div>
     </>

@@ -3,6 +3,7 @@
 import React, { useState, useMemo, useEffect } from 'react'
 
 import { TrendingUp, CreditCard, BarChart3, ChevronDown, Download, Share2, Target } from 'lucide-react'
+import EmbedButton from '@/app/components/EmbedButton'
 import {
   AreaChart, Area, BarChart, Bar,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -697,23 +698,33 @@ export default function CompoundInterestCalculator() {
           </div>
         </section>
 
+        <div className="embed-hide" style={{ maxWidth: 840, margin: '0 auto', padding: '4px 24px', display: 'flex', justifyContent: 'flex-end' }}>
+          <EmbedButton tool="compound-interest" title="Compound Interest Calculator" />
+        </div>
+        <div className="embed-only" style={{ maxWidth: 840, margin: '0 auto', padding: '12px 24px', justifyContent: 'center', alignItems: 'center', gap: 8, borderTop: '1px solid #e5e7eb' }}>
+          <span style={{ fontSize: 12, color: '#9ca3af' }}>Powered by</span>
+          <a href="https://numrica.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, fontWeight: 700, color: '#22c55e', textDecoration: 'none' }}>numrica.com</a>
+          <span style={{ fontSize: 12, color: '#d1d5db' }}>·</span>
+          <span style={{ fontSize: 12, color: '#9ca3af' }}>Free financial calculators</span>
+        </div>
+
+        <div className="embed-hide">
         {/* ── Try these next ─────────────────────────────────────────────── */}
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
           <h2 style={{ fontSize: 13, fontWeight: 600, color: '#9ca3af', letterSpacing: 1.5, textTransform: 'uppercase', margin: '0 0 12px' }}>Try these next</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 10 }}>
             {TOOLS_NEXT.map(({ slug, title, desc, Icon }) => (
-              <div key={slug} style={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                <div style={{ width: 34, height: 34, borderRadius: 8, background: '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                  <Icon size={15} color="#9ca3af" />
+              <a key={slug} href={`/${slug}`} style={{ background: '#fff', border: '1px solid #22c55e', borderRadius: 10, padding: '16px 18px', display: 'flex', gap: 12, alignItems: 'flex-start', textDecoration: 'none' }}>
+                <div style={{ width: 34, height: 34, borderRadius: 8, background: '#dcfce7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <Icon size={15} color="#22c55e" />
                 </div>
                 <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+                  <div style={{ marginBottom: 3 }}>
                     <span style={{ fontSize: 14, fontWeight: 600, color: '#1a1a2e' }}>{title}</span>
-                    <span style={{ fontSize: 9, background: '#f3f4f6', color: '#9ca3af', padding: '2px 4px', borderRadius: 3, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase' }}>soon</span>
                   </div>
                   <div style={{ fontSize: 12, color: '#9ca3af', lineHeight: 1.5 }}>{desc}</div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </section>
@@ -853,6 +864,7 @@ export default function CompoundInterestCalculator() {
             </div>
           </div>
         </footer>
+        </div>{/* end embed-hide */}
       </div>
     </>
   )
