@@ -116,6 +116,52 @@ export default function ROICalculatorPage() {
             nominal and inflation-adjusted outcomes so you can evaluate your investment in real terms.
           </p>
         </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>Opportunity cost vs the S&amp;P 500 benchmark</h2>
+          <p style={textStyle}>
+            Every investment decision carries an opportunity cost — the return you forfeited by not choosing the next-best
+            alternative. The S&amp;P 500 has compounded at approximately 10% per year (nominal) over the past 50 years,
+            or roughly 7% after adjusting for inflation. This makes it a natural baseline: if your investment returned 6%
+            CAGR over a decade while the S&amp;P 500 returned 10%, you did not just underperform — you left a measurable
+            dollar amount on the table.
+          </p>
+          <p style={textStyle}>
+            On a $50,000 starting investment held for 15 years, the gap between 6% and 10% CAGR is not abstract: the 6%
+            portfolio grows to $119,800, while the 10% portfolio reaches $208,900. The opportunity cost is $89,100 —
+            nearly twice the original investment. This calculator benchmarks your inputs against the S&amp;P 500&#39;s
+            long-run average so you can see exactly what you gained or gave up relative to simply holding an index fund.
+          </p>
+          <p style={textStyle}>
+            Opportunity cost compounds. A 2% annual underperformance might seem negligible in year one, but over 20 years
+            it represents approximately 35% less terminal wealth. The benchmark comparison this tool provides is not meant
+            to discourage alternative investments — real estate, private equity, and business ownership can all outperform
+            the index — but to make the trade-off explicit and quantified rather than abstract.
+          </p>
+        </section>
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={h2Style}>Tax drag on nominal gains</h2>
+          <p style={textStyle}>
+            Investment returns quoted by funds and brokerages are pre-tax. The after-tax return — what you actually keep —
+            depends on account type, holding period, and your income bracket. In a standard taxable brokerage account,
+            long-term capital gains (assets held more than one year) are taxed at 0%, 15%, or 20% depending on income.
+            Short-term gains are taxed as ordinary income, which can reach 37% at the federal level — plus state taxes
+            where applicable.
+          </p>
+          <p style={textStyle}>
+            Consider a $10,000 gain realized after one year of holding in a taxable account. At a 15% long-term capital
+            gains rate, you keep $8,500. At a 37% short-term rate (for a high-income earner trading frequently), you
+            keep $6,300. The difference is $2,200 on a single $10,000 gain — before accounting for the compounding
+            effect of reinvesting that difference over subsequent years. For a portfolio compounding over 20 years,
+            the annual tax drag from active trading versus buy-and-hold can reduce terminal wealth by 20–35%.
+          </p>
+          <p style={textStyle}>
+            Tax-advantaged accounts — 401(k), IRA, Roth IRA — eliminate or defer this drag entirely. Contributions to
+            a traditional 401(k) reduce taxable income today; a Roth IRA shields all future growth from tax permanently.
+            The ROI calculator on this page computes pre-tax returns. To estimate your after-tax outcome, apply your
+            marginal capital gains rate to the nominal gain shown, or model the same scenario inside a tax-sheltered
+            account structure where the full return compounds uninterrupted.
+          </p>
+        </section>
       </div>
     </>
   )
