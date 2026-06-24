@@ -39,23 +39,23 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h1>How Much Should Your Emergency Fund Be? The Answer Depends on Your Job</h1>
 
-<p>Most financial experts recommend saving 3–6 months of living expenses in an emergency fund. But this one-size-fits-all approach ignores a critical factor: your job stability. For example, a teacher with a guaranteed salary and benefits might only need $8,000 in savings, while a freelance graphic designer with irregular income could need $15,000 or more. In 2023, the average American emergency fund was just $4,500, leaving 56% of households vulnerable to unexpected expenses like medical bills or car repairs.</p>
+<p>Most financial experts recommend saving 3–6 months of living expenses in an emergency fund. But this one-size-fits-all approach ignores a critical factor: your job stability. For example, a teacher with a guaranteed salary and benefits might only need $8,000 in savings, while a freelance graphic designer with irregular income could need $15,000 or more. Many households carry far less than these targets, leaving them vulnerable to unexpected expenses like medical bills or car repairs.</p>
 
 <p>Emergency funds act as a financial safety net, but the right amount depends on your employment situation. If you work in a stable industry with predictable income, you can afford to save less. Conversely, if your job involves contract work, commission, or seasonal employment, you’ll need more. Let’s break down how your profession shapes this crucial number.</p>
 
-<p>According to a 2023 Federal Reserve survey, 38% of Americans with unstable jobs have less than $1,000 in savings, compared to 19% of those with stable employment. This gap highlights why your job type directly impacts your emergency fund needs. Here’s how to calculate the right amount for your situation.</p>
+<p>The gap between workers with stable and unstable income is significant: those in variable-income jobs are far more likely to have inadequate savings when an emergency strikes. This highlights why your job type directly impacts your emergency fund needs. Here’s how to calculate the right amount for your situation.</p>
 
 <h2>Stable Jobs: The 3-Month Rule</h2>
 
 <p>For professionals in stable industries like healthcare, education, or government, the 3-month rule is a good starting point. If you earn $5,000 per month after taxes, you’d aim for $15,000 in savings. This amount covers essential expenses like rent, utilities, and groceries for three months. Stable jobs often come with benefits like health insurance and paid leave, reducing the need for larger emergency reserves.</p>
 
-<p>However, this doesn’t mean you should stop at $15,000. A 2023 study by the National Endowment for Financial Education found that 40% of Americans with stable jobs still face financial stress during emergencies. That’s why many financial planners recommend increasing your fund to 6 months of expenses if you have high debt or dependents.</p>
+<p>However, this doesn’t mean you should stop at $15,000. Even workers in stable jobs can face significant financial stress during an emergency — especially those with high debt or dependents. That’s why many financial planners recommend increasing your fund to 6 months of expenses if either of those factors applies to you.</p>
 
 <h2>Unstable Jobs: The 6-Month Rule</h2>
 
 <p>If your income is irregular or your job is in a high-risk industry (e.g., construction, freelance writing), the 6-month rule becomes essential. Suppose you earn $3,500 per month on average. A 6-month emergency fund would require $21,000. This cushion accounts for potential income gaps during project downtime, layoffs, or health crises.</p>
 
-<p>Unstable jobs also mean fewer employer-provided benefits. A 2023 report by the Pew Research Center revealed that 62% of freelancers and gig workers lack health insurance, making emergency funds even more critical. Without a safety net, a single unexpected expense could force you to take on high-interest debt.</p>
+<p>Unstable jobs also mean fewer employer-provided benefits. Freelancers and gig workers are far less likely to have employer-sponsored health insurance, making emergency funds even more critical. Without a safety net, a single unexpected expense could force you to take on high-interest debt.</p>
 
 <div class="highlight">
   <p><strong>AVERAGE EMERGENCY FUND SIZE FOR STABLE JOBS:</strong> $10,000</p>
@@ -66,7 +66,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <p>For those in part-time roles or contract positions, the 12-month rule is a reality check. If you earn $2,000 per month and have no guaranteed income, you should aim for $24,000 in savings. This is especially important if you’re self-employed or work in industries with seasonal demand, like hospitality or agriculture.</p>
 
-<p>Consider the case of Maria, a part-time retail worker who lost her job during the 2023 holiday season. With only $2,500 in savings, she had to rely on a high-interest credit card to cover rent. Her story underscores why contract workers need to prioritize emergency funds. The 2023 Bureau of Labor Statistics found that 34% of part-time workers have less than $1,000 in savings.</p>
+<p>Consider the case of Maria, a part-time retail worker who lost her job during the holiday season. With only $2,500 in savings, she had to rely on a high-interest credit card to cover rent. Her story underscores why contract workers need to prioritize emergency funds — without adequate savings, a temporary income gap can quickly snowball into lasting debt.</p>
 
 <h2>How to Grow Your Emergency Fund Faster</h2>
 

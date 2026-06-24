@@ -39,7 +39,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>Roth IRA vs Traditional IRA: Which One Wins Depends on This One Variable</h1>
 
-<p>When it comes to retirement savings, the choice between a Roth IRA and a Traditional IRA can feel like a shot in the dark. Both accounts offer tax advantages, but which one is better depends on one critical factor: your tax bracket now versus your expected tax bracket in retirement. Let’s break this down with real numbers. For example, if you’re in the 22% tax bracket today and expect to be in the 24% bracket in retirement, the math changes dramatically. A 2023 study by the IRS found that 45% of Americans in their 30s expect their tax rates to rise in retirement, making this decision even more urgent.</p>
+<p>When it comes to retirement savings, the choice between a Roth IRA and a Traditional IRA can feel like a shot in the dark. Both accounts offer tax advantages, but which one is better depends on one critical factor: your tax bracket now versus your expected tax bracket in retirement. Let’s break this down with real numbers. For example, if you’re in the 22% tax bracket today and expect to be in the 24% bracket in retirement, the math changes dramatically. Many workers in their 30s expect their income—and tax rates—to climb over their careers, which makes this choice especially consequential the earlier you start.</p>
 
 <p>Traditional IRAs offer immediate tax deductions, reducing your taxable income now. Roth IRAs, on the other hand, require you to pay taxes on contributions upfront, but withdrawals in retirement are tax-free. The key is understanding how these two scenarios play out over time. Let’s explore the variables that determine which option is more advantageous.</p>
 
@@ -51,30 +51,30 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h2>The Power of Compounding: A Real-World Example</h2>
 
-<p>Let’s say you start contributing $6,000 annually to a Roth IRA at age 30, with a 7.2% annual return (the average historical return of the S&P 500). By age 65, your account would grow to over $148,000. If you had chosen a Traditional IRA instead, you’d owe taxes on the $148,000 when you withdraw it. If your tax rate in retirement is 24%, that’s an additional $35,520 in taxes—roughly 24% of the total amount.</p>
+<p>Let’s say you start contributing $6,000 annually to a Roth IRA at age 30, with a 7% annual return (approximating the S&P 500’s long-run real return after inflation). By age 65, your account would grow to roughly $887,000. If you had chosen a Traditional IRA instead, you’d owe taxes on that balance when you withdraw it. If your tax rate in retirement is 24%, that’s over $213,000 in taxes—shrinking your spendable nest egg to around $674,000.</p>
 
-<p>Meanwhile, the Roth IRA’s tax-free withdrawals mean you keep the full $148,000. This is a stark contrast to the Traditional IRA scenario, where the tax burden in retirement could significantly reduce your nest egg. The difference is the result of tax rates changing over time.</p>
+<p>Meanwhile, the Roth IRA’s tax-free withdrawals mean you keep the full ~$887,000. This is a stark contrast to the Traditional IRA scenario, where the tax burden in retirement could significantly reduce your nest egg. The difference is the result of tax rates changing over time.</p>
 
 <div class="highlight">
-  <p><strong>Tax Bracket Shift Over 30 Years:</strong> 15% average increase in tax rates for Americans aged 30-65</p>
-  <p>Data from the Tax Policy Center (2023) shows that 62% of Americans in their 30s expect higher tax rates in retirement.</p>
+  <p><strong>The core rule:</strong> If your tax rate is higher now than it will be in retirement, the Traditional IRA wins. If your tax rate is lower now than it will be in retirement, the Roth IRA wins.</p>
+  <p>The tricky part is that future tax rates are uncertain — which is why many advisors suggest holding both types as a hedge.</p>
 </div>
 
 <h2>What Happens If Your Tax Rate Drops in Retirement?</h2>
 
-<p>If your tax rate decreases in retirement, a Traditional IRA becomes more advantageous. For instance, imagine you’re in the 22% bracket now but expect to be in the 12% bracket in retirement. A Traditional IRA would allow you to pay taxes at a lower rate later, saving you money overall. If you contributed $6,000 annually to a Traditional IRA and earned 7.2% returns, your account would grow to $148,000 by age 65. At a 12% tax rate, you’d pay $17,760 in taxes, leaving you with $130,240.</p>
+<p>If your tax rate decreases in retirement, a Traditional IRA becomes more advantageous. For instance, imagine you’re in the 22% bracket now but expect to be in the 12% bracket in retirement. A Traditional IRA would allow you to pay taxes at a lower rate later, saving you money overall. If you contributed $6,000 annually to a Traditional IRA and earned 7% returns, your account would grow to roughly $887,000 by age 65. At a 12% tax rate, you’d pay about $106,000 in taxes, leaving you with approximately $781,000—meaningfully more than the Roth scenario where you paid 22% upfront on every contribution.</p>
 
 <p>In this scenario, the Traditional IRA is better because the lower tax rate in retirement reduces the tax burden. However, if your tax rate rises, the Roth IRA’s tax-free withdrawals become the smarter choice. This one variable—your expected tax bracket in retirement—decides the outcome.</p>
 
 <div class="chart">
-  <div class="chart-title">ROTH IRA VS TRADITIONAL IRA: FINAL AMOUNTS</div>
+  <div class="chart-title">ROTH IRA VS TRADITIONAL IRA: AFTER-TAX VALUE AT 65 (example: $6K/yr, 7% return, 35 years)</div>
   <div class="bar-row">
-    <div class="bar-label">ROTH IRA</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$148,000</span></div></div>
+    <div class="bar-label">ROTH IRA (tax rate rises)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">~$887,000</span></div></div>
   </div>
   <div class="bar-row">
-    <div class="bar-label">TRADITIONAL IRA</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$107,000</span></div></div>
+    <div class="bar-label">TRADITIONAL IRA (tax rate drops)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:88%; background:#22c55e;"><span class="bar-value">~$781,000</span></div></div>
   </div>
 </div>
 

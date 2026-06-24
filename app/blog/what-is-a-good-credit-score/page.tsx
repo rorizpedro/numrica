@@ -45,22 +45,22 @@ In the United States, 65% of adults have a credit score of 700 or higher, accord
 
 Credit scores in the U.S. are typically calculated using the FICO model, which ranges from 300 to 850. A "good" credit score is generally considered to be 670 or higher, while "excellent" scores start at 800. These scores are determined by five key factors: payment history (35%), amounts owed (30%), length of credit history (15%), new credit (10%), and credit mix (10%). Lenders use these scores to assess creditworthiness, and a higher score often means better loan terms, lower interest rates, and more borrowing options.
 
-For example, a person with a 700 credit score may qualify for a mortgage with a 4.5% interest rate, while someone with a 650 score might only be offered a rate of 6.2%. Over a 30-year loan, this difference could result in over $120,000 in additional interest payments. Understanding where you stand on the credit score spectrum is the first step toward improving your financial health.
+For example, with 30-year fixed mortgage rates in the 6.5–7% range (2024 averages), a borrower with a 700 score may qualify near the lower end of lender offers, while someone with a 650 score is often quoted a rate 0.5–1.0 percentage points higher. Over a 30-year loan, that gap can result in tens of thousands of dollars in additional interest payments. Understanding where you stand on the credit score spectrum is the first step toward improving your financial health.
 
 <h2>The Cost of a Poor Credit Score</h2>
 
-A low credit score can have far-reaching financial consequences. According to the Consumer Financial Protection Bureau (CFPB), consumers with poor credit scores (below 620) pay significantly higher interest rates on credit cards, auto loans, and mortgages. For instance, a person with a 620 credit score might be charged 22.9% APR on a credit card, compared to 14.9% APR for someone with a 720 score. Over a year, this difference could cost a credit card user with a $5,000 balance over $1,000 in interest.
+A low credit score can have far-reaching financial consequences. Consumers with poor credit scores (below 620) typically pay significantly higher interest rates on credit cards, auto loans, and mortgages. The Federal Reserve reports that average credit card APRs reached approximately 21–22% in 2023–2024, and borrowers with weaker credit profiles are often quoted rates well above that average. Over a year, even a few extra percentage points on a $5,000 balance can add hundreds of dollars in interest charges.
 
 Additionally, landlords and insurance companies often use credit scores to determine rent deposits, security deposits, and insurance premiums. A low credit score might result in a $500 security deposit for an apartment, while someone with a good score might not need to pay anything. These hidden costs add up, making it even more important to prioritize improving your credit score.
 
 <div class="highlight">
-  <p><strong>Average interest rate difference for credit cards:</strong> 8.0% (620 score) vs. 14.9% (720 score)</p>
-  <p>This gap can cost you over $1,000 in interest annually on a $5,000 balance.</p>
+  <p><strong>Average US credit card APR (2023–2024):</strong> approximately 21–22% (Federal Reserve data)</p>
+  <p>Borrowers with poor credit are typically quoted rates above this average, while those with excellent scores may qualify for promotional or lower-rate products. The gap between a fair and excellent credit profile can easily translate to hundreds of dollars in extra interest each year.</p>
 </div>
 
 <h2>How Credit Scores Are Calculated</h2>
 
-Your credit score is based on data from your credit reports, which are maintained by the three major credit bureaus: Experian, TransUnion, and Equifax. Payment history is the most significant factor, accounting for 35% of your score. Late payments, collections, and bankruptcies can drag down your score. For example, a single 30-day late payment on a credit card can reduce your score by 100 points, according to FICO.
+Your credit score is based on data from your credit reports, which are maintained by the three major credit bureaus: Experian, TransUnion, and Equifax. Payment history is the most significant factor, accounting for 35% of your score. Late payments, collections, and bankruptcies can drag down your score. For example, a single 30-day late payment on a credit card can reduce your score by 60–110 points depending on your starting score and overall credit profile — the higher your score going in, the more dramatic the drop.
 
 The second most important factor is amounts owed, which makes up 30% of your score. This includes your credit utilization ratio—the percentage of your available credit that you're using. A utilization rate above 30% can negatively impact your score. For instance, if you have a $10,000 credit limit and a $4,000 balance, your utilization rate is 40%, which is considered high and could lower your score.
 

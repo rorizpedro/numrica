@@ -47,24 +47,24 @@ The choice between these two options isn’t just about interest rates. It’s a
 
 A high-yield savings account functions like a traditional savings account but with a much higher interest rate. Banks offer these accounts to attract deposits, and they’re typically FDIC-insured up to $250,000. For example, if you deposit $10,000 in a high-yield savings account with a 4.5% annual percentage yield (APY), you’d earn about $450 in interest over one year. These accounts are ideal for people who need easy access to their money, such as those saving for short-term goals like a vacation or a car repair.
 
-CDs, on the other hand, are time-bound savings vehicles. When you open a CD, you agree to leave your money with the bank for a specific term—say, 1 year, 3 years, or 5 years—in exchange for a guaranteed interest rate. For instance, a 5-year CD with a 5.2% APY would earn $2,600 in interest on a $10,000 deposit over 5 years. However, if you withdraw funds before the term ends, you may face early withdrawal penalties, which can range from 6 months’ worth of interest to the full amount of interest earned.
+CDs, on the other hand, are time-bound savings vehicles. When you open a CD, you agree to leave your money with the bank for a specific term—say, 1 year, 3 years, or 5 years—in exchange for a guaranteed interest rate. For instance, a 5-year CD with a 5.2% APY would earn approximately $2,878 in interest on a $10,000 deposit over 5 years (compounded annually). However, if you withdraw funds before the term ends, you may face early withdrawal penalties, which can range from 6 months’ worth of interest to the full amount of interest earned.
 
 <h2>Interest Rates and Earnings: A 2026 Comparison</h2>
 
 As of early 2026, the average CD rate for a 5-year term is 5.2%, while high-yield savings accounts average 4.5%. These rates are significantly higher than the 0.01% or less offered by standard savings accounts. However, the gap between the two options isn’t uniform. Smaller banks and credit unions may offer CDs with rates as high as 5.5%, while large national banks might offer slightly lower rates but more convenience.
 
-Let’s say you have $20,000 to invest for 3 years. A 3-year CD with a 5.0% APY would earn $3,000 in interest, whereas a high-yield savings account with a 4.5% APY would earn $2,700. That’s a $300 difference over 3 years. However, if you need to access the money before the CD matures, you could lose some or all of the interest earned, depending on the bank’s penalty terms.
+Let’s say you have $20,000 to invest for 3 years. A 3-year CD with a 5.0% APY would earn approximately $3,153 in interest (compounded annually), whereas a high-yield savings account with a 4.5% APY would earn approximately $2,818. That’s a roughly $335 difference over 3 years. However, if you need to access the money before the CD matures, you could lose some or all of the interest earned, depending on the bank’s penalty terms.
 
 <h2>Key Stat: The Power of Compounding Over Time</h2>
 
 <div class="highlight">
-  <p><strong>COMPOUNDING DIFFERENCE:</strong> A $10,000 deposit in a 5-year CD at 5.2% APY earns $2,600 in interest, while the same amount in a high-yield savings account at 4.5% APY earns $2,296 over the same period.</p>
-  <p>This $304 gap grows significantly with larger deposits and longer terms, making CDs more attractive for long-term savings.</p>
+  <p><strong>COMPOUNDING DIFFERENCE:</strong> A $10,000 deposit in a 5-year CD at 5.2% APY earns approximately $2,878 in interest (compounded annually), while the same amount in a high-yield savings account at 4.5% APY earns approximately $2,462 over the same period.</p>
+  <p>This ~$416 gap grows significantly with larger deposits and longer terms, making CDs more attractive for long-term savings.</p>
 </div>
 
 <h2>When to Choose a CD vs. a High-Yield Savings Account</h2>
 
-If you’re certain you won’t need the money for at least 1 year and want to maximize returns, a CD is a strong choice. For example, if you’re saving for a home down payment in 2 years, a 2-year CD with a 5.0% APY would earn $1,000 in interest on a $10,000 deposit. However, if you need access to the money within 6 months, a high-yield savings account is better, even though it earns less.
+If you’re certain you won’t need the money for at least 1 year and want to maximize returns, a CD is a strong choice. For example, if you’re saving for a home down payment in 2 years, a 2-year CD with a 5.0% APY would earn approximately $1,025 in interest on a $10,000 deposit (compounded annually). However, if you need access to the money within 6 months, a high-yield savings account is better, even though it earns less.
 
 Another consideration is the current economic climate. In 2026, with the Federal Reserve expected to maintain higher interest rates through mid-2027, locking in a CD now could be more beneficial than waiting for rates to potentially drop. Use our <a href="https://numrica.com/roi-calculator">ROI Calculator</a> to compare scenarios, such as how much you’d earn with a 5-year CD versus a high-yield savings account over different time horizons.
 

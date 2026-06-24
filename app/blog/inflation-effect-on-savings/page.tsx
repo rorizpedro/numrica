@@ -45,7 +45,7 @@ The problem isn’t just about losing money—it’s about losing the ability to
 
 <h2>The Hidden Enemy in Your Savings Account</h2>
 
-Inflation reduces the purchasing power of money by increasing the prices of goods and services. For instance, if you saved $10,000 in 2020, that amount would have the same buying power as only $8,600 in 2023 due to inflation. This means that even if your savings account earns 1% interest annually, the real value of your money is still shrinking. Over 20 years, the difference becomes staggering: a $10,000 savings account earning 1% interest would grow to about $12,190, but with 3% inflation, that amount would only be worth roughly $6,700 in today’s dollars.
+Inflation reduces the purchasing power of money by increasing the prices of goods and services. For instance, if you saved $10,000 in 2020, that amount would have the same buying power as only $8,600 in 2023 due to inflation. This means that even if your savings account earns 1% interest annually, the real value of your money is still shrinking. Over 30 years, the difference becomes staggering: a $10,000 savings account earning 1% interest would grow to about $13,500, but with 3% inflation, that amount would only be worth roughly $5,600 in today’s dollars.
 
 This erosion is not just a hypothetical scenario. The Federal Reserve’s inflation target of 2% is designed to prevent this kind of long-term decline, but when inflation exceeds that target—as it has in recent years—it creates a dangerous gap between savings growth and cost-of-living increases. Americans who keep their money in low-yield accounts are effectively losing money every year, even if their account balance is growing.
 
@@ -70,11 +70,11 @@ This is why financial experts recommend investing in assets like index funds, re
   <div class="chart-title">CASH VS. INVESTMENTS OVER 30 YEARS</div>
   <div class="bar-row">
     <div class="bar-label">SAVINGS ACCOUNT (1% INTEREST)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$12,190</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:18%; background:#1a1a2e;"><span class="bar-value">$13,500</span></div></div>
   </div>
   <div class="bar-row">
     <div class="bar-label">INVESTMENT PORTFOLIO (7% RETURN)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$76,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#22c55e;"><span class="bar-value">$76,000</span></div></div>
   </div>
 </div>
 

@@ -49,17 +49,17 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <p>Active fund managers charge higher fees because they claim to provide value through stock-picking and market timing. However, studies show that most active funds fail to consistently outperform their benchmark indices after fees. For instance, over the past 10 years, only about 20% of active US equity funds have beaten the S&P 500. This means that for the majority of investors, paying higher fees for active management doesn’t translate into better returns.</p>
 
-<p>Consider a $10,000 investment in an active fund with a 1.5% annual fee versus an index fund with a 0.15% fee. Over 20 years, the active fund’s fees alone would cost you $3,500 in lost returns, assuming a 7% annual return. That’s the equivalent of losing a year’s worth of salary for an average US worker. Meanwhile, the index fund’s lower fees allow more of your money to compound, growing your portfolio significantly faster.</p>
+<p>Consider a $10,000 investment in an active fund with a 1.5% annual fee versus an index fund with a 0.15% fee. Assuming both earn a 7% gross annual return, the active fund nets 5.5% after fees while the index fund nets 6.85%. Over 20 years, that seemingly small gap already produces a meaningful difference in terminal wealth—and it only widens with time. The index fund’s lower fees allow more of your money to compound, growing your portfolio significantly faster.</p>
 
 <h2>How Compounding Works Against You</h2>
 
-<p>Compounding is a powerful force in investing, but it can work against you if you’re paying high fees. Let’s say you invest $10,000 in an active fund with a 1.5% fee and a 7% annual return. After 30 years, your investment would grow to about $72,000. In contrast, the same $10,000 in an index fund with a 0.15% fee would grow to $150,000. The difference? The index fund’s lower fees allowed your money to compound more effectively, even though both funds had the same average return.</p>
+<p>Compounding is a powerful force in investing, but it can work against you if you’re paying high fees. Let’s say you invest $10,000 in an active fund with a 1.5% fee and a 7% gross annual return. After 30 years at a 5.5% net return, your investment would grow to about $50,000. In contrast, the same $10,000 in an index fund with a 0.15% fee—netting 6.85%—would grow to roughly $73,000. The difference? The index fund’s lower fees allowed your money to compound more effectively, even though both funds had the same gross return.</p>
 
-<p>This example highlights the importance of expense ratios. Every year, the active fund’s fees reduce your returns by 1.5%, while the index fund’s fees only reduce them by 0.15%. Over time, this small difference compounds into a massive gap. By the end of 30 years, the index fund has more than double the value of the active fund, simply because it costs less to own.</p>
+<p>This example highlights the importance of expense ratios. Every year, the active fund’s fees reduce your net return by 1.5 percentage points, while the index fund’s fees only reduce them by 0.15. Over time, this seemingly small difference compounds into a substantial gap. By the end of 30 years, the index fund ends up nearly 50% larger than the active fund, simply because it costs less to own.</p>
 
 <div class="highlight">
-  <p><strong>Over 30 years, a 1% annual fee can reduce your portfolio by 25%:</strong> $100,000 in fees alone</p>
-  <p>This is the cost of paying 1% annually on a $10,000 investment over 30 years, assuming a 7% return.</p>
+  <p><strong>Over 30 years, a 1% annual fee can reduce your terminal wealth by roughly 25%.</strong></p>
+  <p>A $10,000 investment compounding at 7% for 30 years grows to about $76,000. Drop the net return to 6% (adding a 1% fee) and the same investment grows to only about $57,000—a gap of nearly $19,000, or 25% of what you would have had fee-free.</p>
 </div>
 
 <h2>The Power of Lower Fees</h2>
@@ -72,17 +72,17 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   <div class="chart-title">INDEX FUND VS ACTIVE FUND RETURNS AFTER 30 YEARS</div>
   <div class="bar-row">
     <div class="bar-label">INDEX FUND (0.15% FEES)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$150,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">~$73,000</span></div></div>
   </div>
   <div class="bar-row">
     <div class="bar-label">ACTIVE FUND (1.5% FEES)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$72,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:68%; background:#22c55e;"><span class="bar-value">~$50,000</span></div></div>
   </div>
 </div>
 
 <h2>Real-World Performance Gaps</h2>
 
-<p>The performance gap between index and active funds isn’t just hypothetical—it’s backed by real-world data. A 2023 study by Morningstar found that over the past 15 years, 90% of US active equity funds underperformed their benchmark indices after fees. This means that for most investors, paying more for active management doesn’t deliver better results. Instead, it costs them more in fees and lost returns.</p>
+<p>The performance gap between index and active funds isn’t just hypothetical—it’s backed by real-world data. SPIVA scorecards consistently show that over any 15-year period, roughly 80–90% of US active equity funds underperform their benchmark index after fees. This means that for most investors, paying more for active management doesn’t deliver better results. Instead, it costs them more in fees and lost returns.</p>
 
 <p>If you’re considering investing in an active fund, it’s worth asking: what’s the manager’s track record? Are they consistently beating their benchmark? And more importantly, are the fees justified? For most investors, the answer is no. The best returns often come from low-cost index funds that track broad market indices over the long term.</p>
 

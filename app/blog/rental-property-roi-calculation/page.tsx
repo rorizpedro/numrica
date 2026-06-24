@@ -41,7 +41,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 8 min read</
 
 Investing in rental properties can be a powerful way to build long-term wealth, but many Americans struggle to understand how to calculate their return on investment (ROI) accurately. For example, a 30-year-old in Texas might spend $200,000 on a duplex, expecting to earn $1,500 monthly in rent. However, without accounting for expenses like property taxes ($1,200 annually), insurance ($1,000 annually), and maintenance ($500 monthly), their actual ROI could be far lower than anticipated. Proper ROI calculation is essential to avoid financial surprises and ensure rental investments align with long-term goals.
 
-The challenge lies in the complexity of real estate investing. Unlike stocks or bonds, rental properties involve ongoing costs, appreciation, and tax considerations that can skew ROI if ignored. A 2023 study by the National Association of Realtors found that 42% of first-time real estate investors overestimated their ROI by 15% or more due to miscalculations. This highlights the need for a structured approach to evaluating rental property returns.
+The challenge lies in the complexity of real estate investing. Unlike stocks or bonds, rental properties involve ongoing costs, appreciation, and tax considerations that can skew ROI if ignored. Many first-time real estate investors overestimate their ROI by a significant margin due to miscalculations and overlooked expenses. This highlights the need for a structured approach to evaluating rental property returns.
 
 <h2>Understanding the Basics of Rental Property ROI</h2>
 
@@ -53,7 +53,7 @@ Let’s break it down with a real-world example. Suppose you buy a $300,000 two-
 
 To calculate ROI accurately, you must account for all income and expenses. Income includes rental payments, tenant security deposits, and any additional revenue from amenities (e.g., a rental garage). Expenses encompass mortgage payments, property taxes, insurance, maintenance, utilities, and management fees. For instance, a $250,000 home in Charlotte, North Carolina, might have $3,000 in annual property taxes, $1,200 in insurance, and $2,000 in maintenance costs. These expenses reduce net income and must be factored into ROI.
 
-Another critical component is the total investment. This includes the purchase price, closing costs, and any renovations or repairs. If you buy a $200,000 home with a 10% down payment ($20,000) and spend $10,000 on renovations, your total investment is $30,000. This is the denominator in the ROI formula. Ignoring these costs can lead to inflated ROI estimates, as seen in a 2022 survey where 35% of investors failed to include renovation costs in their calculations.
+Another critical component is the total investment. This includes the purchase price, closing costs, and any renovations or repairs. If you buy a $200,000 home with a 10% down payment ($20,000) and spend $10,000 on renovations, your total investment is $30,000. This is the denominator in the ROI formula. Ignoring these costs can lead to inflated ROI estimates — a common mistake among first-time investors is failing to include renovation and closing costs when computing total capital deployed.
 
 <h2>Calculating ROI Step by Step</h2>
 
@@ -70,7 +70,7 @@ Appreciation is another factor that boosts ROI. If the property’s value increa
 
 One of the most common mistakes is overlooking hidden costs. For example, a $200,000 investment in a rental property in Atlanta, Georgia, might seem profitable with $1,500 monthly rent and $1,000 in expenses. However, unexpected repairs (e.g., a roof replacement costing $5,000) can significantly reduce ROI. To avoid this, track all expenses and set aside a repair fund (typically 10-15% of monthly rent).
 
-Another mistake is ignoring tax implications. Rental income is subject to federal and state taxes, but you can deduct expenses like mortgage interest, property taxes, and depreciation. A 2023 IRS report noted that proper tax planning can reduce effective tax rates by up to 20%, improving net ROI. Using an ROI calculator like the one at https://numrica.com/roi-calculator can help you model these deductions and see their impact on your bottom line.
+Another mistake is ignoring tax implications. Rental income is subject to federal and state taxes, but you can deduct expenses like mortgage interest, property taxes, and depreciation. Proper tax planning — particularly making full use of the depreciation deduction — can meaningfully reduce your effective tax burden and improve net ROI. Using an ROI calculator like the one at https://numrica.com/roi-calculator can help you model these deductions and see their impact on your bottom line.
 
 <h2>Take Control of Your Rental Property ROI</h2>
 

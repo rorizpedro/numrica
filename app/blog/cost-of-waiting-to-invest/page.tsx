@@ -39,30 +39,30 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h1>The Cost of Waiting to Invest: What Every Year of Delay Actually Costs You</h1>
 
-<p>Imagine two people: one starts investing $5,000 annually at age 25, while the other waits until 35. By age 65, the first person has over $1.2 million in their account, while the second has only $340,000—assuming a 7% annual return. This stark difference isn’t just about timing; it’s about the power of compound interest and the cost of delaying your financial future. Every year you wait to invest, you lose the opportunity to earn returns on your money and the returns on those returns. In a world where retirement savings are increasingly on individuals’ shoulders, understanding this cost is critical.</p>
+<p>Imagine two people: one starts investing $5,000 annually at age 25, while the other waits until 35. By age 65, the first person has roughly $998,000 in their account, while the second has around $472,000—assuming a 7% annual return. This stark difference isn’t just about timing; it’s about the power of compound interest and the cost of delaying your financial future. Every year you wait to invest, you lose the opportunity to earn returns on your money and the returns on those returns. In a world where retirement savings are increasingly on individuals’ shoulders, understanding this cost is critical.</p>
 
-<p>For many Americans, the idea of investing feels distant or unaffordable. But even small, consistent contributions can grow significantly over time. The average American household saves just $1,200 annually for retirement, according to the Federal Reserve. This highlights a growing gap between retirement needs and current savings habits. Delaying investment not only reduces the time your money has to grow but also increases the burden of needing to save more later in life.</p>
+<p>For many Americans, the idea of investing feels distant or unaffordable. But even small, consistent contributions can grow significantly over time. Most households save far less than they need for a comfortable retirement, which highlights a growing gap between retirement needs and current savings habits. Delaying investment not only reduces the time your money has to grow but also increases the burden of needing to save more later in life.</p>
 
 <h2>How Compound Interest Works Against You When You Delay</h2>
 
-<p>Compound interest is often called the “eighth wonder of the world,” but its magic only works when time is on your side. When you start investing early, your money earns returns, and those returns then earn returns. This snowball effect is why starting at 25 can lead to significantly more wealth than starting at 35. For example, $5,000 invested annually at 7% from age 25 to 65 grows to $1,222,000, while the same amount invested from 35 to 65 grows to $340,000—a difference of over $880,000.</p>
+<p>Compound interest is often called the “eighth wonder of the world,” but its magic only works when time is on your side. When you start investing early, your money earns returns, and those returns then earn returns. This snowball effect is why starting at 25 can lead to significantly more wealth than starting at 35. For example, $5,000 invested annually at 7% from age 25 to 65 grows to roughly $998,000, while the same amount invested from 35 to 65 grows to around $472,000—a difference of over $525,000.</p>
 
 <p>The math is simple: the earlier you start, the more time your money has to grow. A 25-year-old who invests $5,000 a year for 40 years sees their money grow exponentially, while a 35-year-old who invests the same amount for only 30 years misses out on 10 years of compounding. This is why financial advisors often recommend starting as early as possible, even with small amounts.</p>
 
 <h2>The Hidden Cost of Waiting: Lost Opportunities</h2>
 
-<p>Waiting to invest isn’t just about missing out on potential gains—it’s also about the cost of living with less. If you delay investing, you may need to work longer, take on more risk later in life, or rely more heavily on Social Security. The average American will need about $1.6 million to maintain their standard of living in retirement, according to the Personal Capital Retirement Calculator. Missing out on compounding can force you to save more, work longer, or make riskier investment choices.</p>
+<p>Waiting to invest isn’t just about missing out on potential gains—it’s also about the cost of living with less. If you delay investing, you may need to work longer, take on more risk later in life, or rely more heavily on Social Security. Financial planners commonly estimate that a comfortable retirement requires saving 10× your final salary or more. Missing out on compounding can force you to save more, work longer, or make riskier investment choices.</p>
 
 <p>For example, someone who waits until age 35 to start investing may need to save over $10,000 annually for the rest of their career to match the wealth of someone who started at 25. This increase in required savings can strain budgets, especially for those with lower incomes or unexpected expenses.</p>
 
 <div class="highlight">
-  <p><strong>KEY STAT: </strong>Starting to invest at age 25 instead of 35 can increase your retirement savings by up to 350% by age 65.</p>
-  <p>This is due to the extra 10 years of compounding, which allows your money to grow exponentially.</p>
+  <p><strong>KEY STAT: </strong>Starting to invest at age 25 instead of 35 can more than double your retirement savings by age 65.</p>
+  <p>At a 7% annual return, $5,000/year from age 25 grows to ~$998,000 by 65 — versus ~$472,000 starting at 35. That is the same contribution rate producing more than twice the outcome.</p>
 </div>
 
 <h2>Real-World Examples: How Delay Hurts</h2>
 
-<p>Consider two scenarios: one where you start investing at 25, and another where you wait until 35. At a 7% annual return, the 25-year-old’s portfolio grows to $1.2 million by 65, while the 35-year-old’s reaches only $340,000. The difference isn’t just the amount saved—it’s the time lost. The 25-year-old also benefits from the compounding of returns on the returns, which the 35-year-old misses out on entirely.</p>
+<p>Consider two scenarios: one where you start investing at 25, and another where you wait until 35. At a 7% annual return, the 25-year-old’s portfolio grows to roughly $998,000 by 65, while the 35-year-old’s reaches around $472,000. The difference isn’t just the amount saved—it’s the time lost. The 25-year-old benefits from an extra decade of compounding, where returns stack on top of previous returns in a way the late starter simply cannot replicate.</p>
 
 <p>This gap becomes even more pronounced over time. If the 25-year-old continues investing until 70, their portfolio could grow to over $2 million. Meanwhile, the 35-year-old would need to invest even more aggressively to close the gap. The longer you wait, the more you have to catch up, and the more risk you may need to take to do so.</p>
 
@@ -70,11 +70,11 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   <div class="chart-title">COMPARISON OF SAVINGS BY STARTING AGE</div>
   <div class="bar-row">
     <div class="bar-label">STARTING AT 25</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$1,222,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">~$998,000</span></div></div>
   </div>
   <div class="bar-row">
     <div class="bar-label">STARTING AT 35</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$340,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:47%; background:#22c55e;"><span class="bar-value">~$472,000</span></div></div>
   </div>
 </div>
 

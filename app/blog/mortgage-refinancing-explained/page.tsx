@@ -39,9 +39,9 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>Mortgage Refinancing Explained: When It Saves Money and When It Does Not</h1>
 
-<p>Refinancing a mortgage can be a powerful tool for homeowners looking to lower their monthly payments, reduce interest costs, or access equity. However, with closing costs, fees, and shifting interest rates, it’s not always a clear win. In 2023, the average 30-year mortgage rate in the U.S. was 6.4%, but by mid-2024, it had dropped to 4.5%—a change that could save a homeowner $300 a month. Yet for others, refinancing could cost more than it’s worth. Understanding when to refinance—and when to avoid it—is critical to making the right financial move.</p>
+<p>Refinancing a mortgage can be a powerful tool for homeowners looking to lower their monthly payments, reduce interest costs, or access equity. However, with closing costs, fees, and shifting interest rates, it’s not always a clear win. After rates climbed sharply in 2022–2023, 30-year fixed mortgage rates settled in the 6.5–7% range through 2024. Homeowners who locked in rates above that level may benefit from refinancing when rates eventually ease—but the math doesn’t always work in your favor. Understanding when to refinance—and when to avoid it—is critical to making the right financial move.</p>
 
-<p>Homeowners often consider refinancing during periods of low interest rates, but timing, loan terms, and personal financial goals play a major role. For example, a borrower with a 30-year mortgage at 6% might save thousands over the life of the loan by switching to a 4.5% rate. However, if they plan to move in two years, the upfront costs of refinancing could outweigh the savings. This article breaks down the key factors to consider before refinancing your mortgage.</p>
+<p>Homeowners often consider refinancing during periods of falling interest rates, but timing, loan terms, and personal financial goals play a major role. For example, a borrower with a 30-year mortgage at 7.5% might save hundreds per month by refinancing if rates drop meaningfully. However, if they plan to move in two years, the upfront costs of refinancing could outweigh the savings. This article breaks down the key factors to consider before refinancing your mortgage.</p>
 
 <h2>What Is Mortgage Refinancing and How Does It Work?</h2>
 
@@ -51,30 +51,30 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h2>When Refinancing Saves You Money</h2>
 
-<p>Refinancing is most beneficial when interest rates drop significantly or when you can secure a lower rate than your current mortgage. Suppose you have a 30-year mortgage at 6% with a $300,000 loan balance. Refinancing to a 4.5% rate could reduce your monthly payment by $300, according to the U.S. Department of Housing and Urban Development (HUD). Over 15 years, this could save you over $50,000 in interest.</p>
+<p>Refinancing is most beneficial when interest rates drop significantly below your current rate. Suppose you have a 30-year mortgage at 7.5% with a $300,000 loan balance and rates fall to 6%. Refinancing could reduce your monthly principal-and-interest payment by roughly $280, saving you over $50,000 in interest over 15 years if you stay in the home.</p>
 
-<p>Refinancing can also be a good option if you want to shorten your loan term. For instance, switching from a 30-year to a 15-year mortgage at the same rate could save tens of thousands in interest over the life of the loan. However, this would increase your monthly payments, so it’s a trade-off between paying more now or more later.</p>
+<p>Refinancing can also be a good option if you want to shorten your loan term. For instance, switching from a 30-year to a 15-year mortgage at a lower rate could save tens of thousands in interest over the life of the loan. However, this would increase your monthly payments, so it’s a trade-off between paying more now or more later.</p>
 
 <div class="highlight">
-  <p><strong>KEY SAVINGS FACTOR:</strong> A 1% reduction in interest rate can save a homeowner $1,500 annually on a $300,000 mortgage.</p>
+  <p><strong>KEY SAVINGS FACTOR:</strong> A 1% reduction in interest rate can save a homeowner roughly $1,500–$1,800 annually on a $300,000 mortgage.</p>
   <p>These savings grow over time, making refinancing especially valuable for long-term homeowners.</p>
 </div>
 
 <h2>When Refinancing Costs More Than It’s Worth</h2>
 
-<p>Refinancing isn’t always a win. If you’re planning to sell your home within a few years, the upfront costs may outweigh the savings. For example, if you pay $6,000 in closing costs to refinance and save $300 a month, it would take about 17 months to break even. If you move in 12 months, you’d lose $1,800 in fees.</p>
+<p>Refinancing isn’t always a win. If you’re planning to sell your home within a few years, the upfront costs may outweigh the savings. For example, if you pay $6,000 in closing costs to refinance and save $300 a month, it would take about 20 months to break even. If you move in 12 months, you’d lose money on the deal.</p>
 
-<p>Refinancing can also be a bad move if rates have already dropped to a low point. In 2024, for instance, the average rate is 4.5%, but if you’re refinancing from a 3.5% rate, you’re likely paying more in fees than you’ll save. Additionally, some loans have prepayment penalties, which can add thousands in costs if you pay off the loan early.</p>
+<p>Refinancing can also be a bad move if current rates are not meaningfully lower than what you already have. If your existing rate is already competitive, the fees you’d pay to refinance may exceed any interest savings. Additionally, some loans have prepayment penalties, which can add thousands in costs if you pay off the loan early.</p>
 
 <div class="chart">
-  <div class="chart-title">COST VS. SAVINGS: REFINANCING SCENARIOS</div>
+  <div class="chart-title">COST VS. SAVINGS: REFINANCING SCENARIOS ($200K LOAN)</div>
   <div class="bar-row">
-    <div class="bar-label">CURRENT RATE (6%)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$1,200</span></div></div>
+    <div class="bar-label">CURRENT RATE (7.5%)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$1,399</span></div></div>
   </div>
   <div class="bar-row">
-    <div class="bar-label">NEW RATE (4.5%)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$864</span></div></div>
+    <div class="bar-label">NEW RATE (6.5%)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:90%; background:#22c55e;"><span class="bar-value">$1,264</span></div></div>
   </div>
 </div>
 
@@ -82,13 +82,13 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <p>While refinancing can save money, it’s essential to understand the hidden costs. These include points (fees paid to the lender in exchange for a lower rate), which can cost 1% to 3% of the loan amount. For a $300,000 loan, this could be $3,000 to $9,000 upfront. Additionally, some loans may require a new home appraisal, which can cost $300 to $500.</p>
 
-<p>Another risk is extending your loan term. For example, refinancing from a 15-year to a 30-year mortgage at a lower rate might reduce monthly payments but increase the total interest paid over the life of the loan. A 30-year mortgage at 4.5% on a $300,000 loan would cost $165,000 in interest, compared to $65,000 for a 15-year loan at the same rate.</p>
+<p>Another risk is extending your loan term. For example, refinancing from a 15-year to a 30-year mortgage at a lower rate might reduce monthly payments but increase the total interest paid over the life of the loan. A 30-year mortgage at 6.5% on a $300,000 loan would cost roughly $183,000 in interest, compared to about $77,000 for a 15-year loan at the same rate.</p>
 
 <p><a href="https://numrica.com/mortgage-calculator">Using a mortgage calculator</a> can help you compare scenarios and see how different rates, terms, and fees impact your monthly payments and overall costs. This tool is especially useful for estimating break-even points and long-term savings.</p>
 
 <h2>How to Decide If Refinancing Is Right for You</h2>
 
-<p>Before refinancing, consider your financial goals, current interest rate, and how long you plan to stay in your home. If you’re looking to lower monthly payments, shorten your loan term, or access home equity, refinancing may be a good option. However, if you’re in a high-interest loan but plan to move soon, the costs may not be worth it.</p>
+<p>Before refinancing, consider your financial goals, current interest rate, and how long you plan to stay in your home. If you’re looking to lower monthly payments, shorten your loan term, or access home equity, refinancing may be a good option. However, if your existing rate is already near market levels or you plan to move soon, the costs may not be worth it.</p>
 
 <p>Steps to take: Check your credit score (a higher score can secure better rates), compare offers from multiple lenders, and calculate your break-even point using a mortgage calculator. For example, if your closing costs are $6,000 and your monthly savings are $300, it would take 20 months to recoup the costs. If you plan to stay in your home longer than that, refinancing is likely a good move.</p>
 

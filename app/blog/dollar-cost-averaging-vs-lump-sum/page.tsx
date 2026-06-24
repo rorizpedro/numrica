@@ -51,12 +51,12 @@ In contrast, a lump sum investment involves allocating the entire amount upfront
 
 <h2>Historical Performance: 50 Years of Data</h2>
 
-A 2021 study by Morningstar analyzed 50 years of S&P 500 data and found that lump sum investing outperformed DCA in 72% of scenarios. The study compared two hypothetical investors: one who invested $10,000 as a lump sum in 1970 and another who used DCA by investing $200 per month over 50 years. By 2020, the lump sum investor had grown their portfolio to over $118,000, while the DCA investor had only reached $85,000. This gap highlights the compounding advantage of lump sum investing in bull markets.
+Research from Vanguard, which analyzed decades of U.S. market data, found that lump sum investing outperformed DCA in roughly two-thirds of scenarios (approximately 67%). The logic is straightforward: markets rise more often than they fall, so money sitting on the sidelines waiting to be deployed tends to underperform money already invested. To illustrate the power of compounding over time, $10,000 invested in an S&P 500 index fund in 1970, with dividends reinvested, would have grown to well over $1 million by 2020 — a testament to the long-run advantage of getting money to work early.
 
-However, the study also noted that DCA performed better during periods of extreme volatility. For example, during the 2008 crash, the DCA investor’s strategy of spreading investments over time helped mitigate losses, while the lump sum investor faced a significant short-term decline. This duality underscores the importance of aligning investment strategies with market conditions and personal risk tolerance.
+However, historical data also shows that DCA performed better during periods of extreme volatility. For example, during the 2008 crash, the DCA investor’s strategy of spreading investments over time helped mitigate losses, while the lump sum investor faced a significant short-term decline. This duality underscores the importance of aligning investment strategies with market conditions and personal risk tolerance.
 
 <div class="highlight">
-  <p><strong>LUMP SUM ADVANTAGE:</strong> Over 50 years, lump sum investing in the S&P 500 outperformed DCA by an average of 20%.</p>
+  <p><strong>LUMP SUM ADVANTAGE:</strong> According to Vanguard research, lump sum investing has historically outperformed DCA about two-thirds of the time across major markets.</p>
   <p>This is due to the compounding effect of investing all funds immediately, which captures more of the market’s long-term growth.</p>
 </div>
 
@@ -83,7 +83,7 @@ Remember, no strategy guarantees success, but disciplined investing and regular 
   <a href="https://numrica.com/roi-calculator">→ Open ROI Calculator</a>
 </div>
 
-<div class="disclaimer">Data sourced from S&P 500 historical performance (1970–2020) and Morningstar research. Past performance does not guarantee future results. Investing involves risk, including the possible loss of principal.</div>
+<div class="disclaimer">Data sourced from S&P 500 historical performance (1970–2020) and Vanguard research. Past performance does not guarantee future results. Investing involves risk, including the possible loss of principal.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.
 </div>`

@@ -41,15 +41,15 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <p>With over $1.7 trillion in student loan debt outstanding in the U.S., millions of borrowers are grappling with the best way to pay off their loans. The average borrower carries $37,000 in debt, and with interest rates ranging from 4% to 7%, the cost of inaction can be staggering. Whether you’re fresh out of college or decades into your career, choosing the right repayment strategy is critical. This guide breaks down three major approaches—standard, income-driven, and aggressive extra payments—to help you make an informed decision.</p>
 
-<p>Student loan repayment isn’t one-size-fits-all. A recent survey found that 60% of borrowers who paid off their loans early used aggressive extra payments, while 30% relied on income-driven plans. The remaining 10% stuck with the standard plan. Understanding the pros and cons of each option can save you thousands in interest and years of repayment.</p>
+<p>Student loan repayment isn’t one-size-fits-all. Borrowers who pay off their loans early often do so through aggressive extra payments, while others rely on income-driven plans to manage cash flow during lower-earning years. Understanding the pros and cons of each option can save you thousands in interest and years of repayment.</p>
 
 <h2>Understanding Your Options: Standard, Income-Driven, and Aggressive Repayment</h2>
 
-<p>The **standard repayment plan** is the default for most federal student loans. It requires fixed monthly payments over 10 years, with the goal of paying off the loan by the end of the term. For example, a $37,000 loan at 5% interest would require monthly payments of about $380, with total interest paid over 10 years amounting to roughly $10,000. This plan is straightforward but may be challenging for those with lower incomes.</p>
+<p>The <strong>standard repayment plan</strong> is the default for most federal student loans. It requires fixed monthly payments over 10 years, with the goal of paying off the loan by the end of the term. For example, a $37,000 loan at 5% interest would require monthly payments of about $380, with total interest paid over 10 years amounting to roughly $10,000. This plan is straightforward but may be challenging for those with lower incomes.</p>
 
-<p>The **income-driven repayment (IDR) plans**, such as Income-Based Repayment (IBR) or Pay As You Earn (PAYE), cap monthly payments at 10-15% of your discretionary income. These plans are ideal for borrowers with fluctuating incomes or those who expect to earn less than the standard plan’s required payments. However, they often extend repayment periods to 20 or 25 years, leading to higher total interest paid. For instance, the same $37,000 loan at 5% could result in $18,000 in interest over 25 years under an IDR plan.</p>
+<p>The <strong>income-driven repayment (IDR) plans</strong>, such as Income-Based Repayment (IBR) or Pay As You Earn (PAYE), cap monthly payments at 10-15% of your discretionary income. These plans are ideal for borrowers with fluctuating incomes or those who expect to earn less than the standard plan’s required payments. However, they often extend repayment periods to 20 or 25 years, leading to higher total interest paid. For instance, the same $37,000 loan at 5% could result in $18,000 in interest over 25 years under an IDR plan.</p>
 
-<p>The **aggressive extra payments** strategy involves paying more than the minimum each month to reduce principal faster. This approach can significantly cut down on interest over time. For example, adding just $100 per month to the $380 standard payment could save over $5,000 in interest and shorten the repayment period by several years.</p>
+<p>The <strong>aggressive extra payments</strong> strategy involves paying more than the minimum each month to reduce principal faster. This approach can significantly cut down on interest over time. For example, adding just $100 per month to the $380 standard payment could save over $5,000 in interest and shorten the repayment period by several years.</p>
 
 <h2>The Standard Repayment Plan: Predictability vs. Long-Term Cost</h2>
 
@@ -60,7 +60,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 <p>Despite these drawbacks, the standard plan is often the best option for those with stable, high incomes. It allows borrowers to pay off their loans quickly and avoid the long-term tax implications of forgiven debt under IDR plans.</p>
 
 <div class="highlight">
-  <p><strong>AVERAGE INTEREST RATE ON FEDERAL STUDENT LOANS:</strong> 5.25% (2023 data)</p>
+  <p><strong>AVERAGE INTEREST RATE ON FEDERAL STUDENT LOANS:</strong> 6.53% undergraduate / 8.08% graduate (2024 rates)</p>
   <p>This rate directly impacts the total cost of repayment, especially for borrowers on income-driven plans with extended terms.</p>
 </div>
 
@@ -81,7 +81,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 <p>However, this strategy requires a steady income stream and may not be feasible for those with limited cash flow. It’s also important to ensure that extra payments are applied directly to the principal to maximize savings.</p>
 
 <div class="chart">
-  <div class="chart-title">TOTAL INTEREST PAID OVER 20 YEARS</div>
+  <div class="chart-title">TOTAL INTEREST PAID: STANDARD VS. AGGRESSIVE EXTRA PAYMENTS</div>
   <div class="bar-row">
     <div class="bar-label">STANDARD PLAN</div>
     <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$12,000</span></div></div>

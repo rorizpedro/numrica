@@ -39,7 +39,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>How Much Should You Have Saved at Every Age? Benchmarks That Actually Hold Up</h1>
 
-Saving money is one of the most important financial habits you can develop, yet many Americans struggle to know how much they should be saving at different stages of life. According to a 2023 Federal Reserve survey, only 39% of U.S. households have at least $40,000 in savings, and nearly 40% have less than $1,000. These numbers highlight a critical gap in financial preparedness, especially as inflation, rising living costs, and unpredictable economic conditions make saving more urgent than ever. The good news? There are clear, research-backed benchmarks that can guide your savings journey, tailored to your age and financial goals.
+Saving money is one of the most important financial habits you can develop, yet many Americans struggle to know how much they should be saving at different stages of life. Federal Reserve data consistently shows that a large share of U.S. households have little to no liquid savings, with many unable to cover even a few months of expenses. These numbers highlight a critical gap in financial preparedness, especially as inflation, rising living costs, and unpredictable economic conditions make saving more urgent than ever. The good news? There are clear, research-backed benchmarks that can guide your savings journey, tailored to your age and financial goals.
 
 <h2>The 30s: Building a Foundation</h2>
 
@@ -54,7 +54,7 @@ By your 40s, your financial goals should shift toward more aggressive savings an
 It’s also a good time to start thinking about major life events like college funds for children or a down payment on a home. If you’re planning to send a child to college in 15 years, contributing $5,000 annually to a 529 plan with a 6% return could grow to over $130,000 by the time they’re 18. These benchmarks help ensure you’re on track for both short- and long-term financial stability.
 
 <div class="highlight">
-  <p><strong>KEY STAT:</strong> Only 25% of Americans in their 40s have $100,000 or more in savings.</p>
+  <p><strong>KEY POINT:</strong> Most Americans in their 40s are significantly behind on retirement savings.</p>
   <p>This highlights the need to increase savings rates as you age, especially when facing rising costs and retirement timelines.</p>
 </div>
 

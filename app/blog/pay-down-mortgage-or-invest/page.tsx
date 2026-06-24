@@ -39,15 +39,15 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>Pay Down Your Mortgage or Invest the Extra Cash? The Math Is Not What You Think</h1>
 
-<p>Imagine you’ve just received a $10,000 bonus at work. Should you use it to pay down your mortgage or invest it? This question is common among American homeowners, but the answer isn’t as simple as it seems. With mortgage rates averaging 5.5% as of 2023, and the average U.S. household spending over $16,000 annually on housing costs, the decision can feel overwhelming. However, understanding the long-term financial implications of each choice can help you make a smarter move.</p>
+<p>Imagine you’ve just received a $10,000 bonus at work. Should you use it to pay down your mortgage or invest it? This question is common among American homeowners, but the answer isn’t as simple as it seems. With 30-year fixed mortgage rates running around 6.5–7% in 2024, and the average U.S. household spending over $16,000 annually on housing costs, the decision can feel overwhelming. However, understanding the long-term financial implications of each choice can help you make a smarter move.</p>
 
 <p>Let’s break it down. Paying off your mortgage early can eliminate monthly payments and reduce the total interest paid over the life of the loan. On the other hand, investing that same money might yield higher returns, especially if you’re young and have a long time horizon. The key is to weigh the opportunity cost of each option against your personal financial goals and risk tolerance.</p>
 
-<p>Many people assume that paying down a mortgage is always the safer choice, but this ignores the power of compound growth. For example, if you invest $10,000 in a diversified portfolio earning an average annual return of 7%, it could grow to over $76,000 in 30 years. Meanwhile, paying off a mortgage might save you $315,000 in interest over 30 years—but only if you never invest that money elsewhere. The math isn’t as straightforward as it appears.</p>
+<p>Many people assume that paying down a mortgage is always the safer choice, but this ignores the power of compound growth. For example, if you invest $10,000 in a diversified portfolio earning an average annual return of 7%, it could grow to over $76,000 in 30 years. Meanwhile, paying off a mortgage at today's rates might save you hundreds of thousands of dollars in interest over 30 years—but only if you never invest that money elsewhere. The math isn’t as straightforward as it appears.</p>
 
 <h2>The Hidden Cost of Mortgage Interest</h2>
 
-<p>When you pay down your mortgage, you’re reducing the principal balance, which in turn lowers the amount of interest charged each month. However, the total interest you’ll pay over the life of the loan depends heavily on the loan term and interest rate. For instance, a 30-year mortgage at 5.5% on a $300,000 loan would result in over $315,000 in interest payments. That’s more than double the principal itself.</p>
+<p>When you pay down your mortgage, you’re reducing the principal balance, which in turn lowers the amount of interest charged each month. However, the total interest you’ll pay over the life of the loan depends heavily on the loan term and interest rate. For instance, a 30-year mortgage at 7% on a $300,000 loan would result in over $418,000 in interest payments. That’s well over the principal itself.</p>
 
 <p>By contrast, if you use that same $10,000 bonus to invest, the returns could compound significantly. Let’s say you invest the money in a low-cost index fund with a 7% annual return. After 30 years, that $10,000 would grow to about $76,000. Even if you only earned 5% annually (which is lower than the historical average for the S&P 500), it would still grow to around $43,000. This is why many financial experts argue that investing can be more lucrative than paying off a mortgage, especially if you’re in a lower tax bracket or have a long time horizon.</p>
 
@@ -55,20 +55,20 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h2>The Power of Compound Growth</h2>
 
-<p>Compound interest is one of the most powerful tools in personal finance, and it works in your favor when investing. The earlier you start, the more time your money has to grow. For example, if you invest $100 a month starting at age 25, earning 7% annually, you’ll have over $150,000 by age 65. If you wait until age 35 to start, you’ll only have around $70,000 by retirement. This illustrates why investing early is often more beneficial than paying down a mortgage, especially if you’re young and have a long time horizon.</p>
+<p>Compound interest is one of the most powerful tools in personal finance, and it works in your favor when investing. The earlier you start, the more time your money has to grow. For example, if you invest $100 a month starting at age 25, earning 7% annually, you’ll have over $219,000 by age 65. If you wait until age 35 to start, you’ll have around $113,000 by retirement. This illustrates why investing early is often more beneficial than paying down a mortgage, especially if you’re young and have a long time horizon.</p>
 
-<p>But what if you’re older and have less time to invest? In that case, the math might change. For example, a 55-year-old with a $300,000 mortgage at 5.5% might save more in interest by paying down the loan. If they have 10 years left on their mortgage, paying off the balance could save them around $100,000 in interest. Meanwhile, investing that same $10,000 might only grow to about $20,000 in 10 years at 7% returns. In this scenario, the mortgage might be the better option.</p>
+<p>But what if you’re older and have less time to invest? In that case, the math might change. For example, a 55-year-old with a $300,000 mortgage at 7% might save more in interest by paying down the loan. If they have 10 years left on their mortgage, paying off the balance could save them around $100,000 in interest. Meanwhile, investing that same $10,000 might only grow to about $20,000 in 10 years at 7% returns. In this scenario, the mortgage might be the better option.</p>
 
 <p>The takeaway is clear: your age, risk tolerance, and financial goals play a crucial role in deciding whether to pay down your mortgage or invest. There’s no one-size-fits-all answer, but understanding the numbers can help you make a more informed choice.</p>
 
 <div class="highlight">
-  <p><strong>Average U.S. mortgage rate (2023):</strong> 5.5%</p>
-  <p>This rate is higher than historical averages, making mortgage interest a more significant expense compared to previous decades.</p>
+  <p><strong>30-year fixed mortgage rate (2024):</strong> ~6.5–7%</p>
+  <p>Rates at this level are meaningfully higher than the historically low rates seen in 2020–2021, making the math between paying down debt and investing more competitive.</p>
 </div>
 
 <h2>Tax Deductions and Other Factors</h2>
 
-<p>Another consideration is the tax deductibility of mortgage interest. In the U.S., you can deduct up to $750,000 in mortgage interest if you itemize deductions on your tax return. This effectively reduces the cost of your mortgage by your tax rate. For example, if you’re in the 24% tax bracket, you could save $18,000 annually in taxes by deducting mortgage interest. However, if you’re in a lower tax bracket, the benefit is smaller.</p>
+<p>Another consideration is the tax deductibility of mortgage interest. In the U.S., you can deduct up to $750,000 in mortgage interest if you itemize deductions on your tax return. This effectively reduces the cost of your mortgage by your tax rate. For example, if you’re in the 24% tax bracket, the effective cost of your mortgage is reduced by your marginal rate — on a $300,000 loan, that could mean saving a few thousand dollars in taxes each year. However, if you’re in a lower tax bracket, the benefit is smaller.</p>
 
 <p>Additionally, you should consider your emergency fund and retirement savings. If you’re not maxing out your 401(k) or IRA contributions, it’s generally advisable to prioritize those over paying down your mortgage. Retirement accounts offer tax advantages and employer matching contributions that can significantly boost your savings. Paying off your mortgage should be a secondary priority once you’ve secured these accounts.</p>
 
@@ -76,7 +76,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h2>The Role of Risk Tolerance and Time Horizon</h2>
 
-<p>Your risk tolerance and time horizon are two of the most important factors in deciding whether to invest or pay down your mortgage. Younger investors with a long time horizon can afford to take more risks, as they have more time to recover from market downturns. For example, a 30-year-old with a $300,000 mortgage at 5.5% might choose to invest the extra cash, knowing that the market has time to grow.</p>
+<p>Your risk tolerance and time horizon are two of the most important factors in deciding whether to invest or pay down your mortgage. Younger investors with a long time horizon can afford to take more risks, as they have more time to recover from market downturns. For example, a 30-year-old with a $300,000 mortgage at 7% might choose to invest the extra cash, knowing that the market has time to grow.</p>
 
 <p>On the other hand, older investors or those with a low risk tolerance might prefer the security of paying off their mortgage. If you’re nearing retirement, the uncertainty of market returns could make paying down your mortgage a more attractive option. This is especially true if you’re concerned about market volatility or don’t have enough emergency savings to cover unexpected expenses.</p>
 

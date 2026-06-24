@@ -39,7 +39,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>Your Savings Rate Is the Single Biggest Lever on When You Can Retire</h1>
 
-The average American household saves just 10% of its income, according to the Federal Reserve. Yet, this modest rate may leave many struggling to retire comfortably. Consider this: someone earning $75,000 annually who saves 10% ($7,500) could retire at 65 with about $1.2 million, assuming a 7% annual return. But if they boost their savings rate to 20% ($15,000), they might retire 10 years earlier, at 55, with $3.8 million. These numbers highlight a critical truth: your savings rate is the most powerful factor in determining when—and how comfortably—you can retire.
+The average American household saves only around 4–5% of its income, according to Federal Reserve data — far below what most financial experts recommend for a comfortable retirement. Consider this: someone earning $75,000 annually who saves 10% ($7,500) could retire at 65 with about $1.2 million, assuming a 7% annual return. But if they boost their savings rate to 20% ($15,000), they might retire 10 years earlier, at 55, with $3.8 million. These numbers highlight a critical truth: your savings rate is the most powerful factor in determining when—and how comfortably—you can retire.
 
 Retirement planning is often framed as a race against time. But the real competition is between your savings rate and the cost of living. With inflation averaging 3% annually and housing prices rising 12% over the past decade, delaying savings can create a massive gap between your retirement goals and reality. The good news? Increasing your savings rate is one of the few levers you can pull to accelerate your retirement timeline and build wealth faster than you might expect.
 
@@ -56,8 +56,8 @@ Every year you delay saving, you effectively reduce the amount of money you’ll
 This is why financial experts often recommend saving at least 15% of your income for retirement. At that rate, you can potentially retire 10–15 years earlier than someone saving 10%. The key is to start as early as possible and increase your savings rate over time. Even small changes—like increasing your savings rate from 10% to 12%—can have a significant impact on your retirement timeline and total savings.
 
 <div class="highlight">
-  <p><strong>Average savings rate in the US:</strong> 10% (2023 data)</p>
-  <p>This is below the 15% recommended for a comfortable retirement, according to the Consumer Financial Protection Bureau.</p>
+  <p><strong>Average savings rate in the US:</strong> ~4–5% (2023 data, Federal Reserve)</p>
+  <p>This is well below the 15% many financial experts recommend for a comfortable retirement — meaning most households need to significantly increase how much they set aside each month.</p>
 </div>
 
 <h2>How Much You Need to Save for Retirement</h2>

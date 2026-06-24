@@ -47,7 +47,7 @@ The disconnect between your salary and your true hourly wage is a common but oft
 
 Let’s break down what happens to your salary once you receive your paycheck. For an individual earning $50,000 annually, federal income tax alone could take about 10% of their income, while state taxes might add another 5%. Social Security and Medicare contribute roughly 7.65% in total. If your employer offers a health insurance plan, they might deduct $100–$300 per month from your paycheck. Additionally, if you’re contributing to a 401(k), another 5%–10% of your income is redirected into retirement savings. These deductions can reduce your take-home pay by up to 30% or more, depending on your location and benefits package.
 
-Even if you’re not paying for health insurance or retirement plans, your hourly wage is still affected by the time you don’t work. The average full-time employee in the U.S. works about 1,800 hours a year, factoring in 10 paid vacation days, 8 sick days, and 10 holidays. This means your effective hourly wage is calculated over 1,800 hours, not the full 2,080 hours in a year. For someone earning $50,000, this reduces their hourly rate from $24.04 to $27.78 before deductions, and even further after taxes and benefits are applied.
+Even if you’re not paying for health insurance or retirement plans, your hourly wage is still affected by the time you don’t work. The average full-time employee in the U.S. works about 1,800 hours a year, factoring in 10 paid vacation days, 8 sick days, and 10 holidays. This means your actual working time is 1,800 hours, not the full 2,080 hours in a standard work year. For someone earning $50,000, the gross hourly rate over actual working hours is $27.78 — but once taxes and benefits are applied, the real take-home per hour drops well below that figure.
 
 <h2>The Real Impact of Benefits and Deductions</h2>
 
@@ -74,7 +74,7 @@ This calculation becomes even more complex when you factor in part-time work, ov
   </div>
   <div class="bar-row">
     <div class="bar-label">NET HOURLY WAGE</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$19.80</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:75%; background:#22c55e;"><span class="bar-value">$20.84</span></div></div>
   </div>
 </div>
 

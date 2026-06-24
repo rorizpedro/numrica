@@ -39,9 +39,9 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>Car Loan vs Leasing: The Total Cost Comparison Nobody Gives You Upfront</h1>
 
-<p>Buying a car with a loan or leasing it are two of the most common ways to drive a new vehicle. However, many Americans overlook the long-term financial implications of each choice. For example, a 2023 study by J.D. Power found that 43% of lease customers were surprised by total costs after three years, while 35% of loan holders underestimated depreciation losses. With average new car prices hitting $46,250 in 2023, understanding the full picture of ownership versus leasing is critical.</p>
+<p>Buying a car with a loan or leasing it are two of the most common ways to drive a new vehicle. However, many Americans overlook the long-term financial implications of each choice. It is common for lease customers to be surprised by total costs after three years, and for loan holders to underestimate depreciation losses. With average new car prices hitting $46,250 in 2023, understanding the full picture of ownership versus leasing is critical.</p>
 
-<p>Consider this: A 5-year car loan at 5% APR on a $35,000 vehicle costs $1,237/month, totaling $74,220 over 60 months. Meanwhile, a 36-month lease on the same car at $350/month includes $12,600 in payments, plus a $1,200 security deposit, $1,500 in fees, and potential excess mileage charges. These hidden costs often go unmentioned in sales pitches, making it easy to miss the full financial picture.</p>
+<p>Consider this: A 5-year car loan at 5% APR on a $35,000 vehicle costs roughly $660/month, totaling about $39,600 over 60 months (including approximately $4,600 in interest). Meanwhile, a 36-month lease on the same car at $350/month includes $12,600 in payments, plus a $1,200 security deposit, $1,500 in fees, and potential excess mileage charges. These hidden costs often go unmentioned in sales pitches, making it easy to miss the full financial picture.</p>
 
 <p>Both options have pros and cons, but the total cost depends heavily on your driving habits, credit score, and how long you plan to keep the vehicle. Let’s break down the key differences and hidden expenses that shape your decision.</p>
 
@@ -58,7 +58,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 <p>Leasing can be cheaper if you drive less than 10,000 miles/year and plan to upgrade every 2–3 years. However, if you drive more than 15,000 miles/year, leasing becomes significantly more expensive. In contrast, a loan allows you to build equity and avoid mileage limits, but you’ll pay for the full depreciation of the vehicle over time.</p>
 
 <div class="highlight">
-  <p><strong>TOTAL COST DIFFERENCE:</strong> A 5-year loan on a $35,000 car costs $74,220 over 60 months, while a 36-month lease with $1,200 in fees and $1,500 in excess mileage charges totals $28,300. However, the leased car has zero equity at the end of the lease.</p>
+  <p><strong>TOTAL COST DIFFERENCE:</strong> A 5-year loan on a $35,000 car at 5% APR costs roughly $39,600 over 60 months, while a 36-month lease with $1,200 in fees and $1,500 in excess mileage charges totals $28,300. However, the leased car has zero equity at the end of the lease — and you will need to start a new lease or purchase after 3 years.</p>
   <p>Ownership through a loan gives you an asset, while leasing leaves you with nothing but a monthly payment.</p>
 </div>
 

@@ -43,16 +43,16 @@ Earning $60,000 a year in the U.S. is above the median household income, yet man
 
 <h2>Setting a Realistic Budget and Emergency Fund</h2>
 
-A $60,000 salary translates to approximately $5,000 per month after taxes. To build wealth, the first step is creating a budget that prioritizes savings and debt reduction. A common rule of thumb is to allocate 20% of income toward savings and investments, which would amount to $1,000 per month. However, many Americans save far less—according to the Federal Reserve, only 40% of households have emergency savings. 
+A $60,000 salary translates to approximately $5,000 per month after taxes. To build wealth, the first step is creating a budget that prioritizes savings and debt reduction. A common rule of thumb is to allocate 20% of income toward savings and investments, which would amount to $1,000 per month. However, most Americans save far less than that in practice—making intentional budgeting especially important.
 
 Building an emergency fund is critical. Aim for 3–6 months of expenses in a high-yield savings account. For someone earning $60,000, this might be $15,000–$30,000. Once this fund is established, the next step is to focus on long-term savings and investments.
 
 <h2>The Power of Compound Interest and Early Investing</h2>
 
-One of the most powerful tools for wealth building is compound interest. If you start investing early, even modest contributions can grow significantly over time. For example, investing $200 per month starting at age 25, with an average annual return of 7%, would result in over $117,000 by age 45. If you wait until age 35 to start investing the same amount, you’d only have about $55,000 by 45. This illustrates why starting early is crucial.
+One of the most powerful tools for wealth building is compound interest. If you start investing early, even modest contributions can grow significantly over time. For example, investing $200 per month starting at age 25, with an average annual return of 7%, would result in approximately $104,000 by age 45. If you wait until age 35 to start investing the same amount, you’d have roughly $35,000 by 45. This illustrates why starting early is crucial.
 
 <div class="highlight">
-  <p><strong>Key stat label:</strong> $1,000 invested monthly at 7% annual return for 20 years = $378,000</p>
+  <p><strong>Key stat label:</strong> $1,000 invested monthly at 7% annual return for 20 years = $521,000</p>
   <p>Compound interest turns small, consistent contributions into substantial wealth over time.</p>
 </div>
 
@@ -60,7 +60,7 @@ One of the most powerful tools for wealth building is compound interest. If you 
 
 Retirement accounts like 401(k)s and IRAs are essential for building long-term wealth. If your employer offers a 401(k) with a matching contribution, this is essentially free money. For example, if your employer matches 50% of your contributions up to 6% of your salary, contributing $6,000 annually would result in an additional $3,000 from your employer. Over 20 years, this can significantly boost your retirement savings.
 
-A Roth IRA is another valuable tool. With a $60,000 salary, you may qualify for a Roth IRA, which allows tax-free growth and withdrawals in retirement. Contributing $6,000 annually to a Roth IRA at a 7% return would result in over $170,000 in 20 years.
+A Roth IRA is another valuable tool. With a $60,000 salary, you may qualify for a Roth IRA, which allows tax-free growth and withdrawals in retirement. Contributing $7,000 annually to a Roth IRA (the 2024 contribution limit) at a 7% return would grow to approximately $287,000 in 20 years.
 
 <div class="chart">
   <div class="chart-title">RETIREMENT ACCOUNT COMPARISON</div>
@@ -76,7 +76,7 @@ A Roth IRA is another valuable tool. With a $60,000 salary, you may qualify for 
 
 <h2>Reducing High-Interest Debt and Avoiding New Debt</h2>
 
-High-interest debt, such as credit card balances or personal loans, can erode your wealth. For example, a $10,000 credit card debt at 18% interest could cost over $3,000 in interest payments over 5 years. Prioritizing debt repayment—especially high-interest debt—is critical. Using the avalanche method (paying off the highest interest rate debts first) can save thousands in interest over time.
+High-interest debt, such as credit card balances or personal loans, can erode your wealth. For example, a $10,000 credit card debt at a typical 21–22% APR (the 2023–2024 Federal Reserve average) could cost several thousand dollars in interest if you only make minimum payments. Prioritizing debt repayment—especially high-interest debt—is critical. Using the avalanche method (paying off the highest interest rate debts first) can save thousands in interest over time.
 
 Avoiding new debt is equally important. If you have student loans, consider refinancing to lower interest rates. For example, reducing a 6% student loan rate to 4% could save tens of thousands in interest over 20 years.
 

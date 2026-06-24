@@ -39,7 +39,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h1>15-Year vs 30-Year Mortgage: Total Cost Comparison With Real Numbers</h1>
 
-Buying a home is one of the largest financial decisions most Americans will make. With mortgage rates fluctuating and home prices rising, choosing between a 15-year and 30-year loan can feel overwhelming. Let’s break it down with real numbers. Consider a $300,000 home purchased in 2024 with a 4% fixed interest rate. A 15-year mortgage would require monthly payments of approximately $2,218, while a 30-year loan would cost about $1,432 per month. Over time, these small differences add up dramatically. By the end of the loan term, the 15-year mortgage saves borrowers over $111,000 in interest alone. Understanding these numbers can help you make a decision that aligns with your financial goals.
+Buying a home is one of the largest financial decisions most Americans will make. With mortgage rates fluctuating and home prices rising, choosing between a 15-year and 30-year loan can feel overwhelming. Let’s break it down with real numbers. Consider a $300,000 loan at a 4% fixed interest rate — a useful baseline for comparing how the two terms behave. A 15-year mortgage would require monthly payments of approximately $2,218, while a 30-year loan would cost about $1,432 per month. Over time, these small differences add up dramatically. By the end of the loan term, the 15-year mortgage saves borrowers over $111,000 in interest alone. Understanding these numbers can help you make a decision that aligns with your financial goals.
 
 <h2>Monthly Payments: The Immediate Impact</h2>
 
@@ -56,17 +56,17 @@ Over the life of the loan, the difference in total interest becomes staggering. 
 
 <h2>Equity Growth: Building Wealth Faster</h2>
 
-One of the key benefits of a 15-year mortgage is the accelerated equity growth. With shorter loan terms, you pay down the principal faster, which means you build equity in your home more quickly. For example, after 10 years, a 15-year mortgage would have paid off about 70% of the principal, while a 30-year loan would have only covered 30%. This equity can be leveraged for future opportunities, such as home renovations or refinancing. However, if you plan to move within a few years, the 30-year loan might be more practical, as you’ll have less equity to tap into.
+One of the key benefits of a 15-year mortgage is the accelerated equity growth. With shorter loan terms, you pay down the principal faster, which means you build equity in your home more quickly. For example, at 4%, after 10 years, a 15-year mortgage would have paid off roughly 60% of the principal, while a 30-year loan would have only covered about 21%. This equity can be leveraged for future opportunities, such as home renovations or refinancing. However, if you plan to move within a few years, the 30-year loan might be more practical, as you’ll have less equity to tap into.
 
 <div class="chart">
   <div class="chart-title">TOTAL COST OVER 30 YEARS</div>
   <div class="bar-row">
     <div class="bar-label">15-YEAR MORTGAGE</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$404,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:78%; background:#1a1a2e;"><span class="bar-value">$404,000</span></div></div>
   </div>
   <div class="bar-row">
     <div class="bar-label">30-YEAR MORTGAGE</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$515,000</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#22c55e;"><span class="bar-value">$515,000</span></div></div>
   </div>
 </div>
 

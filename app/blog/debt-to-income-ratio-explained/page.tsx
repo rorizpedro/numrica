@@ -35,15 +35,15 @@ const articleCss = `body { font-family: Georgia, serif; max-width: 720px; margin
     em { font-style: italic; }
     strong { font-weight: 700; }`
 
-const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</p>
+const articleBody = `<p class=”meta”>Numrica · Personal Finance · 6 min read</p>
 
 <h1>Debt-to-Income Ratio Explained: What Lenders See Before You Get Approved</h1>
 
-<p>Imagine you’re applying for a mortgage, but the lender says “no” without even looking at your credit score. That’s not a hypothetical scenario—it happens every day. In the U.S., 34% of adults have a debt-to-income (DTI) ratio above 40%, which is the threshold most lenders consider risky. Whether you’re buying a home, applying for a car loan, or seeking a credit card, your DTI is the first number lenders see. It’s a snapshot of your financial health, and it can make or break your approval chances.</p>
+<p>Imagine you’re applying for a mortgage, but the lender says “no” without even looking at your credit score. That’s not a hypothetical scenario—it happens every day. A high debt-to-income (DTI) ratio is one of the most common reasons lenders turn down otherwise qualified borrowers. Whether you’re buying a home, applying for a car loan, or seeking a credit card, your DTI is among the first numbers lenders examine. It’s a snapshot of your financial health, and it can make or break your approval chances.</p>
 
-<p>Let’s break down what DTI means, how it impacts your borrowing power, and why it’s a critical factor in every loan application. With the average American household carrying $160,000 in debt, understanding this metric is no longer optional—it’s essential.</p>
+<p>Let’s break down what DTI means, how it impacts your borrowing power, and why it’s a critical factor in every loan application. Understanding this metric is no longer optional—it’s essential for anyone who wants to borrow on favorable terms.</p>
 
-<p>By 2025, 28% of U.S. households will have a DTI ratio above 45%, according to the Federal Reserve. That’s a 5% increase from 2020. If you’re one of them, you’re likely facing higher interest rates, smaller loan amounts, or outright rejection. But the good news? You can fix it. Let’s start with the basics.</p>
+<p>If your DTI is too high, you’re likely facing higher interest rates, smaller loan amounts, or outright rejection. But the good news? You can fix it. Let’s start with the basics.</p>
 
 <h2>What Is Debt-to-Income Ratio and Why It Matters</h2>
 
@@ -55,11 +55,11 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h2>How Lenders Use DTI to Assess Risk</h2>
 
-<p>Lenders typically use two DTI thresholds: 36% and 43%. The 36% rule applies to most conventional loans, while the 43% rule is used for FHA loans. If your DTI exceeds these numbers, lenders may assume you’re overextended and decline your application.</p>
+<p>Lenders typically use two DTI thresholds: 36% and 43%. The 36% rule applies to most conventional loans, while the 43% rule is the standard maximum for many FHA loans (though FHA can approve up to 57% in some cases). If your DTI exceeds these numbers, lenders may assume you’re overextended and decline your application.</p>
 
-<p>For example, if you’re applying for a $300,000 mortgage with a 4.5% interest rate over 30 years, a 40% DTI could reduce your monthly mortgage payment by $600 compared to a 30% DTI. That’s a significant difference in your budget. Lenders see this as a potential risk, especially if you’re already juggling other debts like student loans or credit card balances.</p>
+<p>For example, if you’re applying for a $300,000 mortgage and your DTI is already at 40%, lenders may cap the loan amount you qualify for—or require a larger down payment—compared to a borrower with a 30% DTI. That difference can have a significant impact on your budget and the home you can afford. Lenders see elevated DTI as a potential risk, especially if you’re already juggling other debts like student loans or credit card balances.</p>
 
-<p>According to a 2023 report by the Consumer Financial Protection Bureau, borrowers with a DTI above 43% are 3.5 times more likely to default on loans than those with a DTI below 30%. That’s why lenders prioritize this metric—it’s a clear indicator of your financial stability.</p>
+<p>Research consistently shows that borrowers with higher DTI ratios default at meaningfully higher rates than those with lower ratios—which is precisely why lenders treat this metric as a core underwriting criterion, not an afterthought.</p>
 
 <div class="highlight">
   <p><strong>IDEAL DTI FOR MOST LOANS:</strong> 36% or lower</p>
@@ -107,7 +107,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   <a href="https://numrica.com/loan-simulator">→ Open Loan Simulator</a>
 </div>
 
-<div class="disclaimer">*Data sourced from the Federal Reserve, Consumer Financial Protection Bureau, and Numrica’s 2023 financial literacy survey. Results may vary based on individual circumstances.</div>
+<div class="disclaimer">*DTI guidelines and thresholds referenced are based on standard mortgage underwriting rules published by the Consumer Financial Protection Bureau and Federal Reserve. Results may vary based on individual circumstances and lender policies.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.
 </div>`

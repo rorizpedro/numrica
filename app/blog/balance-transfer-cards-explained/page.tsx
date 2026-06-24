@@ -68,11 +68,11 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h2>How Much You Can Save with a Balance Transfer</h2>
 
-<p>To see the real impact of a balance transfer, let’s compare two scenarios. First, consider a $5,000 balance at 20% APR. If left untouched, this debt would cost $1,040 in interest over 18 months. Now, imagine transferring it to a card with 0% APR for 18 months and a 3% fee. The total cost becomes $150 (fee) + $0 (interest) = $150—a $890 savings.</p>
+<p>To see the real impact of a balance transfer, let’s compare two scenarios. First, consider a $5,000 balance at 20% APR. If left untouched and making only minimum payments, this debt would cost roughly $1,500 in interest over 18 months. Now, imagine transferring it to a card with 0% APR for 18 months and a 3% fee. The total cost becomes $150 (fee) + $0 (interest) = $150—a savings of over $1,300.</p>
 
-<p>However, if you only pay off $3,000 during the promotional period and carry the remaining $2,000 into the standard APR, you’ll pay $1,040 in interest on the remaining balance. This means you’re better off paying the full balance within the 0% period to maximize savings.</p>
+<p>However, if you only pay off $3,000 during the promotional period and carry the remaining $2,000 into the standard APR, you’ll face significant interest charges on that unpaid balance. This means you’re far better off paying the full balance within the 0% period to maximize savings.</p>
 
-<p>Another example: a $10,000 balance at 22% APR could cost over $2,200 in interest over two years. Transferring it to a card with 0% APR for 18 months and a 4% fee would cost $400 (fee) + $0 (interest) = $400—a $1,800 savings, assuming full repayment within the promotional period.</p>
+<p>Another example: a $10,000 balance at 22% APR could cost over $4,400 in interest over two years. Transferring it to a card with 0% APR for 18 months and a 4% fee would cost $400 (fee) + $0 (interest) = $400—a savings of over $4,000, assuming full repayment within the promotional period.</p>
 
 <div class="chart">
   <div class="chart-title">COST COMPARISON: 0% APR VS. 20% APR</div>
@@ -82,7 +82,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   </div>
   <div class="bar-row">
     <div class="bar-label">20% APR (18 months)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$1,040</span></div></div>
+    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$1,500</span></div></div>
   </div>
 </div>
 

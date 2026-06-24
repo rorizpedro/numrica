@@ -39,9 +39,9 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h1>Mortgage Points Explained: Should You Pay to Lower Your Rate?</h1>
 
-When you're shopping for a mortgage, you might hear the term "mortgage points" come up. But what exactly are they, and should you consider paying them to get a lower interest rate? For example, if you're looking to buy a $300,000 home, a 1% mortgage point could cost $3,000 upfront—but it might also lower your rate by 0.25%, saving you thousands over the life of the loan. Understanding how points work can help you decide whether this strategy makes financial sense for your situation.
+When you’re shopping for a mortgage, you might hear the term "mortgage points" come up. But what exactly are they, and should you consider paying them to get a lower interest rate? For example, if you’re looking to buy a $300,000 home, a 1% mortgage point could cost $3,000 upfront—but it might also lower your rate by 0.25%, saving you money over the life of the loan. Understanding how points work can help you decide whether this strategy makes financial sense for your situation.
 
-Mortgage points are a way to pay for a lower interest rate on your home loan. Each point is equal to 1% of the loan amount, and one point typically reduces your rate by 0.25% (though this can vary by lender and market conditions). For instance, if you take out a $300,000 mortgage and pay one point, you’ll pay $3,000 upfront in exchange for a rate reduction from 4.0% to 3.75%. This can lead to significant savings over time, especially if you plan to stay in your home for many years.
+Mortgage points are a way to pay for a lower interest rate on your home loan. Each point is equal to 1% of the loan amount, and one point typically reduces your rate by 0.20–0.25% (though this can vary by lender and market conditions). For instance, if you take out a $300,000 mortgage and pay one point, you’ll pay $3,000 upfront in exchange for a rate reduction from 7.0% to 6.75%. This can lead to meaningful savings over time, especially if you plan to stay in your home for many years.
 
 However, paying points isn’t always the best move. If you’re planning to sell your home within a few years or don’t have the cash on hand to pay for points upfront, it might be better to lock in a slightly higher rate and save the money for other expenses. The decision depends on your financial goals, how long you expect to stay in the home, and how much you can afford to pay upfront.
 
@@ -49,30 +49,30 @@ However, paying points isn’t always the best move. If you’re planning to sel
 
 Mortgage points are a form of prepaid interest that you can pay to your lender in exchange for a lower interest rate. There are two types of points: discount points and origination points. Discount points are the ones that reduce your interest rate, while origination points are fees charged by the lender for processing your loan. When you pay discount points, you’re essentially paying the lender money upfront to reduce the amount of interest you’ll pay over the life of the loan.
 
-For example, if you take out a $300,000 mortgage and pay two discount points, you’ll pay $6,000 upfront. In exchange, your lender might lower your interest rate from 4.0% to 3.5%. This can result in lower monthly payments and significant savings over the life of the loan. However, it’s important to remember that paying points reduces the amount of cash you have available for other expenses, such as closing costs, furnishings, or emergency savings.
+For example, if you take out a $300,000 mortgage and pay two discount points, you’ll pay $6,000 upfront. In exchange, your lender might lower your interest rate from 7.0% to 6.5%. This can result in lower monthly payments and meaningful savings over the life of the loan. However, it’s important to remember that paying points reduces the amount of cash you have available for other expenses, such as closing costs, furnishings, or emergency savings.
 
 The decision to pay points depends on your financial situation and how long you plan to stay in your home. If you’re planning to stay in the home for 10 years or more, paying points might be a smart move. But if you’re planning to sell the home within a few years, the upfront cost of points might not be worth the savings.
 
 <h2>When Does Paying Points Make Sense?</h2>
 
-Paying points can be a smart financial move if you plan to stay in your home for a long time. For example, if you take out a 30-year mortgage and pay one point to lower your rate by 0.25%, you’ll save money on interest over the life of the loan. Let’s say you have a $300,000 mortgage at a 4.0% rate. With one point, your rate drops to 3.75%. Over 30 years, this could save you thousands of dollars in interest payments.
+Paying points can be a smart financial move if you plan to stay in your home for a long time. For example, if you take out a 30-year mortgage and pay one point to lower your rate by 0.25%, you’ll save money on interest over the life of the loan. Let’s say you have a $300,000 mortgage at a 7.0% rate. With one point, your rate drops to 6.75%. Your monthly payment falls from roughly $1,996 to about $1,946—a savings of around $50 per month.
 
-However, if you’re planning to sell your home within a few years, the savings from a lower interest rate might not offset the upfront cost of the points. For example, if you pay $3,000 for one point and save $100 per month on your mortgage payment, it would take about 30 months (or 2.5 years) to break even. If you plan to sell your home in less than three years, the upfront cost of the points might not be worth it.
+However, if you’re planning to sell your home within a few years, the savings from a lower interest rate might not offset the upfront cost of the points. For example, if you pay $3,000 for one point and save $50 per month on your mortgage payment, it would take about 60 months (or 5 years) to break even. If you plan to sell your home before that, the upfront cost of the points might not be worth it.
 
 Another factor to consider is your current financial situation. If you have a lot of debt or limited savings, it might be better to avoid paying points and instead use that money to pay down debt or build an emergency fund. On the other hand, if you have a stable income and plenty of savings, paying points could be a smart way to reduce your long-term mortgage costs.
 
 <div class="highlight">
-  <p><strong>AVERAGE MORTGAGE RATE IN 2023:</strong> 6.4%</p>
-  <p>According to the Mortgage Bankers Association, the average 30-year fixed mortgage rate in the U.S. was 6.4% in 2023. Paying points could help you lock in a lower rate, especially if you’re buying in a competitive housing market.</p>
+  <p><strong>AVERAGE MORTGAGE RATE IN 2023–2024:</strong> ~6.8–7%</p>
+  <p>The average 30-year fixed mortgage rate in the U.S. hovered between 6.8% and 7% through 2023 and 2024. At these levels, even a modest rate reduction from paying points can add up to meaningful savings over a 30-year term—making it worth running the break-even math before you decide.</p>
 </div>
 
 <h2>Calculating the Break-Even Point</h2>
 
-One of the best ways to determine whether paying points is worth it is to calculate the break-even point. The break-even point is the time it takes for the savings from your lower interest rate to offset the upfront cost of the points. For example, if you pay $3,000 for one point and save $100 per month on your mortgage payment, it would take 30 months (or 2.5 years) to break even.
+One of the best ways to determine whether paying points is worth it is to calculate the break-even point. The break-even point is the time it takes for the savings from your lower interest rate to offset the upfront cost of the points. For example, if you pay $3,000 for one point and save $50 per month on your mortgage payment, it would take about 60 months (or 5 years) to break even.
 
-To calculate the break-even point, you’ll need to know the cost of the points, the monthly savings from the lower interest rate, and the length of your loan. You can use a mortgage calculator to help you with this calculation. For example, if you take out a $300,000 mortgage at a 4.0% rate, your monthly payment would be around $1,432. If you pay one point to lower your rate to 3.75%, your monthly payment would drop to around $1,332, saving you $100 per month.
+To calculate the break-even point, you’ll need to know the cost of the points, the monthly savings from the lower interest rate, and the length of your loan. You can use a mortgage calculator to help you with this calculation. For example, if you take out a $300,000 mortgage at a 7.0% rate, your monthly payment would be around $1,996. If you pay one point to lower your rate to 6.75%, your monthly payment would drop to around $1,946, saving you about $50 per month.
 
-The break-even point is just one factor to consider. If you plan to stay in your home for more than 30 months, paying points might be a good investment. But if you plan to sell within a few years, it might not be worth it.
+The break-even point is just one factor to consider. If you plan to stay in your home for more than 5 years, paying points might be a good investment. But if you plan to sell within a few years, it might not be worth it.
 
 <div class="chart">
   <div class="chart-title">COST VS SAVINGS: 1 POINT VS 2 POINTS</div>

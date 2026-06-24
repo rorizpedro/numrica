@@ -39,42 +39,42 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
 
 <h1>How Much House Can You Afford? The Numbers Lenders Use vs What Is Actually Safe</h1>
 
-Buying a home is one of the most significant financial decisions most people make. In 2023, the average U.S. home price reached $374,000, according to the National Association of Realtors. Yet many buyers overestimate their affordability, often relying on lender guidelines that don’t account for life’s unexpected expenses. Lenders typically use a formula that allows buyers to spend up to 28% of their gross income on housing costs, but this approach can leave families vulnerable to financial strain. Meanwhile, financial experts recommend a safer range—often around 30%—to allow for emergencies, debt, and long-term stability. Understanding the difference between these two approaches is critical to avoiding a mortgage that feels like a burden rather than an investment.
+Buying a home is one of the most significant financial decisions most people make. In 2023, the average U.S. home price reached $374,000, according to the National Association of Realtors. Yet many buyers overextend themselves by relying on what lenders will approve rather than what is genuinely comfortable. Lenders can approve conventional loans with a back-end debt-to-income (DTI) ratio up to 43–45%—meaning nearly half your gross income goes to all debt combined. Financial planners recommend something far more conservative: keeping housing costs at or below 28% of gross income. The gap between those two numbers is the cushion that protects you when life gets expensive.
 
-<h2>The 28% Rule: What Lenders Typically Use</h2>
+<h2>The 28% Rule: What Financial Planners Recommend</h2>
 
-Lenders often use the 28% rule as a benchmark for determining how much a borrower can afford. This calculation assumes that housing costs (including principal, interest, taxes, and insurance) should not exceed 28% of a borrower’s gross monthly income. For example, if someone earns $60,000 annually, their gross monthly income is $5,000. Applying the 28% rule, their maximum monthly housing payment would be $1,400. Over a 30-year loan at a 4.5% interest rate, this would equate to a mortgage of around $320,000, assuming no down payment and average property taxes and insurance. 
+The 28% rule is the conservative benchmark that financial planners—not lenders—use to keep housing affordable. It says that your monthly housing costs (principal, interest, taxes, and insurance) should not exceed 28% of your gross monthly income. For example, if someone earns $60,000 annually, their gross monthly income is $5,000. Applying the 28% rule, their maximum monthly housing payment would be $1,400. At today’s rates of roughly 6.5–7% on a 30-year fixed mortgage, that payment supports a loan of approximately $220,000–$230,000, before factoring in taxes, insurance, and any down payment.
 
-However, this calculation doesn’t factor in other financial obligations. Lenders also use the 36% rule, which limits total debt payments (including housing, car loans, credit cards, etc.) to 36% of gross income. For the same $60,000 earner, this would cap total debt payments at $1,800 per month. While these rules are designed to prevent over-leveraging, they often ignore the reality of rising living costs, unexpected repairs, and the need for an emergency fund.
+Lenders use a broader measure called the back-end DTI, which limits total debt payments (housing, car loans, credit cards, student loans) to roughly 43–45% of gross income for conventional loans—and up to 57% for FHA loans. For the same $60,000 earner, that could mean approving monthly debt payments of over $2,100. Getting approved for that amount doesn’t mean it’s financially safe.
 
 <h2>The Hidden Costs of Homeownership</h2>
 
-The 28% rule assumes that housing costs are limited to principal, interest, taxes, and insurance. But in reality, homeownership comes with many additional expenses. For example, a $300,000 home in a state with 2% property taxes would cost $5,000 annually in taxes alone—$416 per month. Insurance, maintenance, and potential home improvements can add another $200–$500 monthly. If the buyer also needs to pay for a home inspection, closing costs, or private mortgage insurance (PMI), these costs can push the total monthly housing expense well beyond the 28% threshold.
+The 28% rule only covers principal, interest, taxes, and insurance. In reality, homeownership adds layers of cost that many buyers underestimate. A $300,000 home in a state with a 2% effective property tax rate costs $6,000 a year in taxes alone—$500 per month. Insurance, routine maintenance, and unexpected repairs can easily add another $200–$500 monthly. First-time buyers also face one-time expenses: home inspection, closing costs (typically 2–5% of the purchase price), and private mortgage insurance (PMI) if the down payment is below 20%.
 
-A 2022 study by the Consumer Financial Protection Bureau found that 40% of homeowners underestimated their monthly housing costs by at least 15%. This gap often leads to financial stress, especially when interest rates rise or income fluctuates. Lenders don’t typically account for these hidden costs, leaving buyers unprepared for the full financial commitment of homeownership.
+A common pattern among first-time buyers is underestimating total monthly housing costs by 15% or more once these additional items are added up. This gap becomes especially painful when interest rates are high or income temporarily drops. Lenders do not underwrite for your furnishing budget, your leaky roof, or your next car payment—that math is yours to do.
 
 <div class="highlight">
-  <p><strong>KEY STAT: </strong>Homeowners in the U.S. spend an average of $1,800 per month on housing costs, including taxes and insurance.</p>
-  <p>Yet lenders’ 28% rule often assumes lower costs, creating a gap that can lead to financial strain.</p>
+  <p><strong>KEY INSIGHT: </strong>Getting pre-approved for a loan tells you the maximum a lender will give you—not the maximum you should borrow.</p>
+  <p>The 28% front-end DTI rule exists precisely to create the buffer that lender approvals ignore.</p>
 </div>
 
-<h2>The 30% Rule: A Safer Approach</h2>
+<h2>The 25% Rule: An Even Safer Approach</h2>
 
-Financial advisors often recommend a 30% rule as a safer target for housing expenses. This approach allows for a slightly higher monthly payment while still leaving room for other financial priorities. For example, a $60,000 earner with $5,000 gross monthly income could allocate $1,500 to housing, which would allow for a mortgage of around $350,000 at a 4.5% rate. This additional $100 per month could cover unexpected expenses, such as a car repair or medical bill, without forcing the borrower into debt.
+Some financial advisors advocate for a 25% ceiling on housing costs, particularly for buyers with other significant obligations—student loans, car payments, or thin emergency savings. For a $60,000 earner with $5,000 gross monthly income, a 25% cap means a $1,250 monthly housing budget. At a 6.5% rate on a 30-year loan, that supports roughly $195,000–$200,000 in principal before taxes and insurance.
 
-The 30% rule also aligns better with long-term financial goals. By leaving 10% of income as a buffer for savings and debt, homeowners can build an emergency fund, pay down credit cards, or invest in retirement. This approach reduces the risk of default and ensures that housing costs remain manageable even during periods of financial uncertainty.
+The tighter limit creates meaningful breathing room. That extra $150–$200 per month relative to the 28% rule can fund a month of additional emergency savings per year, accelerate payoff of high-interest debt, or go toward retirement contributions. In a period where 30-year fixed rates are running 6.5–7%, the math on housing affordability is considerably tighter than it was when rates were below 4%—making conservative targets more important, not less.
 
 <h2>Why the Gap Matters: Real-Life Implications</h2>
 
-The difference between the 28% and 30% rules may seem small, but it can have significant long-term consequences. For instance, a borrower who takes on a mortgage based on the 28% rule might find themselves unable to cover repairs or a medical emergency, leading to late payments and potential credit damage. Over time, even a small increase in monthly payments can reduce the amount of money available for savings or investments.
+The difference between what a lender approves and what a financial planner recommends can be substantial. Consider a borrower approved up to 43% back-end DTI who also carries a car payment and credit card minimums. Their housing budget may be squeezed to $1,200 or less—even if the lender’s pre-approval letter shows a much larger number. Pushing to the approved maximum leaves no cushion for repairs, job disruption, or rising insurance premiums.
 
-Using a mortgage calculator like the one at https://numrica.com/mortgage-calculator can help visualize this gap. For example, a $300,000 mortgage at 4.5% would result in a $1,700 monthly payment. Adding $200 for taxes and insurance pushes the total to $1,900—well above the 28% threshold for a $60,000 earner. This discrepancy highlights why relying solely on lender guidelines can be risky.
+Using a mortgage calculator like the one at https://numrica.com/mortgage-calculator can help make this concrete. For example, a $280,000 mortgage at 6.75% on a 30-year term produces a principal-and-interest payment of roughly $1,815. Add $350 for taxes and insurance, and total housing costs reach $2,165—well above the 28% threshold for a $60,000 earner ($1,400/month). That same buyer could qualify with many lenders, but the payment would consume a stressful share of their budget.
 
 <h2>Take Control of Your Mortgage Journey</h2>
 
-To avoid overextending yourself, start by calculating your true housing budget. Use a mortgage calculator to factor in not just your income, but also your existing debts, property taxes, insurance, and potential maintenance costs. Aim for a housing payment that’s no more than 30% of your gross income, and leave room for savings and unexpected expenses. 
+To avoid overextending yourself, calculate your true housing budget before talking to a lender. Use a mortgage calculator to factor in not just your income, but also your existing debts, current interest rates, property taxes, insurance, and a realistic maintenance reserve. Aim for total housing costs at or below 28% of your gross income—lower if you carry significant other debt or have a single income.
 
-If you’re unsure where to start, use the Numrica mortgage calculator to explore different scenarios. Input your income, desired loan term, and location to see how much house you can afford safely. Remember, the goal is not just to qualify for a loan but to build a home that supports your long-term financial health.
+If you’re unsure where to start, use the Numrica mortgage calculator to explore different scenarios. Input your income, desired loan term, and a realistic rate to see how much house you can safely afford. Remember, the goal is not just to qualify for a loan but to carry a mortgage that leaves room for savings, emergencies, and the rest of your financial life.
 
 <div class="cta">
   <p>Calculate your own numbers with our free tool — no signup required.</p>

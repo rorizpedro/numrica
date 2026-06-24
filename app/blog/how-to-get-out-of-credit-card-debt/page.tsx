@@ -41,7 +41,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 8 min read</
 
 <p>With an average credit card debt of $6,161 per U.S. adult in 2023, many Americans struggle with the burden of high-interest debt. Credit cards often come with annual percentage rates (APRs) ranging from 15% to 25%, meaning that without a plan, balances can grow rapidly. For example, a $5,000 debt with a 20% APR could take over 17 years to pay off with only minimum payments. This is why creating a structured strategy to eliminate credit card debt is essential for financial freedom.</p>
 
-<p>High-interest credit card debt is a major contributor to financial stress, with 42% of Americans reporting that credit card debt is their biggest financial worry. The average APR for credit cards in 2023 was 15.24%, and compound interest can turn small balances into large sums over time. For instance, a $3,000 debt with a 19% APR and minimum payments of 2% of the balance could take over 20 years to pay off, with over $3,000 in interest paid. This is why taking action now is critical to avoiding long-term financial harm.</p>
+<p>High-interest credit card debt is a major contributor to financial stress for millions of Americans. With average credit card APRs hovering around 21–22% in 2023 according to Federal Reserve data, compound interest can turn small balances into large sums over time. For instance, a $3,000 debt with a 19% APR and minimum payments of 2% of the balance could take over 20 years to pay off, with over $3,000 in interest paid. This is why taking action now is critical to avoiding long-term financial harm.</p>
 
 <h2>Assess Your Debt and Create a Budget</h2>
 
@@ -56,7 +56,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 8 min read</
 <p>Another option is to consolidate your credit card debt into a personal loan with a lower interest rate. For instance, a $10,000 debt with a 20% APR could be refinanced into a 5-year personal loan with a 9% APR, reducing monthly payments and total interest. However, this strategy should only be used if you’re confident in your ability to make consistent payments and avoid accumulating more debt.</p>
 
 <div class="highlight">
-  <p><strong>Average credit card APR (2023):</strong> 15.24%</p>
+  <p><strong>Average credit card APR (2023):</strong> ~21–22% (Federal Reserve data)</p>
   <p>Many cardholders can negotiate rates as low as 10% or even 0% through balance transfer offers.</p>
 </div>
 

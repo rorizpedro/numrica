@@ -39,44 +39,44 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <h1>Home Equity Loan vs HELOC: Which Is Cheaper for Your Project?</h1>
 
-<p>Home equity loans and HELOCs (Home Equity Lines of Credit) are two popular ways to tap into your home’s value for major projects like home renovations, debt consolidation, or education. However, choosing between them can be tricky. In 2023, the average interest rate for a fixed-rate home equity loan was 4.5%, while HELOCs typically ranged from 3.5% to 5.5%. These rates, combined with differing repayment terms, can significantly impact your total cost over time. Understanding which option is cheaper for your specific project requires comparing both short- and long-term financial implications.</p>
+<p>Home equity loans and HELOCs (Home Equity Lines of Credit) are two popular ways to tap into your home’s value for major projects like home renovations, debt consolidation, or education. However, choosing between them can be tricky. In 2024, home equity loan rates have generally ranged from about 8% to 9% for well-qualified borrowers, while HELOCs — which are variable and tied to the prime rate — have tracked in a similar range. These rates, combined with differing repayment terms, can significantly impact your total cost over time. Understanding which option is cheaper for your specific project requires comparing both short- and long-term financial implications.</p>
 
-<p>If you’re considering a $20,000 loan for a home renovation, the choice between a fixed-rate home equity loan and a HELOC could save you hundreds—or even thousands—in interest. For example, a 15-year fixed-rate loan at 4.5% would cost about $1,700 in interest, while a HELOC with a 10-year draw period at 3.5% might cost only $900. These numbers highlight why selecting the right option is crucial for your budget.</p>
+<p>If you’re considering a $20,000 loan for a home renovation, the choice between a fixed-rate home equity loan and a HELOC could save you hundreds—or even thousands—in interest depending on how rates move. The key trade-off is certainty versus flexibility: a fixed-rate loan locks in your cost today, while a HELOC can start lower but exposes you to rate changes. These differences highlight why selecting the right option is crucial for your budget.</p>
 
 <p>However, the decision isn’t just about rates. Both products have unique features that affect your financial situation. Let’s break down the key differences and how they might impact your project’s cost.</p>
 
 <h2>What Is a Home Equity Loan?</h2>
 
-<p>A home equity loan is a fixed-rate loan where you borrow a lump sum upfront, with a set repayment period (usually 10–15 years). The interest rate is fixed, so your monthly payments remain consistent. This predictability makes it ideal for projects with known costs, like roof repairs or kitchen renovations. For example, a $30,000 home equity loan at 4.5% over 15 years would result in $10,800 in total interest, according to the Consumer Financial Protection Bureau (CFPB).</p>
+<p>A home equity loan is a fixed-rate loan where you borrow a lump sum upfront, with a set repayment period (usually 10–15 years). The interest rate is fixed, so your monthly payments remain consistent. This predictability makes it ideal for projects with known costs, like roof repairs or kitchen renovations. For example, a $30,000 home equity loan at 8.5% over 15 years would result in approximately $23,000 in total interest — a meaningful cost that underscores the importance of shopping for the best rate.</p>
 
 <p>One downside is that you can’t access additional funds during the loan term. If your project costs more than anticipated, you’ll need to apply for a new loan or find alternative financing. This lack of flexibility is a key consideration for larger or ongoing projects.</p>
 
 <h2>What Is a HELOC?</h2>
 
-<p>A HELOC is a revolving line of credit that allows you to borrow up to a pre-approved limit, with interest charged only on the amount you use. Rates are typically variable, tied to the prime rate, and may start lower than home equity loan rates. For instance, a HELOC with a 3.5% introductory rate for the first year could save you money in the short term.</p>
+<p>A HELOC is a revolving line of credit that allows you to borrow up to a pre-approved limit, with interest charged only on the amount you use. Rates are typically variable, tied to the prime rate, and at any given moment may be slightly higher or lower than fixed home equity loan rates depending on market conditions. During periods when the Fed is cutting rates, a HELOC can become cheaper over time — but the reverse is also true.</p>
 
-<p>However, HELOCs often have a draw period (usually 5–10 years) during which you can access funds, followed by a repayment period where you must pay back the principal and interest. This structure is well-suited for projects with uncertain timelines or costs, like long-term home improvements or medical expenses. The catch is that rates can rise over time, potentially increasing your monthly payments.</p>
+<p>HELOCs often have a draw period (usually 5–10 years) during which you can access funds, followed by a repayment period where you must pay back the principal and interest. This structure is well-suited for projects with uncertain timelines or costs, like long-term home improvements or medical expenses. The catch is that rates can rise over time, potentially increasing your monthly payments.</p>
 
 <div class="highlight">
-  <p><strong>KEY STAT:</strong> HELOC interest rates are typically 0.5% to 1% lower than home equity loans, according to 2023 data from Bankrate.</p>
-  <p>This rate difference can lead to significant savings over time, especially for longer-term projects.</p>
+  <p><strong>KEY POINT:</strong> HELOCs carry variable rates tied to the prime rate, which means your payment can change with each Fed move. Home equity loans lock in your rate for the full term — useful when rates are expected to rise.</p>
+  <p>This rate structure difference can lead to significant savings — or extra costs — depending on the interest rate environment over the life of your loan.</p>
 </div>
 
 <h2>Comparing Total Interest Costs</h2>
 
-<p>The total interest paid over the life of the loan is a critical factor in determining which option is cheaper. For a $25,000 loan over 10 years, a home equity loan at 4.5% would cost $5,800 in interest. A HELOC with a 3.5% rate over the same period would cost $4,200, saving you $1,600. This gap widens with larger loan amounts and longer terms.</p>
+<p>The total interest paid over the life of the loan is a critical factor in determining which option is cheaper. As an illustration, consider a $25,000 loan over 10 years: at 8.5% fixed (home equity loan), total interest would be roughly $12,200. A HELOC starting at 8% but staying flat would cost about $10,700 — a savings of around $1,500. However, these numbers shift materially if the HELOC rate rises even one or two percentage points during the repayment period.</p>
 
-<p>However, HELOCs can become more expensive if rates rise during the repayment period. For example, if a HELOC’s rate increases from 3.5% to 6% after five years, your monthly payments could nearly double. This risk is absent with fixed-rate home equity loans, which lock in your rate for the entire term.</p>
+<p>HELOCs can become more expensive if rates rise during the repayment period. For example, if a HELOC’s rate increases from 8% to 10% after two years, your monthly payments during the repayment phase could jump significantly. This risk is absent with fixed-rate home equity loans, which lock in your rate for the entire term.</p>
 
 <div class="chart">
-  <div class="chart-title">TOTAL INTEREST PAID OVER 10 YEARS</div>
+  <div class="chart-title">ILLUSTRATIVE TOTAL INTEREST PAID OVER 10 YEARS ($25,000 LOAN)</div>
   <div class="bar-row">
-    <div class="bar-label">HOME EQUITY LOAN (4.5%)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">$5,800</span></div></div>
+    <div class="bar-label">HOME EQUITY LOAN (8.5%)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%; background:#1a1a2e;"><span class="bar-value">~$12,200</span></div></div>
   </div>
   <div class="bar-row">
-    <div class="bar-label">HELOC (3.5%)</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72%; background:#22c55e;"><span class="bar-value">$4,200</span></div></div>
+    <div class="bar-label">HELOC (8.0% flat)</div>
+    <div class="bar-track"><div class="bar-fill" style="width:88%; background:#22c55e;"><span class="bar-value">~$10,700</span></div></div>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
 
 <p>The best choice depends on your project’s needs and your risk tolerance. If you need a predictable, fixed amount for a specific project (like replacing a roof), a home equity loan is ideal. It ensures consistent payments and avoids the risk of rate hikes. For projects with uncertain costs or timelines, a HELOC offers more flexibility, but you should be prepared for potential rate increases.</p>
 
-<p>Use our <a href="https://numrica.com/loan-simulator">loan simulator</a> to compare scenarios. For example, inputting $20,000 at 4.5% for 15 years vs. $20,000 at 3.5% for 10 years will show you the exact interest savings. This tool can help you weigh the pros and cons based on your specific situation.</p>
+<p>Use our <a href="https://numrica.com/loan-simulator">loan simulator</a> to compare scenarios. For example, inputting $20,000 at 8.5% for 15 years vs. $20,000 at 8% for 10 years will show you the exact interest difference and monthly payment. This tool can help you weigh the pros and cons based on your specific situation.</p>
 
 <h2>Take Control of Your Financial Decision</h2>
 
