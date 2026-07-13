@@ -95,6 +95,14 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   <a href="https://numrica.com/">→ Explore Numrica Calculators</a>
 </div>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/true-hourly-wage" style="color:#22c55e;text-decoration:underline;font-size:15px;">Your True Hourly Wage</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/emergency-fund-how-much" style="color:#22c55e;text-decoration:underline;font-size:15px;">How Much Should Your Emergency Fund Be?</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/savings-rate-and-retirement-age" style="color:#22c55e;text-decoration:underline;font-size:15px;">Savings Rate and Retirement Age</a></p>
+</div>
+
 <div class="disclaimer">Data sources: Federal Reserve, Kaiser Family Foundation, U.S. Census Bureau. Figures are approximate and based on 2023 averages.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.

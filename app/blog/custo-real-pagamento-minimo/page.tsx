@@ -117,6 +117,14 @@ const articleBody = `<p class="meta">Numrica · Finanças pessoais · 6 min de l
 
 <p class="disclaimer">Os resultados são ilustrativos. Taxas do rotativo, pagamentos mínimos e saldos reais variam por instituição e modalidade de crédito. Este artigo é educacional e não constitui aconselhamento financeiro. Consulte um profissional qualificado antes de tomar decisões sobre gestão de dívidas.</p>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/avalanche-vs-bola-de-neve" style="color:#22c55e;text-decoration:underline;font-size:15px;">Avalanche vs Bola de Neve</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/how-to-get-out-of-credit-card-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">How to Get Out of Credit Card Debt</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/minimum-payment-five-credit-cards" style="color:#22c55e;text-decoration:underline;font-size:15px;">Minimum Payments on Five Credit Cards</a></p>
+</div>
+
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>Sobre o autor:</strong> Pedro Roriz é professor de finanças corporativas e contabilidade gerencial no IPOG, uma das maiores escolas de negócios do Brasil, com mais de 15.000 alunos formados. Fundou a TAG Business Solutions em 2016 — empresa de BPO financeiro e CFO-as-a-service com operações no Brasil e em Portugal. É também o criador da Numrica.com.
 </div>`

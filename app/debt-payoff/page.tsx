@@ -128,6 +128,15 @@ export default function DebtPayoffPage() {
             current while maximizing the lender&#39;s interest income.
           </p>
         </section>
+        <section>
+          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }}>Related reading</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <li style={{ marginBottom: 10 }}><a href="/blog/debt-avalanche-vs-snowball" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Debt Avalanche vs Snowball: Which Saves More?</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/how-to-get-out-of-credit-card-debt" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>How to Get Out of Credit Card Debt</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/paying-off-50000-in-debt" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Paying Off $50,000 in Debt: A Realistic Plan</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/minimum-payment-five-credit-cards" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>What Happens With Minimum Payments on Five Cards</a></li>
+          </ul>
+        </section>
       </div>
     </>
   )

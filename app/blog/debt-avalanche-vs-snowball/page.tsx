@@ -134,6 +134,14 @@ const articleBody = `<p class="meta">Numrica · Personal finance · 7 min read</
 
 <p class="disclaimer">Results are illustrative. Actual interest rates, minimum payments, and balances vary by lender and account. This article is educational and does not constitute financial advice. Consult a qualified financial professional before making debt management decisions.</p>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/real-cost-minimum-payments" style="color:#22c55e;text-decoration:underline;font-size:15px;">The Real Cost of Minimum Payments</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/paying-off-50000-in-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">Paying Off $50,000 in Debt</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/how-to-get-out-of-credit-card-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">How to Get Out of Credit Card Debt</a></p>
+</div>
+
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz teaches corporate finance and management accounting at IPOG, one of Brazil's leading business schools, with over 15,000 students trained. He founded TAG Business Solutions in 2016 — a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is also the creator of Numrica.com.
 </div>`

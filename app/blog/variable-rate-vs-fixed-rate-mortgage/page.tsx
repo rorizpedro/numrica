@@ -117,6 +117,14 @@ const articleBody = `<p class="meta">Numrica · Personal finance · 7 min read</
 
 <p class="disclaimer">Results are illustrative. Actual rates, spreads, and payment structures vary by lender, region, and borrower profile. This article is educational and does not constitute financial advice. Consult a qualified financial professional before making mortgage decisions. Rate scenarios used are for illustration only and do not constitute a forecast.</p>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/15-vs-30-year-mortgage" style="color:#22c55e;text-decoration:underline;font-size:15px;">15-Year vs 30-Year Mortgage</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/mortgage-refinancing-explained" style="color:#22c55e;text-decoration:underline;font-size:15px;">Mortgage Refinancing Explained</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/mortgage-points-explained" style="color:#22c55e;text-decoration:underline;font-size:15px;">Mortgage Points Explained</a></p>
+</div>
+
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz teaches corporate finance and management accounting at IPOG, one of Brazil's leading business schools, with over 15,000 students trained. He founded TAG Business Solutions in 2016 — a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is also the creator of Numrica.com.
 </div>`

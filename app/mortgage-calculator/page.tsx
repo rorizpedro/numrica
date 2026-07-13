@@ -120,6 +120,15 @@ export default function Page() {
             this comparison side by side so you can see the exact savings for your loan parameters.
           </p>
         </section>
+        <section>
+          <h2 style={h2Style}>Related reading</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <li style={{ marginBottom: 10 }}><a href="/blog/15-vs-30-year-mortgage" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>15-Year vs 30-Year Mortgage: Total Cost Comparison</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/mortgage-refinancing-explained" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Mortgage Refinancing Explained</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/mortgage-points-explained" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Should You Pay Points to Lower Your Rate?</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/how-much-house-can-you-afford" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>How Much House Can You Afford?</a></li>
+          </ul>
+        </section>
       </div>
     </>
   )

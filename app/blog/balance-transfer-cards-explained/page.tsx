@@ -109,6 +109,14 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 6 min read</
   <a href="https://numrica.com/debt-payoff">→ Open Debt Payoff Calculator</a>
 </div>
 <p class="disclaimer">The figures in this article are illustrative and based on standard financial formulas. Actual results depend on specific loan terms, rates, fees, and market conditions. This content is for educational purposes only and does not constitute financial advice. Consult a qualified financial professional before making decisions about debt, mortgages, or investments.</p>
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/how-to-get-out-of-credit-card-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">How to Get Out of Credit Card Debt</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/what-is-a-good-credit-score" style="color:#22c55e;text-decoration:underline;font-size:15px;">What Is a Good Credit Score</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/real-cost-minimum-payments" style="color:#22c55e;text-decoration:underline;font-size:15px;">The Real Cost of Minimum Payments</a></p>
+</div>
+
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.
 </div>`

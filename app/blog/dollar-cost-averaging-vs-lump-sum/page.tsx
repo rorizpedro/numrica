@@ -83,6 +83,14 @@ Remember, no strategy guarantees success, but disciplined investing and regular 
   <a href="https://numrica.com/roi-calculator">→ Open ROI Calculator</a>
 </div>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/cost-of-waiting-to-invest" style="color:#22c55e;text-decoration:underline;font-size:15px;">The Cost of Waiting to Invest</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/index-funds-vs-active-funds" style="color:#22c55e;text-decoration:underline;font-size:15px;">Index Funds vs Active Funds</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/roth-ira-vs-traditional-ira" style="color:#22c55e;text-decoration:underline;font-size:15px;">Roth IRA vs Traditional IRA</a></p>
+</div>
+
 <div class="disclaimer">Data sourced from S&P 500 historical performance (1970–2020) and Vanguard research. Past performance does not guarantee future results. Investing involves risk, including the possible loss of principal.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.

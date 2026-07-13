@@ -252,6 +252,15 @@ export default function Page() {
           </p>
         </section>
 
+        <section style={{ marginBottom: 36 }}>
+          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }}>Related reading</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <li style={{ marginBottom: 10 }}><a href="/blog/car-loan-vs-leasing-total-cost" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Car Loan vs Leasing: Total Cost Comparison</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/debt-to-income-ratio-explained" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Debt-to-Income Ratio Explained</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/student-loan-payoff-strategies" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Student Loan Payoff Strategies</a></li>
+          </ul>
+        </section>
+
         <p style={disclaimerStyle}>
           <strong>Disclaimer:</strong> Results produced by this calculator are for informational and illustrative purposes
           only. They do not constitute financial, investment, legal, or tax advice. Actual loan terms, rates, and costs will

@@ -111,6 +111,14 @@ const articleBody = `<p class="meta">Numrica · Personal Finance · 7 min read</
   <a href="https://numrica.com/debt-payoff">→ Open Debt Payoff Calculator</a>
 </div>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/paying-off-50000-in-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">Paying Off $50,000 in Debt</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/debt-avalanche-vs-snowball" style="color:#22c55e;text-decoration:underline;font-size:15px;">Debt Avalanche vs Debt Snowball</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/building-wealth-on-60k-salary" style="color:#22c55e;text-decoration:underline;font-size:15px;">Building Wealth on a $60K Salary</a></p>
+</div>
+
 <div class="disclaimer">*Data based on 2023 U.S. federal student loan interest rates and repayment scenarios. Results may vary based on individual circumstances.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.

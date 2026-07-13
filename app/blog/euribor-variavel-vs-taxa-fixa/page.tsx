@@ -201,6 +201,14 @@ const articleBody = `<p class="meta">Numrica · Crédito habitação · 8 min de
 
 <p class="disclaimer">Os valores apresentados são ilustrativos e calculados com base em amortização francesa (prestação constante), sem considerar seguros obrigatórios, MTIC ou outros encargos associados ao crédito habitação. A Euribor é uma taxa de referência sujeita a variação. Este artigo tem finalidade informativa e não constitui aconselhamento financeiro ou recomendação de produto bancário. Consulte o vosso banco e/ou um intermediário de crédito autorizado pelo Banco de Portugal antes de tomar decisões.</p>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/variable-rate-vs-fixed-rate-mortgage" style="color:#22c55e;text-decoration:underline;font-size:15px;">Variable Rate vs Fixed Rate Mortgage</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/15-vs-30-year-mortgage" style="color:#22c55e;text-decoration:underline;font-size:15px;">15-Year vs 30-Year Mortgage</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/mortgage-refinancing-explained" style="color:#22c55e;text-decoration:underline;font-size:15px;">Mortgage Refinancing Explained</a></p>
+</div>
+
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>Sobre o autor:</strong> Pedro Roriz é professor de finanças empresariais e contabilidade de gestão no IPOG, uma das principais escolas de negócios do Brasil, com mais de 15.000 alunos formados. Fundou a TAG Business Solutions em 2016, consultoria de CFO-as-a-service com operações estabelecidas em Portugal e no Brasil. É também o criador do Numrica.com, plataforma gratuita de calculadoras financeiras.
 </div>`

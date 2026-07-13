@@ -93,6 +93,14 @@ Now that you understand how your true hourly wage is calculated, you can take st
   <a href="https://numrica.com/roi-calculator">→ Open ROI Calculator</a>
 </div>
 
+
+<div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/50-30-20-budget-rule" style="color:#22c55e;text-decoration:underline;font-size:15px;">The 50/30/20 Budget Rule</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/fire-movement-what-savings-rate" style="color:#22c55e;text-decoration:underline;font-size:15px;">The FIRE Movement: What Savings Rate?</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/building-wealth-on-60k-salary" style="color:#22c55e;text-decoration:underline;font-size:15px;">Building Wealth on a $60K Salary</a></p>
+</div>
+
 <div class="disclaimer">Data used for illustrative purposes only. Actual figures may vary based on individual circumstances.</div>
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
 <strong>About the author:</strong> Pedro Roriz is a professor of corporate finance and management accounting at IPOG, one of Brazil&apos;s largest postgraduate business schools, where he has trained over 15,000 students. He founded TAG Business Solutions in 2016, a financial BPO and CFO-as-a-service firm operating in Brazil and Portugal. He is the creator of Numrica.com.
