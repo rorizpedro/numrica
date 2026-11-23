@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     canonical: 'https://numrica.com/blog/real-cost-minimum-payments',
     languages: {
       'en-US': 'https://numrica.com/blog/real-cost-minimum-payments',
-      'pt-BR': 'https://numrica.com/blog/custo-real-pagamento-minimo',
     },
   },
   openGraph: {
@@ -134,9 +133,7 @@ const articleBody = `<p class="meta">Numrica · Personal finance · 6 min read</
 
 <div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
   <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/how-to-get-out-of-credit-card-debt" style="color:#22c55e;text-decoration:underline;font-size:15px;">How to Get Out of Credit Card Debt</a></p>
   <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/debt-avalanche-vs-snowball" style="color:#22c55e;text-decoration:underline;font-size:15px;">Debt Avalanche vs Debt Snowball</a></p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/minimum-payment-five-credit-cards" style="color:#22c55e;text-decoration:underline;font-size:15px;">Minimum Payments on Five Credit Cards</a></p>
 </div>
 
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">

@@ -51,7 +51,7 @@ const FAQ = [
   },
   {
     q: 'Can I cancel a refinance after closing?',
-    a: 'On a refinance of your primary home, federal rules generally give you three business days after closing to cancel. Saturdays count as business days for this purpose; Sundays and legal public holidays do not. Check the notice of the right to cancel you receive at closing for your exact deadline.',
+    a: 'On a refinance, federal rules generally give you until midnight of the third business day after closing to cancel, and the clock starts only once you have signed and received the required disclosures. Saturdays count as business days for this purpose; Sundays and legal public holidays do not. Check the notice of the right to cancel you receive at closing for your exact deadline.',
   },
 ]
 
@@ -194,8 +194,8 @@ export default function Page() {
             <h2 className={h2}>Before you sign</h2>
             <p className={p}>
               Check three things. Compare the new loan&apos;s term with what you have left, as in the term-reset example. Test a short, an
-              expected and a long time horizon, because plans change. And know that on a refinance of your primary home, federal rules
-              generally give you three business days after closing to cancel. Saturdays count; Sundays and legal public holidays do not
+              expected and a long time horizon, because plans change. And know that on a refinance, federal rules
+              generally give you until midnight of the third business day after closing to cancel. Saturdays count; Sundays and legal public holidays do not
               <sup><a className={cite} href="#source-5">5</a></sup>.
             </p>
           </section>

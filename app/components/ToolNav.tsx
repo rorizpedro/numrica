@@ -6,6 +6,8 @@ const TOOLS = [
   { label: 'Loan Calculator',       href: '/' },
   { label: 'Amortization Compare', href: '/loan-simulator' },
   { label: 'Mortgage Calculator', href: '/mortgage-calculator' },
+  { label: 'Refinance',         href: '/refinance-calculator' },
+  { label: 'DTI Calculator',    href: '/dti-calculator' },
   { label: 'Compound Interest', href: '/compound-interest' },
   { label: 'Debt Payoff',       href: '/debt-payoff' },
   { label: 'ROI Calculator',    href: '/roi-calculator' },

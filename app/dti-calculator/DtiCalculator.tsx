@@ -129,6 +129,15 @@ export default function DtiCalculator() {
   const [h, setH] = useState({ pi: '', tax: '', ins: '', hoa: '' })
   const [debts, setDebts] = useState<Record<DebtKey, string>>({ car: '350', student: '250', cards: '', personal: '', support: '', other: '' })
 
+  // Switching period converts what was typed, so the same income stays the same income.
+  const changePeriod = (next: 'monthly' | 'annual') => {
+    if (next === period) return
+    const factor = next === 'annual' ? 12 : 1 / 12
+    const convert = (v: string) => (v.trim() === '' ? '' : Math.round(toNum(v) * factor).toLocaleString('en-US'))
+    setInc({ main: convert(inc.main), partner: convert(inc.partner), other: convert(inc.other) })
+    setPeriod(next)
+  }
+
   const result = useMemo(() => {
     const div = period === 'annual' ? 12 : 1
     const incomes = [inc.main, inc.partner, inc.other].map((v) => toNum(v) / div)
@@ -179,7 +188,7 @@ export default function DtiCalculator() {
                   <button
                     key={p}
                     type="button"
-                    onClick={() => setPeriod(p)}
+                    onClick={() => changePeriod(p)}
                     aria-pressed={period === p}
                     className={`rounded-full px-3 py-1 text-[12px] font-medium ${period === p ? 'bg-[#1a1a2e] text-white' : 'border border-[#e5e7eb] bg-white text-[#6b7280]'}`}
                   >

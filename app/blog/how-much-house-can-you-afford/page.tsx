@@ -84,9 +84,8 @@ If you’re unsure where to start, use the Numrica mortgage calculator to explor
 
 <div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
   <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/debt-to-income-ratio-explained" style="color:#22c55e;text-decoration:underline;font-size:15px;">Debt-to-Income Ratio Explained</a></p>
+  <p style="margin:0 0 10px;"><a href="https://numrica.com/dti-calculator" style="color:#22c55e;text-decoration:underline;font-size:15px;">Debt-to-Income (DTI) Ratio Calculator</a></p>
   <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/15-vs-30-year-mortgage" style="color:#22c55e;text-decoration:underline;font-size:15px;">15-Year vs 30-Year Mortgage</a></p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/mortgage-points-explained" style="color:#22c55e;text-decoration:underline;font-size:15px;">Mortgage Points Explained</a></p>
 </div>
 
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">

@@ -26,6 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://numrica.com/compound-interest', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/roi-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/debt-payoff', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: 'https://numrica.com/refinance-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: 'https://numrica.com/dti-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://numrica.com/blog', lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.7 },
     ...publishedPosts.map((p) => ({
       url: `https://numrica.com/blog/${p.slug}`,
