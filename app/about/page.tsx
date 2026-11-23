@@ -4,11 +4,11 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'About Numrica — Free Financial Calculators',
   description:
-    'Numrica is a free financial tools platform built by Pedro Roriz — professor of corporate finance at IPOG and founder of TAG Business Solutions. No signup, no tracking. Just math.',
+    'Numrica is a free financial tools platform built by a team of finance professionals. No signup, no tracking. Just math.',
   alternates: { canonical: 'https://numrica.com/about' },
   openGraph: {
     title: 'About Numrica — Free Financial Calculators',
-    description: 'Numrica is built by Pedro Roriz, professor of corporate finance at IPOG and founder of TAG Business Solutions.',
+    description: 'Numrica is built by a team of finance professionals with academic and consulting backgrounds.',
     url: 'https://numrica.com/about',
     type: 'website',
   },
@@ -71,23 +71,13 @@ export default function AboutPage() {
         <section style={sectionStyle}>
           <h2 style={h2Style}>Who built it</h2>
           <p style={pStyle}>
-            Numrica was created by <strong>Pedro Roriz</strong>, a corporate finance professor and financial consultant
-            based in Portugal and Brazil.
+            Numrica was built by a team of finance professionals with backgrounds in corporate finance education,
+            financial consulting, and M&A advisory. The team has experience training thousands of MBA and executive
+            education students, and advising small and mid-sized companies on financial management, controllership,
+            and capital structure decisions.
           </p>
           <p style={pStyle}>
-            Pedro teaches corporate finance and management accounting at{' '}
-            <strong>IPOG</strong> (Instituto de Pós-Graduação), one of Brazil&apos;s largest postgraduate business schools,
-            where he has trained over 15,000 students across MBA, specialization, and executive education programs.
-            His courses cover financial statement analysis, valuation, capital structure, and financial decision-making.
-          </p>
-          <p style={pStyle}>
-            In 2016, he founded <strong>TAG Business Solutions</strong>, a financial BPO and CFO-as-a-service firm
-            operating in Brazil and Portugal. TAG provides outsourced financial management, controllership, and
-            M&A advisory services to small and mid-sized companies. Pedro has advised on capital raises, corporate
-            restructurings, and acquisition processes across multiple industries in both countries.
-          </p>
-          <p style={pStyle}>
-            Numrica was built to bring the same rigor Pedro applies in the classroom and in client engagements to
+            Numrica was built to bring the same rigor applied in the classroom and in client engagements to
             a free, public-facing tool that anyone can use — whether they are evaluating a mortgage, planning debt
             repayment, or modeling an investment return.
           </p>
@@ -111,9 +101,8 @@ export default function AboutPage() {
           <h2 style={h2Style}>Editorial content</h2>
           <p style={pStyle}>
             The <Link href="/blog" style={{ color: '#22c55e' }}>Numrica blog</Link> publishes in-depth financial education
-            articles in English, Brazilian Portuguese, and European Portuguese. Articles cover debt repayment strategies,
-            mortgage mechanics, compound interest, credit card costs, and investment returns — written by Pedro from the
-            same analytical perspective he brings to his academic and consulting work.
+            articles covering debt repayment strategies, mortgage mechanics, compound interest, credit card costs,
+            and investment returns — written from the same analytical perspective applied in academic and consulting work.
           </p>
         </section>
 

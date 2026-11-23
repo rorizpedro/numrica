@@ -54,53 +54,6 @@ const GLOSSARY = [
   { term: 'Total interest', def: 'The sum of all interest payments over the full loan term — the real cost of borrowing.' },
 ]
 
-// ─── AdSense ─────────────────────────────────────────────────────────────────
-// Replace with your real IDs from AdSense dashboard (adsense.google.com)
-//   Publisher ID: ca-pub-XXXXXXXXXXXXXXXXX  (Settings → Account info)
-//   Slot IDs: create "Display ad" units and copy the slot number
-const ADSENSE_CLIENT  = 'ca-pub-XXXXXXXXXXXXXXXXX'
-const AD_SLOT_RESULTS = '1111111111'   // below calculator results
-const AD_SLOT_MID     = '2222222222'   // between calculator and tools grid
-const AD_SLOT_BOTTOM  = '3333333333'   // above footer
-
-declare global { interface Window { adsbygoogle?: unknown[] } }
-
-function AdUnit({ slot, label }: { slot: string; label: string }) {
-  // Uncomment the useEffect below after AdSense account is approved:
-  // useEffect(() => {
-  //   try { (window.adsbygoogle = window.adsbygoogle || []).push({}) } catch {}
-  // }, [])
-
-  return (
-    <div style={{
-      width: '100%',
-      minHeight: 90,
-      background: '#f3f4f6',
-      border: '1px dashed #d1d5db',
-      borderRadius: 8,
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      color: '#9ca3af',
-      fontSize: 11,
-      letterSpacing: 1,
-      textTransform: 'uppercase',
-    }}>
-      {/* Replace this placeholder div with the ins tag below after AdSense approval:
-
-      <ins className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client={ADSENSE_CLIENT}
-        data-ad-slot={slot}
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      */}
-      Ad · {label}
-    </div>
-  )
-}
-
 // ─── Currencies ───────────────────────────────────────────────────────────────
 
 const CURRENCIES = {
@@ -317,8 +270,7 @@ export default function Calculator() {
 
       {/* ── Ad slot top ─────────────────────────────────────────────────── */}
       <section style={{ maxWidth: 840, margin: '0 auto', padding: '20px 24px 0' }}>
-        <AdUnit slot={AD_SLOT_RESULTS} label="leaderboard" />
-      </section>
+</section>
 
       {/* ── Hero + SEO copy ─────────────────────────────────────────────── */}
       <section style={{ maxWidth: 840, margin: '0 auto', padding: '28px 24px 32px' }}>
@@ -525,8 +477,7 @@ export default function Calculator() {
 
         {/* ── Ad slot 1 — below calculator results ─────────────────────── */}
         <div style={{ marginTop: 24 }}>
-          <AdUnit slot={AD_SLOT_RESULTS} label="after results" />
-        </div>
+</div>
       </section>
 
       <div className="embed-hide" style={{ maxWidth: 840, margin: '0 auto', padding: '4px 24px', display: 'flex', justifyContent: 'flex-end' }}>
@@ -576,8 +527,7 @@ export default function Calculator() {
 
       {/* ── Ad slot 2 — mid page ─────────────────────────────────────────── */}
       <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
-        <AdUnit slot={AD_SLOT_MID} label="mid page" />
-      </div>
+</div>
 
       {/* ── SEO content block ────────────────────────────────────────────── */}
       <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
@@ -681,8 +631,7 @@ export default function Calculator() {
 
       {/* ── Ad slot 3 — above footer ──────────────────────────────────────── */}
       <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 32px' }}>
-        <AdUnit slot={AD_SLOT_BOTTOM} label="above footer" />
-      </div>
+</div>
 
       {/* ── Superfooter — disclaimer ──────────────────────────────────────── */}
       <div style={{ background: '#f3f4f6', borderTop: '1px solid #e5e7eb', borderBottom: '1px solid #e5e7eb' }}>

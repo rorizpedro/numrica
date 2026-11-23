@@ -57,8 +57,7 @@ export default function ContactPage() {
           <section style={{ background: '#f9fafb', borderRadius: 8, padding: '20px 24px' }}>
             <h2 style={{ fontSize: 15, fontWeight: 700, color: '#1a1a2e', marginBottom: 8, marginTop: 0 }}>About the team</h2>
             <p style={{ fontSize: 14, color: '#6b7280', margin: 0, lineHeight: 1.7 }}>
-              Numrica was built by Pedro Roriz, a corporate finance professor at IPOG and founder of TAG Business Solutions
-              — a financial BPO firm operating in Brazil and Portugal.{' '}
+              Numrica was built by a team of finance professionals with backgrounds in corporate finance education and consulting.{' '}
               <Link href="/about" style={{ color: '#22c55e' }}>Learn more about Numrica →</Link>
             </p>
           </section>

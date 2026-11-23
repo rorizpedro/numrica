@@ -11,6 +11,8 @@ import {
   type LoanParams, type AmortizationType, type GraceType, type PeriodRow, type LoanSchedule,
 } from '@/app/loan-simulator/lib/calculator'
 
+declare global { interface Window { gtag?: (...args: unknown[]) => void } }
+
 // ─── Google Ads conversion tracking ──────────────────────────────────────────
 // Replace these with your real conversion labels from Google Ads:
 //   CONV_EXCEL    → label for "Export Excel" conversion action
@@ -19,22 +21,12 @@ const GOOGLE_ADS_ID = 'AW-XXXXXXXXX'
 const CONV_EXCEL = 'YYYYYYYY'
 const CONV_BOOKCALL = 'ZZZZZZZZ'
 // AdSense ad slot IDs (from your AdSense account → Ads → By ad unit):
-const AD_SLOT_TOP = '1111111111'   // between summary and debt runoff chart
-const AD_SLOT_BTM = '2222222222'   // between amortization table and footer CTA
 // AdSense publisher ID:
-const ADSENSE_CLIENT = 'ca-pub-1573463799478833'
-
-declare global { interface Window { gtag?: (...args: unknown[]) => void; adsbygoogle?: unknown[] } }
 
 function gtagConversion(label: string) {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', 'conversion', { send_to: `${GOOGLE_ADS_ID}/${label}` })
   }
-}
-
-function AdUnit({ slot: _slot }: { slot: string }) {
-  // Placeholder until AdSense ad units are created and real slot IDs are available
-  return null
 }
 
 // ─── i18n ─────────────────────────────────────────────────────────────────────
@@ -1158,9 +1150,7 @@ export default function LoanSimulatorCalculator() {
 
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <main className="min-w-0 space-y-6">
-              <AdUnit slot={AD_SLOT_TOP} />
-
-              {!schedule ? (
+{!schedule ? (
                 <div className="flex items-center justify-center h-64 text-[var(--color-text-muted)] text-sm">
                   {t.noResults}
                 </div>
@@ -1321,8 +1311,7 @@ export default function LoanSimulatorCalculator() {
                     </div>
                   </div>
 
-                  <AdUnit slot={AD_SLOT_BTM} />
-                </>
+</>
               )}
             </main>
             </div>

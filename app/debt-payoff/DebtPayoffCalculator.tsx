@@ -20,11 +20,6 @@ interface SimResult {
 }
 
 // ── Constants ─────────────────────────────────────────────────────────────────
-const AD_SLOT_TOP    = '1111111111'
-const AD_SLOT_MID    = '2222222222'
-const AD_SLOT_SEO    = '3333333333'
-const AD_SLOT_BOTTOM = '4444444444'
-declare global { interface Window { adsbygoogle?: unknown[] } }
 
 const DEBT_COLORS = ['#22c55e', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899', '#14b8a6', '#f97316']
 
@@ -126,14 +121,6 @@ function simulate(inputs: DebtInput[], extra: number, strategy: 'avalanche' | 's
 }
 
 // ── Sub-components ────────────────────────────────────────────────────────────
-function AdUnit({ slot, label, minHeight = 90 }: { slot: string; label: string; minHeight?: number }) {
-  void slot
-  return (
-    <div style={{ width: '100%', minHeight, background: '#f3f4f6', border: '1px dashed #d1d5db', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9ca3af', fontSize: 11, letterSpacing: 1, textTransform: 'uppercase' }}>
-      Ad · {label}
-    </div>
-  )
-}
 
 function FaqItem({ q, a }: { q: string; a: string }) {
   const [open, setOpen] = useState(false)
@@ -268,8 +255,7 @@ export default function DebtPayoffCalculator() {
 
         {/* Ad top */}
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '20px 24px 0' }}>
-          <AdUnit slot={AD_SLOT_TOP} label="leaderboard" />
-        </section>
+</section>
 
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '28px 24px 24px' }}>
           <h1 style={{ fontSize: 32, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.6px', lineHeight: 1.15, margin: '0 0 8px' }}>
@@ -532,8 +518,7 @@ export default function DebtPayoffCalculator() {
         )}
 
         <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
-          <AdUnit slot={AD_SLOT_MID} label="after results" />
-        </div>
+</div>
 
         <div className="embed-hide" style={{ maxWidth: 840, margin: '0 auto', padding: '4px 24px', display: 'flex', justifyContent: 'flex-end' }}>
           <EmbedButton tool="debt-payoff" title="Debt Payoff Planner" />
@@ -565,8 +550,7 @@ export default function DebtPayoffCalculator() {
         </section>
 
         <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
-          <AdUnit slot={AD_SLOT_SEO} label="mid content" />
-        </div>
+</div>
 
         {/* ── SEO content ─────────────────────────────────────────────────────── */}
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
@@ -607,8 +591,7 @@ export default function DebtPayoffCalculator() {
         </section>
 
         <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 32px' }}>
-          <AdUnit slot={AD_SLOT_BOTTOM} label="above footer" />
-        </div>
+</div>
 
         <div style={{ background: '#f3f4f6', borderTop: '1px solid #e5e7eb', borderBottom: '1px solid #e5e7eb' }}>
           <div style={{ maxWidth: 840, margin: '0 auto', padding: '10px 24px', textAlign: 'center' }}>

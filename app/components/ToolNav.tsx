@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const TOOLS = [
-  { label: 'Loan Calculator',   href: '/' },
-  { label: 'Loan Simulator',    href: '/loan-simulator' },
+  { label: 'Loan Calculator',       href: '/' },
+  { label: 'Amortization Compare', href: '/loan-simulator' },
   { label: 'Mortgage Calculator', href: '/mortgage-calculator' },
   { label: 'Compound Interest', href: '/compound-interest' },
   { label: 'Debt Payoff',       href: '/debt-payoff' },

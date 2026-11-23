@@ -13,13 +13,6 @@ import {
 interface YearRow { year: number; yours: number; sp500: number; real?: number }
 interface CompBar { name: string; value: number; color: string }
 
-// ─── AdSense placeholders ──────────────────────────────────────────────────────
-const AD_SLOT_TOP    = '1111111111'
-const AD_SLOT_MID    = '2222222222'
-const AD_SLOT_SEO    = '3333333333'
-const AD_SLOT_BOTTOM = '4444444444'
-declare global { interface Window { adsbygoogle?: unknown[] } }
-
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 const fmt = (v: number) =>
   new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(v)
@@ -87,14 +80,6 @@ function calcROI(params: {
 }
 
 // ─── Subcomponents ─────────────────────────────────────────────────────────────
-function AdUnit({ slot, label, minHeight = 90 }: { slot: string; label: string; minHeight?: number }) {
-  void slot
-  return (
-    <div style={{ width: '100%', minHeight, background: '#f3f4f6', border: '1px dashed #d1d5db', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9ca3af', fontSize: 11, letterSpacing: 1, textTransform: 'uppercase' }}>
-      Ad · {label}
-    </div>
-  )
-}
 
 function FaqItem({ q, a }: { q: string; a: string }) {
   const [open, setOpen] = useState(false)
@@ -203,8 +188,7 @@ export default function ROICalculator() {
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
 
           <div style={{ paddingTop: 20, paddingBottom: 20 }}>
-            <AdUnit slot={AD_SLOT_TOP} label="leaderboard" minHeight={90} />
-          </div>
+</div>
 
           <h1 style={{ fontSize: 32, fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.6px', lineHeight: 1.15, margin: '0 0 8px' }}>
             Free ROI Calculator — With CAGR & Inflation Adjustment
@@ -491,8 +475,7 @@ export default function ROICalculator() {
           )}
 
           <div style={{ marginTop: 24 }}>
-            <AdUnit slot={AD_SLOT_MID} label="after results" />
-          </div>
+</div>
         </section>
 
         <div className="embed-hide" style={{ maxWidth: 840, margin: '0 auto', padding: '4px 24px', display: 'flex', justifyContent: 'flex-end' }}>
@@ -525,8 +508,7 @@ export default function ROICalculator() {
         </section>
 
         <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 24px' }}>
-          <AdUnit slot={AD_SLOT_SEO} label="mid content" />
-        </div>
+</div>
 
         {/* ── SEO content ─────────────────────────────────────────────────── */}
         <section style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 40px' }}>
@@ -621,8 +603,7 @@ export default function ROICalculator() {
         </section>
 
         <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 24px 32px' }}>
-          <AdUnit slot={AD_SLOT_BOTTOM} label="above footer" />
-        </div>
+</div>
 
         <div style={{ background: '#f3f4f6', borderTop: '1px solid #e5e7eb', borderBottom: '1px solid #e5e7eb' }}>
           <div style={{ maxWidth: 840, margin: '0 auto', padding: '10px 24px', textAlign: 'center' }}>

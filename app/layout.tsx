@@ -81,16 +81,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   url: 'https://numrica.com',
                   logo: { '@type': 'ImageObject', url: 'https://numrica.com/logo.svg' },
                   contactPoint: { '@type': 'ContactPoint', email: 'hello@numrica.com', contactType: 'customer support' },
-                  founder: {
-                    '@type': 'Person',
-                    name: 'Pedro Roriz',
-                    url: 'https://pedrororiz.com',
-                    jobTitle: 'Professor of Corporate Finance',
-                    worksFor: [
-                      { '@type': 'Organization', name: 'IPOG' },
-                      { '@type': 'Organization', name: 'TAG Business Solutions' },
-                    ],
-                  },
                 },
               ],
             }).replace(/</g, '\\u003c'),
