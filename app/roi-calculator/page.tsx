@@ -165,9 +165,8 @@ export default function ROICalculatorPage() {
         <section>
           <h2 style={{ fontSize: 18, fontWeight: 700, color: '#1a1a2e', margin: '0 0 10px', fontFamily: 'Georgia, serif' }}>Related reading</h2>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-            <li style={{ marginBottom: 10 }}><a href="/blog/rental-property-roi-calculation" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>ROI on a Rental Property (The Right Way)</a></li>
-            <li style={{ marginBottom: 10 }}><a href="/blog/index-funds-vs-active-funds" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Index Funds vs Active Funds: The Fee Math</a></li>
-            <li style={{ marginBottom: 10 }}><a href="/blog/pay-down-mortgage-or-invest" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Pay Down Mortgage or Invest?</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/compound-interest" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Compound Interest Calculator</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/rule-of-72-explained" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>The Rule of 72 Explained: The Fastest Way to Estimate Investment Growth</a></li>
           </ul>
         </section>
       </div>

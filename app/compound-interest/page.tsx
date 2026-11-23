@@ -134,9 +134,8 @@ export default function Page() {
           <h2 style={h2Style}>Related reading</h2>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
             <li style={{ marginBottom: 10 }}><a href="/blog/rule-of-72-explained" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>The Rule of 72: Fastest Way to Estimate Growth</a></li>
-            <li style={{ marginBottom: 10 }}><a href="/blog/cost-of-waiting-to-invest" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>The Cost of Waiting to Invest</a></li>
-            <li style={{ marginBottom: 10 }}><a href="/blog/dollar-cost-averaging-vs-lump-sum" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>Dollar-Cost Averaging vs Lump Sum</a></li>
-            <li style={{ marginBottom: 10 }}><a href="/blog/inflation-effect-on-savings" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>How Inflation Destroys Cash Savings</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/roi-calculator" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>ROI Calculator</a></li>
+            <li style={{ marginBottom: 10 }}><a href="/blog/real-cost-minimum-payments" style={{ color: '#22c55e', fontSize: 15, textDecoration: 'underline' }}>The Real Cost of Minimum Payments</a></li>
           </ul>
         </section>
       </div>

@@ -47,7 +47,7 @@ const room = (r: DtiResult, ceiling: number) => r.debtRoom.find((x) => x.ceiling
 
 const SOURCES = [
   {
-    name: 'Fannie Mae Selling Guide, B3-6-02 Debt-to-Income Ratios (page version dated 04/02/2025)',
+    name: 'Fannie Mae Selling Guide, B3-6-02 Debt-to-Income Ratios',
     url: 'https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios',
     supports: 'manual underwriting limits (36%, up to 45%) and the Desktop Underwriter limit (50%).',
   },
@@ -65,11 +65,6 @@ const SOURCES = [
     name: 'Code of Federal Regulations 2009, 38 CFR 36.4337 (govinfo.gov)',
     url: 'https://www.govinfo.gov/content/pkg/CFR-2009-title38-vol2/pdf/CFR-2009-title38-vol2-sec36-4337.pdf',
     supports: 'the 41% reference point and residual-income exception, as published in 2009.',
-  },
-  {
-    name: 'USDA Rural Development, Single Family Housing Guaranteed Loan Program fact sheet (April 2024)',
-    url: 'https://www.rd.usda.gov/sites/default/files/usda-rd-fs-rhs-sfhglp-04262024.pdf',
-    supports: 'the total-debt cap and the separate housing-payment cap.',
   },
   {
     name: 'CFPB, General QM final rule (December 2020)',
@@ -204,8 +199,8 @@ export default function Page() {
               guideline by at least 20% (text published in 2009; check VA&apos;s current Lenders Handbook for today&apos;s thresholds).
             </li>
             <li className={LI}>
-              <strong>USDA loans.</strong> The guaranteed loan program fact sheet cites a 41% cap on total monthly debt after compensating factors. It also sets a
-              separate cap on the housing payment, which has differed between handbook versions, so confirm that figure with a USDA-approved lender.
+              <strong>USDA loans.</strong> The USDA guaranteed program sets its own debt-ratio guidelines, which differ from the programs above and change over
+              time, so confirm the current figures with a USDA-approved lender.
             </li>
             <li className={LI}>
               <strong>Qualified mortgage rule.</strong> A December 2020 CFPB final rule replaced the 43% DTI cap in the general qualified mortgage definition with
@@ -309,9 +304,8 @@ export default function Page() {
         <section className={SECTION}>
           <h2 className={H2}>Sources and method</h2>
           <p className={P}>
-            Every example number on this page comes from the same code that runs the calculator. The reference limits were read on November 23, 2026: the Fannie
-            Mae page was opened directly and the others were reviewed through the publishers&apos; official pages. Programs revise their limits, so check the
-            current version before relying on any figure.
+            Every example number on this page comes from the same code that runs the calculator. The reference limits were checked on November 23, 2026 against the
+            sources listed below. Programs revise their limits, so check the current version before relying on any figure.
           </p>
           <ul className="mb-3.5 list-disc pl-5">
             {SOURCES.map((s) => (

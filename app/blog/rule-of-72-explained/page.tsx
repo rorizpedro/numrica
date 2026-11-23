@@ -101,9 +101,6 @@ By incorporating the Rule of 72 into your financial planning, you’ll gain a cl
 
 <div style="margin:48px 0 0;padding:28px 24px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
   <p style="font-size:14px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px;font-family:sans-serif;">You might also like</p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/cost-of-waiting-to-invest" style="color:#22c55e;text-decoration:underline;font-size:15px;">The Cost of Waiting to Invest</a></p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/inflation-effect-on-savings" style="color:#22c55e;text-decoration:underline;font-size:15px;">How Inflation Destroys Cash Savings</a></p>
-  <p style="margin:0 0 10px;"><a href="https://numrica.com/blog/dollar-cost-averaging-vs-lump-sum" style="color:#22c55e;text-decoration:underline;font-size:15px;">Dollar-Cost Averaging vs Lump Sum</a></p>
 </div>
 
 <div class="disclaimer" style="margin-top:24px;border-top:none;padding-top:0;">
