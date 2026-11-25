@@ -181,12 +181,11 @@ export default function Page() {
           <section className={section}>
             <h2 className={h2}>What closing costs look like</h2>
             <p className={p}>
-              Published ranges differ. Freddie Mac says to expect 3% to 6% of the loan principal
-              <sup><a className={cite} href="#source-2">2</a></sup>, while Fannie Mae&apos;s refinance calculator puts typical costs at 2% to 5%
-              of the new loan<sup><a className={cite} href="#source-3">3</a></sup>. On $250,000, 2% is $5,000, the figure used above, and 6% is
+              Freddie Mac says to expect 3% to 6% of the loan principal
+              <sup><a className={cite} href="#source-2">2</a></sup>, and other lenders quote somewhat different ranges. On $250,000, 2% is $5,000, the figure used above, and 6% is
               $15,000, roughly three times as long to earn back. Your own number matters more than any range. A lender must deliver a Loan
               Estimate within three business days of receiving your application
-              <sup><a className={cite} href="#source-4">4</a></sup>, so ask several lenders for one and enter the total here.
+              <sup><a className={cite} href="#source-3">3</a></sup>, so ask several lenders for one and enter the total here.
             </p>
           </section>
 
@@ -196,7 +195,7 @@ export default function Page() {
               Check three things. Compare the new loan&apos;s term with what you have left, as in the term-reset example. Test a short, an
               expected and a long time horizon, because plans change. And know that on a refinance, federal rules
               generally give you until midnight of the third business day after closing to cancel. Saturdays count; Sundays and legal public holidays do not
-              <sup><a className={cite} href="#source-5">5</a></sup>.
+              <sup><a className={cite} href="#source-4">4</a></sup>.
             </p>
           </section>
 
@@ -238,9 +237,8 @@ export default function Page() {
             <ol className="list-decimal space-y-1.5 pl-5 text-[13px] leading-relaxed text-gray-600">
               <li id="source-1"><a className={cite} href="https://myhome.freddiemac.com/refinancing/planning-to-refinance" target="_blank" rel="noopener noreferrer">Freddie Mac: Planning to refinance</a></li>
               <li id="source-2"><a className={cite} href="https://myhome.freddiemac.com/refinancing/costs-of-refinancing" target="_blank" rel="noopener noreferrer">Freddie Mac: Understanding the costs of refinancing</a></li>
-              <li id="source-3"><a className={cite} href="https://yourhome.fanniemae.com/calculators-tools/mortgage-refinance-calculator" target="_blank" rel="noopener noreferrer">Fannie Mae: Mortgage refinance calculator</a></li>
-              <li id="source-4"><a className={cite} href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-estimate-en-1995/" target="_blank" rel="noopener noreferrer">CFPB: What is a Loan Estimate?</a></li>
-              <li id="source-5"><a className={cite} href="https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/" target="_blank" rel="noopener noreferrer">CFPB: How long do I have to rescind?</a></li>
+              <li id="source-3"><a className={cite} href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-estimate-en-1995/" target="_blank" rel="noopener noreferrer">CFPB: What is a Loan Estimate?</a></li>
+              <li id="source-4"><a className={cite} href="https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/" target="_blank" rel="noopener noreferrer">CFPB: How long do I have to rescind?</a></li>
             </ol>
           </section>
 
